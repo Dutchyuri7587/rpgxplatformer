@@ -85,7 +85,7 @@ function beginaction(_user, _action, _targets)
 	{
 		acting = true;
 		//play user anim if it is defined for that user & action
-		if (!is_undefined(action[$ "useranimation"])) && (!is_undefined(_user.sprites[$ _action.useranimation]))
+		if (!is_undefined(_action[$ "useranimation"])) && (!is_undefined(_user.sprites[$ _action.useranimation]))
 		{
 			sprite_index = sprites[$ _action.useranimation];
 			image_index = 0;
@@ -114,9 +114,27 @@ function battlestateperformaction()
 				{
 					for (var i = 0; i <array_length(currenttargets); i++)
 					{
-						instance_create_depth(currenttargets[i].x,currenttargets[i].depth-1,O_rpg_hitfx,{sprite_index: currentaction.effectsprite});
+						instance_create_depth(currenttargets[i].x,currenttargets[i].y, currenttargets[i].depth-1,O_rpg_hitfx,{sprite_index: currentaction.effectsprite});
 					}
 				}
+				else //play it at 0,0
+				{
+					var _effectsprite = currentaction._effectsprite
+					if (variable_struct_exists(currentaction, "effectspritenotarget")) _effectsprite = currentaction.effectspritenotarget;
+					instance_create_depth(x,y,depth-100,O_rpg_hitfx,{sprite_index: _effectsprite});
+				}
+			}
+			currentaction.func(currentuser, currenttargets);
+		}
+	}
+	else //wait for delay and then end turn
+	{
+		if (!instance_exists(O_rpg_hitfx))
+		{
+			battlewaittimeremaining--
+			if (battlewaittimeremaining == 0)
+			{
+				battlestate = battlestatevictorycheck;
 			}
 		}
 	}
@@ -124,12 +142,20 @@ function battlestateperformaction()
 
 function battlestatevictorycheck()
 {
-	
+	battlestate = battlestateturnprogress
 }
 
 function battlestateturnprogress()
 {
-	
+	turncount++;
+	turn++;
+	//loop turns
+	if (turn > array_length(turnorder) - 1)
+	{
+		turn = 0;
+		roundcount++;
+	}
+	battlestate = battlestateselectaction;
 }
 
-battlestate = battlestateturnprogress;
+battlestate = battlestateselectaction;

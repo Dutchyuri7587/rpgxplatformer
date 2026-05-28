@@ -16,7 +16,7 @@ global.actionlibrarby =
 		effectontarget: MODE.ALWAYS,
 		func: function(_user, _targets)
 		{
-			var _damage = ceil(_user.strength + random_range(-user.strength * 0.25, _user.strength * 0.25));
+			var _damage = ceil(_user.strength + random_range(_user.strength * 0.25, _user.strength * 0.25));
 			with (_targets[0]) hp = max(0, hp - _damage);
 		}
 	}
@@ -35,7 +35,7 @@ global.party =
 [
 	{
 		name: "player",
-		hp: 5,
+		hp: 500,
 		maxhp: 500,
 		mp: 50,
 		maxmp: 50,

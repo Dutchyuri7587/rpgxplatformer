@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_playerplatcontrols",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SC_playerplatcontrols",
+  "parent":{
+    "name":"Platformer",
+    "path":"folders/Scripts/Platformer.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

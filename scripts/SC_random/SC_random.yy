@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_random",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SC_random",
+  "parent":{
+    "name":"RPG",
+    "path":"folders/Scripts/RPG.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

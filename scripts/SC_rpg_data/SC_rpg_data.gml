@@ -17,7 +17,7 @@ global.actionlibrarby =
 		func: function(_user, _targets)
 		{
 			var _damage = ceil(_user.strength + random_range(_user.strength * 0.25, _user.strength * 0.25));
-			with (_targets[0]) hp = max(0, hp - _damage);
+			battlechangehp(_targets[0], -_damage, 0);
 		}
 	}
 	
@@ -52,9 +52,9 @@ global.enemies =
 	{
 		name: "testenemy",
 		hp: 50,
-		Maxhp: 50,
+		maxhp: 50,
 		mp: 0,
-		Maxmp: 0,
+		maxmp: 0,
 		strength: 2,
 		sprites: {idle: S_testenemy_idle, attack: S_testenemy_attack},
 		actions: [],

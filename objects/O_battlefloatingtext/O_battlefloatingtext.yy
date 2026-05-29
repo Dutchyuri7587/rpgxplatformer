@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"O_battleunitplayer",
+  "%Name":"O_battlefloatingtext",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_battleunitplayer",
+  "name":"O_battlefloatingtext",
   "overriddenProperties":[],
   "parent":{
-    "name":"setup",
-    "path":"folders/Objects/RPG/setup.yy",
+    "name":"effects",
+    "path":"folders/Objects/RPG/effects.yy",
   },
-  "parentObjectId":{
-    "name":"O_battleunit",
-    "path":"objects/O_battleunit/O_battleunit.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

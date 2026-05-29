@@ -45,6 +45,7 @@
   "resources":[
     {"id":{"name":"testfont","path":"fonts/testfont/testfont.yy",},},
     {"id":{"name":"O_battle_manager","path":"objects/O_battle_manager/O_battle_manager.yy",},},
+    {"id":{"name":"O_battlefloatingtext","path":"objects/O_battlefloatingtext/O_battlefloatingtext.yy",},},
     {"id":{"name":"O_battleunit","path":"objects/O_battleunit/O_battleunit.yy",},},
     {"id":{"name":"O_battleunitplayer","path":"objects/O_battleunitplayer/O_battleunitplayer.yy",},},
     {"id":{"name":"O_battleunittestenemy","path":"objects/O_battleunittestenemy/O_battleunittestenemy.yy",},},

@@ -1,2 +1,2 @@
 # rpgxplatformer
-repo for the gamemaker game im making
+Repo for the gamemaker game I'm making.

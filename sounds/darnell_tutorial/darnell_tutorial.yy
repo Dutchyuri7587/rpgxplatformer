@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"darnell_tutorial",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":147.1537,
+  "exportDir":"",
+  "name":"darnell_tutorial",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Audio/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"darnell_tutorial.ogg",
+  "volume":1.0,
+}

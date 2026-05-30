@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Font3",
+  "%Name":"testfont",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":12,
@@ -230,7 +230,7 @@
   "last":0,
   "lineHeight":16,
   "maintainGms1Font":false,
-  "name":"Font3",
+  "name":"testfont",
   "parent":{
     "name":"rpgXplatformer",
     "path":"rpgXplatformer.yyp",

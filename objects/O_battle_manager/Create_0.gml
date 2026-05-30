@@ -71,7 +71,25 @@ function battlestateselectaction()
 	}
 	
 	//select an action to perform
-	beginaction(_unit.id, global.actionlibrarby.attack, _unit.id);
+	//beginaction(_unit.id, global.actionlibrarby.attack, _unit.id);
+	
+	//if unit is player controlled:
+	if (_unit.object_index == O_battleunitplayer)
+	{
+			var _action = global.actionlibrarby.attack;
+			var _possibletargets = array_filter(O_battle_manager.enemyunits, function(_unit, _index)
+			{
+				return (_unit.hp > 0);
+			});
+			var _target = _possibletargets[irandom(array_length(_possibletargets)-1)];
+			beginaction(_unit.id, _action, _target);
+	}
+	else
+	{
+		//enemy is ai
+		var _enemyaction = unit.AIscript();
+		if (_enemyaction != -1)beginaction(_unit.id, _enemyaction[0], _enemyaction[1]);
+	}
 }
 
 function beginaction(_user, _action, _targets)

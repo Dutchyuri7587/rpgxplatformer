@@ -51,17 +51,24 @@ global.enemies =
 	testenemy:
 	{
 		name: "testenemy",
-		hp: 50,
+		hp: 6,
 		maxhp: 50,
 		mp: 0,
 		maxmp: 0,
 		strength: 2,
 		sprites: {idle: S_testenemy_idle, attack: S_testenemy_attack},
-		actions: [],
+		actions: [global.actionlibrarby.attack],
 		XPvalue: 5,
 		AIscript: function()
 		{
-			//here you put the ai
+			//attack player
+			var _action = actions[0];
+			var _possibletargets = array_filter(O_battle_manager.partyunits, function(_unit, _index)
+			{
+				return (_unit.hp > 0);
+			});
+			var _target = _possibletargets[irandom(array_length(_possibletargets)-1)];
+			return [_action, _target];
 		}
 	}
 }

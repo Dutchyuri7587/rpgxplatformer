@@ -11,8 +11,8 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Audio","folderPath":"folders/Audio.yy","name":"Audio","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Audio/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Music","folderPath":"folders/Audio/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Audio/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Platformer","folderPath":"folders/Objects/Platformer.yy","name":"Platformer","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ground","folderPath":"folders/Objects/Platformer/Ground.yy","name":"Ground","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -87,6 +87,7 @@
     {"id":{"name":"Darnell_boopeepbo","path":"sounds/Darnell_boopeepbo/Darnell_boopeepbo.yy",},},
     {"id":{"name":"Darnell_fresh","path":"sounds/Darnell_fresh/Darnell_fresh.yy",},},
     {"id":{"name":"darnell_tutorial","path":"sounds/darnell_tutorial/darnell_tutorial.yy",},},
+    {"id":{"name":"dummy_sfx","path":"sounds/dummy_sfx/dummy_sfx.yy",},},
     {"id":{"name":"funkinlite_fresh","path":"sounds/funkinlite_fresh/funkinlite_fresh.yy",},},
     {"id":{"name":"S_battlebg_test","path":"sprites/S_battlebg_test/S_battlebg_test.yy",},},
     {"id":{"name":"S_battlemenu","path":"sprites/S_battlemenu/S_battlemenu.yy",},},

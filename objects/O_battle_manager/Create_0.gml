@@ -62,35 +62,78 @@ function battlestateselectaction()
 {
 	//get current unit
 	var _unit = turnorder[turn];
+		
+
+		//are they dead or cant act?
+		if !(instance_exists(_unit)) || (_unit.hp <= 0)
+		{
+			battlestate = battlestatevictorycheck;
+			exit;
+		}
 	
-	//are they dead or cant act?
-	if !(instance_exists(_unit)) || (_unit.hp <= 0)
-	{
-		battlestate = battlestatevictorycheck;
-		exit;
-	}
+		//select an action to perform
+		//beginaction(_unit.id, global.actionlibrarby.attack, _unit.id);
 	
-	//select an action to perform
-	//beginaction(_unit.id, global.actionlibrarby.attack, _unit.id);
-	
-	//if unit is player controlled:
-	if (_unit.object_index == O_battleunitplayer)
-	{
-			var _action = global.actionlibrarby.attack;
-			var _possibletargets = array_filter(O_battle_manager.enemyunits, function(_unit, _index)
+		//if unit is player controlled:
+		show_message("reached player check" + object_get_name(_unit.object_index));
+		if (_unit.object_index == O_battleunitplayer)
+		{
+			//compile the action menu
+			var _menuoptions = [];
+			var _submenus = {};
+			var _actionlist = _unit.actions;
+			
+			for (var i = 0; i < array_length(_actionlist); i++)
 			{
-				return (_unit.hp > 0);
-			});
-			var _target = _possibletargets[irandom(array_length(_possibletargets)-1)];
-			beginaction(_unit.id, _action, _target);
+				var _action = _actionlist[i];
+				var _available = true; //later we'll check mp cost here
+				var _nameandcount = _action.name;
+				if (_action.submenu == -1)
+				{
+					array_push(_menuoptions, [_nameandcount, menuselectaction, [_unit, _action], _available]);
+				}
+				else
+				{
+					//create or add a submenu
+					if (is_undefined(_submenus[$ _action.submenu]))
+					{
+						variable_struct_set(_submenus, _action.submenu, [[_nameandcount, menuselectaction, [_unit, _action], _available]]);
+					}
+					else
+					{
+						array_push(_submenus[$ _action.submenu], [_nameandcount, menuselectaction, [_unit, _action], _available]);
+					}
+				}
+
+			}
+			//turn sub menu's into an array
+			var _submenusarray = variable_struct_get_names(_submenus);
+			for (var i = 0; i < array_length(_submenusarray); i++)
+			{
+				//sort submenu if needed
+				//(here)
+					
+				//add back option at the end of each submenu
+				array_push(_submenus[$ _submenusarray[i]], ["back", menugoback, -1, true]);
+				//add submenu into main menu
+				array_push(_menuoptions, [_submenusarray[i], submenu, [_submenus[$ _submenusarray[i]]], true]);
+			}
+			
+			//callmenu
+//callmenu
+show_message("creating menu" + string(array_length(_menuoptions)));
+show_message("x:" + string(x) + " y:" + string(y));
+show_message(room_get_name(room));
+menu(camera_get_view_x(view_camera[0]) + 10, camera_get_view_y(view_camera[0]) + 190, _menuoptions, -1, 74, 60);
+battlestate = -1;
+		}
+		else
+		{
+			//enemy is ai
+			var _enemyaction = _unit.AIscript();
+			if (_enemyaction != -1)beginaction(_unit.id, _enemyaction[0], _enemyaction[1]);
+		}
 	}
-	else
-	{
-		//enemy is ai
-		var _enemyaction = unit.AIscript();
-		if (_enemyaction != -1)beginaction(_unit.id, _enemyaction[0], _enemyaction[1]);
-	}
-}
 
 function beginaction(_user, _action, _targets)
 {

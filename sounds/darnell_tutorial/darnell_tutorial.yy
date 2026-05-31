@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"darnell_tutorial",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Audio/Sounds.yy",
+    "name":"Music",
+    "path":"folders/Audio/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

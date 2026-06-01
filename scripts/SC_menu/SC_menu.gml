@@ -1,8 +1,10 @@
 //makes a menu - options provided in the form [["name", function, argument, is able to be selected?]
 function menu(_x, _y, _options, _description = -1, _width = undefined, _height = undefined){
-	with (instance_create_layer(_x, _y, "Instances", O_menu))
+	with (instance_create_depth(_x, _y, -999999, O_menu))
 	{
 		options = _options;
+		xoffset = _x - camera_get_view_x(view_camera[0]);
+		yoffset = _y - camera_get_view_y(view_camera[0]);
 		description = _description;
 		var _optionscount = array_length(_options); //how many options it has
 		visibleoptionsmax = _optionscount;

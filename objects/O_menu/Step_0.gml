@@ -1,3 +1,5 @@
+x = camera_get_view_x(view_camera[0]) + xoffset;
+y = camera_get_view_y(view_camera[0]) + yoffset;
 if (active)
 {
 	hover += keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up)

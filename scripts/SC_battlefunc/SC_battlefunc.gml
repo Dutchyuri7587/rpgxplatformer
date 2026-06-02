@@ -4,7 +4,7 @@ function Newencounter(_enemies, _bg)
 	(
 	camera_get_view_x(view_camera[0]),
 	camera_get_view_y(view_camera[0]),
-	-9999999,
+	-99999999999999999999999999999,
 	O_battle_manager,
 	{
 		enemies: _enemies, 

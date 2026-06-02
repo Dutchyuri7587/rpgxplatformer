@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"Darnell_fresh",
   "parent":{
-    "name":"Music",
-    "path":"folders/Audio/Music.yy",
+    "name":"Sounds",
+    "path":"folders/Audio/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

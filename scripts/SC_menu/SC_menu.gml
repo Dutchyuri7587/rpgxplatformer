@@ -1,6 +1,6 @@
 //makes a menu - options provided in the form [["name", function, argument, is able to be selected?]
-function menu(_x, _y, _options, _description = -1, _width = undefined, _height = undefined){
-	with (instance_create_layer(_x, _y, "Instances", O_menu))
+function SC_menu(_x, _y, _options, _description = -1, _width = undefined, _height = undefined){
+	with (instance_create_depth(_x, _y, -999999, O_menu))
 	{
 		options = _options;
 		description = _description;
@@ -61,11 +61,4 @@ function menugoback()
 	submenulevel--;
 	options = optionsabove[submenulevel];
 	hover = 0;
-}
-
-function menuselectaction(_user, _action)
-{
-	with (O_menu) active = false;
-	with (O_battle_manager) beginaction(_user, _action, _user);
-	with (O_menu) instance_destroy();
 }

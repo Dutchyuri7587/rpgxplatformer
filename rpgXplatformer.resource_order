@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Audio","order":9,"path":"folders/Audio.yy",},
-    {"name":"Music","order":4,"path":"folders/Audio/Music.yy",},
     {"name":"Sounds","order":5,"path":"folders/Audio/Sounds.yy",},
+    {"name":"Music","order":4,"path":"folders/Audio/Music.yy",},
     {"name":"Platformer","order":7,"path":"folders/Objects/Platformer.yy",},
     {"name":"RPG","order":6,"path":"folders/Objects/RPG.yy",},
     {"name":"effects","order":7,"path":"folders/Objects/RPG/effects.yy",},
@@ -52,10 +52,9 @@
     {"name":"SC_battlefunc","order":1,"path":"scripts/SC_battlefunc/SC_battlefunc.yy",},
     {"name":"SC_menu","order":3,"path":"scripts/SC_menu/SC_menu.yy",},
     {"name":"SC_random","order":2,"path":"scripts/SC_random/SC_random.yy",},
-    {"name":"Darnell_boopeepbo","order":1,"path":"sounds/Darnell_boopeepbo/Darnell_boopeepbo.yy",},
-    {"name":"Darnell_fresh","order":2,"path":"sounds/Darnell_fresh/Darnell_fresh.yy",},
-    {"name":"darnell_tutorial","order":3,"path":"sounds/darnell_tutorial/darnell_tutorial.yy",},
-    {"name":"funkinlite_fresh","order":4,"path":"sounds/funkinlite_fresh/funkinlite_fresh.yy",},
+    {"name":"Darnell_fresh","order":1,"path":"sounds/Darnell_fresh/Darnell_fresh.yy",},
+    {"name":"darnell_tutorial","order":2,"path":"sounds/darnell_tutorial/darnell_tutorial.yy",},
+    {"name":"funkinlite_fresh","order":3,"path":"sounds/funkinlite_fresh/funkinlite_fresh.yy",},
     {"name":"S_battlebg_test","order":2,"path":"sprites/S_battlebg_test/S_battlebg_test.yy",},
     {"name":"S_battleselector","order":1,"path":"sprites/S_battleselector/S_battleselector.yy",},
     {"name":"S_bigsky","order":2,"path":"sprites/S_bigsky/S_bigsky.yy",},

@@ -60,35 +60,73 @@ refreshrenderorder();
 //state machine
 function battlestateselectaction()
 {
-	//get current unit
-	var _unit = turnorder[turn];
-	
-	//are they dead or cant act?
-	if !(instance_exists(_unit)) || (_unit.hp <= 0)
+	if (!instance_exists(O_menu))
 	{
-		battlestate = battlestatevictorycheck;
-		exit;
-	}
+		//get current unit
+		var _unit = turnorder[turn];
 	
-	//select an action to perform
-	//beginaction(_unit.id, global.actionlibrarby.attack, _unit.id);
+		//are they dead or cant act?
+		if !(instance_exists(_unit)) || (_unit.hp <= 0)
+		{
+			battlestate = battlestatevictorycheck;
+			exit;
+		}
 	
-	//if unit is player controlled:
-	if (_unit.object_index == O_battleunitplayer)
-	{
-			var _action = global.actionlibrarby.attack;
-			var _possibletargets = array_filter(O_battle_manager.enemyunits, function(_unit, _index)
+		//select an action to perform
+		//beginaction(_unit.id, global.actionlibrarby.attack, _unit.id);
+	
+		//if unit is player controlled:
+		if (_unit.object_index == O_battleunitplayer)
+		{
+			//compile the action emnu
+			var _menuoptions = [];
+			var _submenus = {};
+			
+			var _actionlist = _unit.actions;
+			
+			for (var i = 0; i < array_length(_actionlist); i++)
 			{
-				return (_unit.hp > 0);
-			});
-			var _target = _possibletargets[irandom(array_length(_possibletargets)-1)];
-			beginaction(_unit.id, _action, _target);
-	}
-	else
-	{
-		//enemy is ai
-		var _enemyaction = unit.AIscript();
-		if (_enemyaction != -1)beginaction(_unit.id, _enemyaction[0], _enemyaction[1]);
+				var _action = _actionlist[i];
+				var _available = true;
+				var _nameandcount = _action.name;
+				if (_action.submenu == -1)
+				{
+					array_push(_menuoptions, [_nameandcount, menuselectaction, [_unit, _action], _available]);
+				}
+				else
+				{
+					//create or add a submenu
+					if (is_undefined(_submenus[$ _action.submenu]))
+					{
+						variable_struct_set(_submenus, _action.submenu, [[_nameandcount, menuselectaction, [_unit, _action], _available]]);
+					}
+					else
+					{
+						array_push(_submenus[$ _action.submenu], [_nameandcount, menuselectaction, [_unit, _action], _available]);
+					}
+				}
+				
+				//turn submenus into an array
+				var _submenusarray = variable_struct_get_names(_submenus);
+				for (var i = 0; i < array_length(_submenusarray); i++)
+				{
+					//sort submenu if needed
+					//(here)
+					
+					//add option to go back at the end of menu
+					array_push(_submenus[$ _submenusarray[i]], ["back", menugoback, -1, true]);
+					//add submenu into main menu
+					array_push(_menuoptions, [_submenusarray[i], submenu, [_submenus[$ _submenusarray[i]]], true]);
+				}
+			}
+			menu(x+10, y+110, _menuoptions, , 74, 60);
+		}
+		else
+		{
+			//enemy is ai
+			var _enemyaction = _unit.AIscript();
+			if (_enemyaction != -1)beginaction(_unit.id, _enemyaction[0], _enemyaction[1]);
+		}
 	}
 }
 

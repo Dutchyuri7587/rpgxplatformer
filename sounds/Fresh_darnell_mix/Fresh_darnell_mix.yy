@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Funkinlite_fresh",
+  "%Name":"Fresh_darnell_mix",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":97.98984,
+  "duration":86.41145,
   "exportDir":"",
-  "name":"Funkinlite_fresh",
+  "name":"Fresh_darnell_mix",
   "parent":{
     "name":"Music",
     "path":"folders/Audio/Music.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Funkinlite_fresh.ogg",
+  "soundFile":"Fresh_darnell_mix.ogg",
   "volume":1.0,
 }

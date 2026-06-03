@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"darnell_tutorial",
+  "%Name":"dogtrill",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "channelFormat":1,
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":147.1537,
+  "duration":0.67918366,
   "exportDir":"",
-  "name":"darnell_tutorial",
+  "name":"dogtrill",
   "parent":{
     "name":"Sounds",
     "path":"folders/Audio/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"darnell_tutorial.ogg",
+  "soundFile":"dogtrill.mp3",
   "volume":1.0,
 }

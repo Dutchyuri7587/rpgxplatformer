@@ -19,6 +19,25 @@ global.actionlibrarby =
 			var _damage = ceil(_user.strength + random_range(_user.strength * 0.25, _user.strength * 0.25));
 			battlechangehp(_targets[0], -_damage, 0);
 		}
+	},
+	magic:
+	{
+		name: "magic",
+		description: "{0} magic's an enemy!",
+		submenu: "magic", //whar?
+		mpcost: 4,
+		targetrequired: true,
+		targetenemybydefault: true,
+		targetall: MODE.NEVER,
+		useranimation: "attack",
+		effectsprite: S_rpg_hitfx,
+		effectontarget: MODE.ALWAYS,
+		func: function(_user, _targets)
+		{
+			var _damage = irandom_range(10, 15);
+			battlechangehp(_targets[0], -_damage);
+			//battlechangemp(_user, -mpcost)
+		}
 	}
 	
 }	
@@ -41,7 +60,7 @@ global.party =
 		maxmp: 50,
 		strength: 5,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
-		actions: []
+		actions: [global.actionlibrarby.attack, global.actionlibrarby.magic]
 	}
 ];
 

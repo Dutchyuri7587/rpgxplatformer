@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Funkinlite_fresh",
+  "%Name":"Jump_sfx",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":97.98984,
+  "duration":0.3825397,
   "exportDir":"",
-  "name":"Funkinlite_fresh",
+  "name":"Jump_sfx",
   "parent":{
-    "name":"Music",
-    "path":"folders/Audio/Music.yy",
+    "name":"Sounds",
+    "path":"folders/Audio/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Funkinlite_fresh.ogg",
+  "soundFile":"Jump_sfx.wav",
   "volume":1.0,
 }

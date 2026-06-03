@@ -232,8 +232,8 @@
   "maintainGms1Font":false,
   "name":"testfont",
   "parent":{
-    "name":"rpgXplatformer",
-    "path":"rpgXplatformer.yyp",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

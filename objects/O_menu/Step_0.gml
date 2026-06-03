@@ -11,7 +11,7 @@ if (active)
 		{
 			if (options[hover][1] != -1)
 			{
-				var _fun = options[hover][1];
+				var _func = options[hover][1];
 				if (options[hover][2] != -1) script_execute_ext(_func, options[hover][2]); else _func();
 			}
 		}
@@ -21,3 +21,12 @@ if (active)
 		if (submenulevel > 0) menugoback();
 	}
 }
+
+/*___________________________________________
+############################################################################################
+ERROR in action number 1
+of  Step Event0 for object O_menu:
+Variable O_menu._func(100135, -2147483648) not set before reading it.
+ at gml_Object_O_menu_Step_0 (line 15) -                             if (options[hover][2] != -1) script_execute_ext(_func, options[hover][2]); else _func();
+############################################################################################
+gml_Object_O_menu_Step_0 (line 15)*/

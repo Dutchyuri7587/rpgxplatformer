@@ -99,3 +99,13 @@ if (cursor.active)
 		}
 	}
 }
+
+//battle text
+if (battletext != "")
+{
+	var _stringwidth = string_width(battletext)+20;
+	draw_sprite_stretched(S_battlemenu, 0, x+160-(_stringwidth*0.5), y+5, _stringwidth, 25);
+	draw_set_halign(fa_center);
+	draw_set_colour(c_white);
+	draw_text(x+160, y+10, battletext);
+}

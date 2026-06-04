@@ -9,6 +9,7 @@ turncount = 0;
 roundcount = 0;
 battlewaitframes = 30;
 battlewaittimeremaining = 0;
+battletext = "";
 currentuser = noone;
 currentaction = -1;
 currenttargets = noone;
@@ -147,6 +148,7 @@ function beginaction(_user, _action, _targets)
 	currentuser = _user;
 	currentaction = _action;
 	currenttargets = _targets;
+	battletext = string_ext(_action.description, [_user.name]);
 	if (!is_array(currenttargets)) currenttargets = [currenttargets];
 	battlewaittimeremaining = battlewaitframes;
 	with (_user)
@@ -215,6 +217,7 @@ function battlestatevictorycheck()
 
 function battlestateturnprogress()
 {
+	battletext = ""; //reset text
 	turncount++;
 	turn++;
 	//loop turns

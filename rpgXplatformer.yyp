@@ -115,6 +115,7 @@
     {"id":{"name":"S_slope45_2","path":"sprites/S_slope45_2/S_slope45_2.yy",},},
     {"id":{"name":"S_slope45_3","path":"sprites/S_slope45_3/S_slope45_3.yy",},},
     {"id":{"name":"S_slope45_4","path":"sprites/S_slope45_4/S_slope45_4.yy",},},
+    {"id":{"name":"S_target_cursor","path":"sprites/S_target_cursor/S_target_cursor.yy",},},
     {"id":{"name":"S_teleport_2","path":"sprites/S_teleport_2/S_teleport_2.yy",},},
     {"id":{"name":"S_teleport","path":"sprites/S_teleport/S_teleport.yy",},},
     {"id":{"name":"S_testenemy_attack","path":"sprites/S_testenemy_attack/S_testenemy_attack.yy",},},

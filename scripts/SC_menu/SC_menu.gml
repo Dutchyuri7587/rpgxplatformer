@@ -66,6 +66,45 @@ function menugoback()
 function menuselectaction(_user, _action)
 {
 	with (O_menu) active = false;
-	with (O_battle_manager) beginaction(_user, _action, _user);
-	with (O_menu) instance_destroy();
+	
+	//activate the targeting cusror if needed, or just do the action
+	with (O_battle_manager)
+	{
+		if (_action.targetrequired)
+		{
+			with (cursor)
+			{
+				active = true;
+				activeaction = _action;
+				targetall = _action.targetall;
+				if (targetall == MODE.VARIES) targetall = true;
+				activeuser = _user;
+				
+				//which side should the default target be
+				if (_action.targetenemybydefault) //target enemy by default
+				{
+					targetindex = 0;
+					targetside = O_battle_manager.enemyunits;
+					activetarget = O_battle_manager.enemyunits[targetindex];
+				}
+				else //target yourself
+				{
+					targetside = O_battle_manager.partyunits;
+					activetarget = activeuser;
+					var _findself = function(_element)
+					{
+						return (_element == activetarget)
+					}
+					targetindex = array_find_index(O_battle_manager.partyunits, _findself);
+				}
+			}
+		}
+		else
+		{
+			//if no target needed, begin the action and end menu
+			beginaction(_user, _action, -1);
+			with (O_menu) instance_destroy();
+		}
+	}
 }
+

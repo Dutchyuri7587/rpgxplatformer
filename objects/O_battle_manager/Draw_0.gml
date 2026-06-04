@@ -74,3 +74,28 @@ for (var i = 0; i < array_length(partyunits); i++)
 	
 	draw_set_color(c_white);
 }
+
+
+//draw target cursor
+if (cursor.active)
+{
+	with (cursor)
+	{
+		if (activetarget != noone)
+		{
+			if (!is_array(activetarget))
+			{
+				draw_sprite(S_target_cursor, 0, activetarget.x, activetarget.y);
+			}
+			else
+			{
+				draw_set_alpha(sin(get_timer()/50000)+1);
+				for (var i = 0; i < array_length(activetarget); i++)
+				{
+					draw_sprite(S_target_cursor,0,activetarget[i].x, activetarget[i].y);
+				}
+				draw_set_alpha(1.0);
+			}
+		}
+	}
+}

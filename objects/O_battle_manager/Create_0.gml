@@ -14,6 +14,19 @@ currentaction = -1;
 currenttargets = noone;
 acting = false;
 
+//targeting cursor
+cursor =
+{
+	activeuser: noone,
+	activetarget: noone,
+	activeaction: -1,
+	targetside: -1,
+	targetindex: 0,
+	targetall: false,
+	confirmdelay: 0,
+	active: false
+};
+
 //make enemies
 for (var i = 0; i < array_length(enemies); i++)
 {
@@ -105,19 +118,18 @@ function battlestateselectaction()
 						array_push(_submenus[$ _action.submenu], [_nameandcount, menuselectaction, [_unit, _action], _available]);
 					}
 				}
-				
-				//turn submenus into an array
-				var _submenusarray = variable_struct_get_names(_submenus);
-				for (var i = 0; i < array_length(_submenusarray); i++)
-				{
-					//sort submenu if needed
-					//(here)
+			}				
+			//turn submenus into an array
+			var _submenusarray = variable_struct_get_names(_submenus);
+			for (var i = 0; i < array_length(_submenusarray); i++)
+			{
+				//sort submenu if needed
+				//(here)
 					
-					//add option to go back at the end of menu
-					array_push(_submenus[$ _submenusarray[i]], ["back", menugoback, -1, true]);
-					//add submenu into main menu
-					array_push(_menuoptions, [_submenusarray[i], submenu, [_submenus[$ _submenusarray[i]]], true]);
-				}
+				//add option to go back at the end of menu
+				array_push(_submenus[$ _submenusarray[i]], ["back", menugoback, -1, true]);
+				//add submenu into main menu
+				array_push(_menuoptions, [_submenusarray[i], submenu, [_submenus[$ _submenusarray[i]]], true]);
 			}
 			menu(x+10, y+110, _menuoptions, , 74, 60);
 		}

@@ -75,6 +75,7 @@
     {"name":"S_slope45_2","order":1,"path":"sprites/S_slope45_2/S_slope45_2.yy",},
     {"name":"S_slope45_3","order":2,"path":"sprites/S_slope45_3/S_slope45_3.yy",},
     {"name":"S_slope45_4","order":3,"path":"sprites/S_slope45_4/S_slope45_4.yy",},
+    {"name":"S_target_cursor","order":3,"path":"sprites/S_target_cursor/S_target_cursor.yy",},
     {"name":"S_teleport_2","order":3,"path":"sprites/S_teleport_2/S_teleport_2.yy",},
     {"name":"S_teleport","order":2,"path":"sprites/S_teleport/S_teleport.yy",},
     {"name":"S_testenemy_attack","order":1,"path":"sprites/S_testenemy_attack/S_testenemy_attack.yy",},

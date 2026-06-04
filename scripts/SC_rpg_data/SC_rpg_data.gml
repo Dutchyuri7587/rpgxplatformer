@@ -28,7 +28,7 @@ global.actionlibrarby =
 		mpcost: 4,
 		targetrequired: true,
 		targetenemybydefault: true,
-		targetall: MODE.NEVER,
+		targetall: MODE.VARIES,
 		useranimation: "attack",
 		effectsprite: S_rpg_hitfx,
 		effectontarget: MODE.ALWAYS,
@@ -46,7 +46,7 @@ enum MODE
 {
 	NEVER = 0,
 	ALWAYS = 1,
-	VARIES = 2,
+	VARIES = 2, //multi tasrget
 }
 		
 //party data
@@ -70,7 +70,7 @@ global.enemies =
 	testenemy:
 	{
 		name: "testenemy",
-		hp: 6,
+		hp: 50,
 		maxhp: 50,
 		mp: 0,
 		maxmp: 0,

@@ -28,6 +28,25 @@ global.actionlibrarby =
 		mpcost: 4,
 		targetrequired: true,
 		targetenemybydefault: true,
+		targetall: MODE.NEVER,
+		useranimation: "attack",
+		effectsprite: S_rpg_hitfx,
+		effectontarget: MODE.ALWAYS,
+		func: function(_user, _targets)
+		{
+			var _damage = irandom_range(10, 15);
+			battlechangehp(_targets[0], -_damage);
+			battlechangemp(_user, -mpcost)
+		}
+	},
+	magichitall:
+	{
+		name: "magic",
+		description: "{0} magic's an enemy!",
+		submenu: "magic", //whar?
+		mpcost: 4,
+		targetrequired: true,
+		targetenemybydefault: true,
 		targetall: MODE.VARIES,
 		useranimation: "attack",
 		effectsprite: S_rpg_hitfx,
@@ -36,7 +55,7 @@ global.actionlibrarby =
 		{
 			var _damage = irandom_range(10, 15);
 			battlechangehp(_targets[0], -_damage);
-			//battlechangemp(_user, -mpcost)
+			battlechangemp(_user, -mpcost)
 		}
 	}
 	
@@ -56,11 +75,12 @@ global.party =
 		name: "player",
 		hp: 500,
 		maxhp: 500,
-		mp: 50,
+		mp: 2,
 		maxmp: 50,
+		minmp: 0,
 		strength: 5,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
-		actions: [global.actionlibrarby.attack, global.actionlibrarby.magic]
+		actions: [global.actionlibrarby.attack, global.actionlibrarby.magic, global.actionlibrarby.magichitall]
 	}
 ];
 

@@ -15,6 +15,7 @@ currentaction = -1;
 currenttargets = noone;
 acting = false;
 
+
 //targeting cursor
 cursor =
 {

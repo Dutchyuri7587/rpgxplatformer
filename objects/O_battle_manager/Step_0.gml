@@ -17,7 +17,7 @@ if (cursor.active)
 		if (confirmdelay > 1)
 		{
 			_keyconfirm = keyboard_check_pressed(vk_enter);
-			_keycancel = keyboard_check_pressed(vk_escape);
+			_keycancel = keyboard_check_pressed(vk_backspace);
 			_keytoggle = keyboard_check_pressed(vk_shift); //switch between single and multitarghet mode
 		}
 		var _movehorizontal = _keyright - _keyleft;

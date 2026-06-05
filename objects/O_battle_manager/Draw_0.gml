@@ -1,5 +1,16 @@
 //draw bg
-draw_sprite(fightBG,0,x,y);
+if (roomtheme == 1)
+{
+	fightBG = S_battlebg_test;
+	draw_sprite(fightBG,0,x,y);
+}
+
+if (roomtheme == 2)
+{
+	fightBG = S_battlebg_test_1
+	draw_sprite(fightBG,0,x,y);
+}
+
 
 //draw units
 var _unitwithcurrentturn = turnorder[turn].id;

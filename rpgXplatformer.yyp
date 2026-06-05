@@ -74,6 +74,7 @@
     {"id":{"name":"hubworld","path":"rooms/hubworld/hubworld.yy",},},
     {"id":{"name":"movingplattest","path":"rooms/movingplattest/movingplattest.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rpgbattletest_1","path":"rooms/rpgbattletest_1/rpgbattletest_1.yy",},},
     {"id":{"name":"rpgbattletest","path":"rooms/rpgbattletest/rpgbattletest.yy",},},
     {"id":{"name":"semisolidstest","path":"rooms/semisolidstest/semisolidstest.yy",},},
     {"id":{"name":"setup","path":"rooms/setup/setup.yy",},},
@@ -91,6 +92,7 @@
     {"id":{"name":"Funkinlite_fresh","path":"sounds/Funkinlite_fresh/Funkinlite_fresh.yy",},},
     {"id":{"name":"Jump_sfx","path":"sounds/Jump_sfx/Jump_sfx.yy",},},
     {"id":{"name":"Pico_darnell_mix","path":"sounds/Pico_darnell_mix/Pico_darnell_mix.yy",},},
+    {"id":{"name":"S_battlebg_test_1","path":"sprites/S_battlebg_test_1/S_battlebg_test_1.yy",},},
     {"id":{"name":"S_battlebg_test","path":"sprites/S_battlebg_test/S_battlebg_test.yy",},},
     {"id":{"name":"S_battlemenu","path":"sprites/S_battlemenu/S_battlemenu.yy",},},
     {"id":{"name":"S_battleselector","path":"sprites/S_battleselector/S_battleselector.yy",},},
@@ -136,6 +138,7 @@
     {"roomId":{"name":"timtest1","path":"rooms/timtest1/timtest1.yy",},},
     {"roomId":{"name":"timtest2","path":"rooms/timtest2/timtest2.yy",},},
     {"roomId":{"name":"movingplattest","path":"rooms/movingplattest/movingplattest.yy",},},
+    {"roomId":{"name":"rpgbattletest_1","path":"rooms/rpgbattletest_1/rpgbattletest_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

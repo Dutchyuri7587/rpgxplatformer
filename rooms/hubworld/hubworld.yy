@@ -21,6 +21,7 @@
     {"name":"inst_340B8ED3","path":"rooms/hubworld/hubworld.yy",},
     {"name":"inst_39589F82","path":"rooms/hubworld/hubworld.yy",},
     {"name":"inst_64645E3","path":"rooms/hubworld/hubworld.yy",},
+    {"name":"inst_88574B2","path":"rooms/hubworld/hubworld.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -45,6 +46,7 @@
         {"$GMRInstance":"v4","%Name":"inst_340B8ED3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_340B8ED3","objectId":{"name":"O_teleport","path":"objects/O_teleport/O_teleport.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":176.0,},
         {"$GMRInstance":"v4","%Name":"inst_39589F82","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39589F82","objectId":{"name":"O_moveplatform","path":"objects/O_moveplatform/O_moveplatform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":304.0,"y":192.0,},
         {"$GMRInstance":"v4","%Name":"inst_64645E3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64645E3","objectId":{"name":"O_wall","path":"objects/O_wall/O_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":19.0,"scaleY":1.0,"x":0.0,"y":144.0,},
+        {"$GMRInstance":"v4","%Name":"inst_88574B2","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_88574B2","objectId":{"name":"O_teleport_2","path":"objects/O_teleport_2/O_teleport_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4294950783,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

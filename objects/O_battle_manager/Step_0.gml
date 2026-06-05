@@ -1,8 +1,12 @@
 battlestate();
 
-if (room = 1)
+if (room = rpgbattletest)
 {
 	roomtheme = 1;
+}
+if (room = rpgbattletest_1)
+{
+	roomtheme = 2;
 }
 
 //cursor control

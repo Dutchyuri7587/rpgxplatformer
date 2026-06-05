@@ -41,10 +41,10 @@ global.actionlibrarby =
 	},
 	magichitall:
 	{
-		name: "magic",
-		description: "{0} magic's an enemy!",
+		name: "magicall",
+		description: "{0} Hit's all enemies!",
 		submenu: "magic", //whar?
-		mpcost: 4,
+		mpcost: 8,
 		targetrequired: true,
 		targetenemybydefault: true,
 		targetall: MODE.VARIES,
@@ -98,6 +98,29 @@ global.enemies =
 		sprites: {idle: S_testenemy_idle, attack: S_testenemy_attack},
 		actions: [global.actionlibrarby.attack],
 		XPvalue: 5,
+		AIscript: function()
+		{
+			//attack player
+			var _action = actions[0];
+			var _possibletargets = array_filter(O_battle_manager.partyunits, function(_unit, _index)
+			{
+				return (_unit.hp > 0);
+			});
+			var _target = _possibletargets[irandom(array_length(_possibletargets)-1)];
+			return [_action, _target];
+		}
+	},
+	testenemy2:
+	{
+		name: "testenemy2",
+		hp: 100,
+		maxhp: 100,
+		mp: 0,
+		maxmp: 0,
+		strength: 4,
+		sprites: {idle: S_testenemy_idle, attack: S_testenemy_attack},
+		actions: [global.actionlibrarby.attack],
+		XPvalue: 10,
 		AIscript: function()
 		{
 			//attack player

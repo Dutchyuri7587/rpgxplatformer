@@ -14,6 +14,7 @@ currentuser = noone;
 currentaction = -1;
 currenttargets = noone;
 acting = false;
+roomtheme = 1;
 
 
 //targeting cursor

@@ -1,22 +1,27 @@
 battlestate();
 
+if (room = 1)
+{
+	roomtheme = 1;
+}
+
 //cursor control
 if (cursor.active)
 {
 	with (cursor)
 	{
 		//input
-		var _keyup = keyboard_check_pressed(vk_up);
-		var _keydown = keyboard_check_pressed(vk_down);
-		var _keyright = keyboard_check_pressed(vk_right);
-		var _keyleft = keyboard_check_pressed(vk_left);
+		var _keyup = keyboard_check_pressed(vk_up) + keyboard_check_pressed(ord("W"));
+		var _keydown = keyboard_check_pressed(vk_down) + keyboard_check_pressed(ord("S"));
+		var _keyright = keyboard_check_pressed(vk_right) + keyboard_check_pressed(ord("D"));
+		var _keyleft = keyboard_check_pressed(vk_left) + keyboard_check_pressed(ord("A"));
 		var _keytoggle = false;
 		var _keyconfirm = false
 		var _keycancel = false;
 		confirmdelay++
 		if (confirmdelay > 1)
 		{
-			_keyconfirm = keyboard_check_pressed(vk_enter);
+			_keyconfirm = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("Z"));
 			_keycancel = keyboard_check_pressed(vk_backspace);
 			_keytoggle = keyboard_check_pressed(vk_shift); //switch between single and multitarghet mode
 		}
@@ -82,3 +87,4 @@ if (cursor.active)
 		}
 	}
 }
+

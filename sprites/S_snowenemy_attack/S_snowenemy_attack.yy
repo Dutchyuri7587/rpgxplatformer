@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"S_testenemy_attack",
+  "%Name":"S_snowenemy_attack",
   "bboxMode":0,
   "bbox_bottom":15,
   "bbox_left":0,
@@ -13,7 +13,7 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"cc802da4-21c1-4d56-8b16-196bdd7d8242","name":"cc802da4-21c1-4d56-8b16-196bdd7d8242","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"b124bc51-68a4-4e90-a527-11abf26200df","name":"b124bc51-68a4-4e90-a527-11abf26200df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a0646719-3557-4463-aa12-3382141ad561","name":"a0646719-3557-4463-aa12-3382141ad561","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -22,19 +22,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"450840d9-288f-4574-bc46-325778671115","blendMode":0,"displayName":"default","isLocked":false,"name":"450840d9-288f-4574-bc46-325778671115","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"S_testenemy_attack",
+  "name":"S_snowenemy_attack",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Testenemy",
-    "path":"folders/Sprites/RPG/Enemies/Testenemy.yy",
+    "name":"snowenemy",
+    "path":"folders/Sprites/RPG/Enemies/snowenemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"S_testenemy_attack",
+    "%Name":"S_snowenemy_attack",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"S_testenemy_attack",
+    "name":"S_snowenemy_attack",
     "playback":1,
     "playbackSpeed":2.0,
     "playbackSpeedType":0,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cc802da4-21c1-4d56-8b16-196bdd7d8242","path":"sprites/S_testenemy_attack/S_testenemy_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cc802da4-21c1-4d56-8b16-196bdd7d8242","path":"sprites/S_snowenemy_attack/S_snowenemy_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"06dc33a1-0ebe-4424-be6f-3fcc7ce17122","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b124bc51-68a4-4e90-a527-11abf26200df","path":"sprites/S_testenemy_attack/S_testenemy_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2aeea90a-2f60-46b6-a274-f19c8b61a83a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a0646719-3557-4463-aa12-3382141ad561","path":"sprites/S_snowenemy_attack/S_snowenemy_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"af5d75cc-4979-4f53-8463-ece98e6988c9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

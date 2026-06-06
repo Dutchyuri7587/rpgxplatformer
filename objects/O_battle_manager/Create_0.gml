@@ -15,6 +15,7 @@ currentaction = -1;
 currenttargets = noone;
 acting = false;
 roomtheme = 1;
+global.money = 25;
 
 
 //targeting cursor

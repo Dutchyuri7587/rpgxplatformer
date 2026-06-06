@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_testenemy",
+  "%Name":"O_battleencounter_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_player_rpg","path":"objects/O_player_rpg/O_player_rpg.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_testenemy",
+  "name":"O_battleencounter_2",
   "overriddenProperties":[],
   "parent":{
     "name":"RPG",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_testenemy_attack",
-    "path":"sprites/S_testenemy_attack/S_testenemy_attack.yy",
+    "name":"S_snowenemy_idle",
+    "path":"sprites/S_snowenemy_idle/S_snowenemy_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

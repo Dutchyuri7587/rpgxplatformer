@@ -67,3 +67,11 @@ function battlechangehp(_target, _amount, _alivedeadoreither = 0)
 }
 
 
+function givemoney()
+{
+	if (hasgivenmoney = false)
+	{
+		hasgivenmoney = true;
+		global.money += moneyworth;
+	}
+}

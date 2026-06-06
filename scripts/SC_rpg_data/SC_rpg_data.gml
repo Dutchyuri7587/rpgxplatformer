@@ -75,10 +75,10 @@ global.party =
 		name: "player",
 		hp: 500,
 		maxhp: 500,
-		mp: 2,
+		mp: 50,
 		maxmp: 50,
 		minmp: 0,
-		strength: 5,
+		strength: 5000,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
 		actions: [global.actionlibrarby.attack, global.actionlibrarby.magic, global.actionlibrarby.magichitall]
 	}
@@ -98,6 +98,7 @@ global.enemies =
 		sprites: {idle: S_testenemy_idle, attack: S_testenemy_attack},
 		actions: [global.actionlibrarby.attack],
 		XPvalue: 5,
+		moneyworth: 25,
 		AIscript: function()
 		{
 			//attack player
@@ -110,17 +111,18 @@ global.enemies =
 			return [_action, _target];
 		}
 	},
-	testenemy2:
+	testenemysnow:
 	{
-		name: "testenemy2",
-		hp: 100,
-		maxhp: 100,
+		name: "testenemysnow",
+		hp: 50,
+		maxhp: 50,
 		mp: 0,
 		maxmp: 0,
-		strength: 4,
-		sprites: {idle: S_testenemy_idle, attack: S_testenemy_attack},
+		strength: 2,
+		sprites: {idle: S_snowenemy_idle, attack: S_snowenemy_attack},
 		actions: [global.actionlibrarby.attack],
-		XPvalue: 10,
+		XPvalue: 5,
+		moneyworth: 100,
 		AIscript: function()
 		{
 			//attack player

@@ -3,6 +3,7 @@
 //action library
 global.actionlibrarby =
 {
+	//player attacks
 	attack:
 	{
 		name: "Hit",
@@ -57,8 +58,25 @@ global.actionlibrarby =
 			battlechangehp(_targets[0], -_damage);
 			battlechangemp(_user, -mpcost)
 		}
+	},
+	//enemy attacks
+	enemy_attack:
+	{
+		name: "enemy_attack",
+		description: "{0} hits an enemy!",
+		submenu: -1, //whar?
+		targetrequired: true,
+		targetenemybydefault: true,
+		targetall: MODE.NEVER,
+		useranimation: "attack",
+		effectsprite: S_rpg_hitfx,
+		effectontarget: MODE.ALWAYS,
+		func: function(_user, _targets)
+		{
+			var _damage = ceil(_user.strength + random_range(_user.strength * 0.25, _user.strength * 0.25));
+			battlechangehp(_targets[0], -_damage, 0);
+		}
 	}
-	
 }	
 
 enum MODE
@@ -96,7 +114,7 @@ global.enemies =
 		maxmp: 0,
 		strength: 2,
 		sprites: {idle: S_testenemy_idle, attack: S_testenemy_attack},
-		actions: [global.actionlibrarby.attack],
+		actions: [global.actionlibrarby.enemy_attack],
 		XPvalue: 5,
 		moneyworth: 25,
 		AIscript: function()
@@ -120,7 +138,7 @@ global.enemies =
 		maxmp: 0,
 		strength: 2,
 		sprites: {idle: S_snowenemy_idle, attack: S_snowenemy_attack},
-		actions: [global.actionlibrarby.attack],
+		actions: [global.actionlibrarby.enemy_attack],
 		XPvalue: 5,
 		moneyworth: 100,
 		AIscript: function()

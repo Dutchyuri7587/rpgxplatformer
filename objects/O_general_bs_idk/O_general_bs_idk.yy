@@ -1,16 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"O_shop_button1",
-  "eventList":[],
+  "%Name":"O_general_bs_idk",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_shop_button1",
+  "name":"O_general_bs_idk",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Shop/Buttons.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_button_shop",
-    "path":"sprites/S_button_shop/S_button_shop.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

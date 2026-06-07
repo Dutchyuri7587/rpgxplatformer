@@ -73,7 +73,7 @@ global.actionlibrarby =
 		effectontarget: MODE.ALWAYS,
 		func: function(_user, _targets)
 		{
-			var _damage = ceil(_user.strength + random_range(_user.strength * 0.25, _user.strength * 0.25));
+			var _damage = ceil(_user.strength + random_range(_user.strength * 0.25, _user.strength * 0.25) * global.attackmultiplier);
 			battlechangehp(_targets[0], -_damage, 0);
 		}
 	}

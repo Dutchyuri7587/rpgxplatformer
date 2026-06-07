@@ -22,12 +22,7 @@ for (var i = 0; i < array_length(renderorder); i++)
 	}
 }
 
-//draw money
-draw_set_font(testfont);
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
-draw_set_color(c_white);
-draw_text(x+100,y+100,string(global.money));
+
 
 //draw battle ui
 draw_sprite_stretched(S_battlemenu, 0, x+75, y+120, 245, 60);

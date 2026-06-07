@@ -7,7 +7,11 @@ if position_meeting(mouse_x, mouse_y, O_shop_button)
 		{
 			global.money = global.money - cost;
 			mousepressed = false;
-			global.boughtsomething = 1;
+			if (global.boughtsomething = 0) || (global.boughtsomething = 1)
+			{
+				global.boughtsomething = 1;
+			}
+			
 		}
 		else
 		{

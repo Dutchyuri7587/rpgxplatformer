@@ -215,7 +215,9 @@ function battlestateperformaction()
 
 function battlestatevictorycheck()
 {
-	battlestate = battlestateturnprogress
+	/*battlestate = battlestateturnprogress;*/
+	haswonbattle = true;
+	
 }
 
 function battlestateturnprogress()

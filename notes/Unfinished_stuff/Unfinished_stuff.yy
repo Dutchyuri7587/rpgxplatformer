@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Unfinished_stuff",
+  "name":"Unfinished_stuff",
+  "parent":{
+    "name":"rpgXplatformer",
+    "path":"rpgXplatformer.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

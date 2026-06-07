@@ -32,6 +32,7 @@
     {"name":"Tilesets","order":3,"path":"folders/Tilesets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Unfinished_stuff","order":10,"path":"notes/Unfinished_stuff/Unfinished_stuff.yy",},
     {"name":"O_battleencounter_2","order":8,"path":"objects/O_battleencounter_2/O_battleencounter_2.yy",},
     {"name":"O_battlefloatingtext","order":1,"path":"objects/O_battlefloatingtext/O_battlefloatingtext.yy",},
     {"name":"O_battleunit","order":1,"path":"objects/O_battleunit/O_battleunit.yy",},

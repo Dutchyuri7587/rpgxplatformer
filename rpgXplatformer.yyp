@@ -57,6 +57,7 @@
   "name":"rpgXplatformer",
   "resources":[
     {"id":{"name":"testfont","path":"fonts/testfont/testfont.yy",},},
+    {"id":{"name":"Unfinished_stuff","path":"notes/Unfinished_stuff/Unfinished_stuff.yy",},},
     {"id":{"name":"O_battle_manager","path":"objects/O_battle_manager/O_battle_manager.yy",},},
     {"id":{"name":"O_battleencounter_2","path":"objects/O_battleencounter_2/O_battleencounter_2.yy",},},
     {"id":{"name":"O_battlefloatingtext","path":"objects/O_battlefloatingtext/O_battlefloatingtext.yy",},},

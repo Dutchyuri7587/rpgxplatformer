@@ -17,7 +17,7 @@ global.actionlibrarby =
 		effectontarget: MODE.ALWAYS,
 		func: function(_user, _targets)
 		{
-			var _damage = (ceil(_user.strength + random_range(_user.strength * 0.25, _user.strength * 0.25)) * global.attackmultiplier);
+			var _damage = ceil((_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50)) * global.attackmultiplier);
 			battlechangehp(_targets[0], -_damage, 0);
 		}
 	},
@@ -63,7 +63,7 @@ global.actionlibrarby =
 	enemy_attack:
 	{
 		name: "enemy_attack",
-		description: "{0} hits an enemy!",
+		description: "{0} hits you!",
 		submenu: -1, //whar?
 		targetrequired: true,
 		targetenemybydefault: true,
@@ -73,7 +73,7 @@ global.actionlibrarby =
 		effectontarget: MODE.ALWAYS,
 		func: function(_user, _targets)
 		{
-			var _damage = ceil(_user.strength + random_range(_user.strength * 0.25, _user.strength * 0.25) * global.attackmultiplier);
+			var _damage = ceil(_user.strength + random_range(_user.strength * 0.25, _user.strength * 0.25));
 			battlechangehp(_targets[0], -_damage, 0);
 		}
 	}
@@ -96,7 +96,7 @@ global.party =
 		mp: 50,
 		maxmp: 50,
 		minmp: 0,
-		strength: 5000,
+		strength: 5,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
 		actions: [global.actionlibrarby.attack, global.actionlibrarby.magic, global.actionlibrarby.magichitall]
 	}

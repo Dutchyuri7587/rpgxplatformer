@@ -1,0 +1,5 @@
+mp system is still unfinished, needs to actually not do damage if ran out of mp
+
+you still cant actually end a battle lmao
+
+shop is heavily wip, but eh

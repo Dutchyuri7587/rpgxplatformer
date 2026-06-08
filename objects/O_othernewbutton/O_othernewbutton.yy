@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"O_shop_button",
+  "%Name":"O_othernewbutton",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_shop_button",
+  "name":"O_othernewbutton",
   "overriddenProperties":[],
   "parent":{
-    "name":"Oldbuttonsystem",
-    "path":"folders/Objects/Shop/Buttons/Oldbuttonsystem.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Shop/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

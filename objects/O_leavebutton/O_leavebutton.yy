@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_shop_button",
+  "%Name":"O_leavebutton",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_shop_button",
+  "name":"O_leavebutton",
   "overriddenProperties":[],
   "parent":{
-    "name":"Oldbuttonsystem",
-    "path":"folders/Objects/Shop/Buttons/Oldbuttonsystem.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Shop/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_button_shop",
-    "path":"sprites/S_button_shop/S_button_shop.yy",
+    "name":"S_leavebutton",
+    "path":"sprites/S_leavebutton/S_leavebutton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

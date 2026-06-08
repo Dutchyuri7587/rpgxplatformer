@@ -9,8 +9,8 @@
   "name":"O_testbutton_testinghasbeenbough",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Shop/Buttons.yy",
+    "name":"Oldbuttonsystem",
+    "path":"folders/Objects/Shop/Buttons/Oldbuttonsystem.yy",
   },
   "parentObjectId":{
     "name":"O_shop_button",

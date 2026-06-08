@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"O_shop_button",
+  "%Name":"O_teleportbutton_1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_shop_button",
+  "name":"O_teleportbutton_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Oldbuttonsystem",
     "path":"folders/Objects/Shop/Buttons/Oldbuttonsystem.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_shop_button",
+    "path":"objects/O_shop_button/O_shop_button.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_button_shop",
-    "path":"sprites/S_button_shop/S_button_shop.yy",
+    "name":"S_leavebutton",
+    "path":"sprites/S_leavebutton/S_leavebutton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

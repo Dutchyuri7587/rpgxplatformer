@@ -95,4 +95,4 @@ if (cursor.active)
 /*if (haswonbattle = true)
 {
 	instance_deactivate_all(false);
-}
+}*/

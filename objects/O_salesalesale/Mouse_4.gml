@@ -1,15 +1,15 @@
-if position_meeting(mouse_x, mouse_y, O_othernewbutton)
+if position_meeting(mouse_x, mouse_y, O_salesalesale)
 {
 	if (mouse_check_button_pressed(mb_left))
 	{
 		if (hasbeenbought = false)
 		{
 			mousepressed = true;
-			if (global.money >= cost*global.sale) && (mousepressed = true)
+			if (global.money >= cost) && (mousepressed = true)
 			{
-				global.money = global.money - cost*global.sale;
+				global.money = global.money - cost;
 				mousepressed = false;
-				global.attackmultiplier = 1.5;
+				global.sale = 0.5
 				timesbeenbought += 1;
 				if (timesbeenbought = maxtimesbeenbought)
 				{
@@ -19,7 +19,7 @@ if position_meeting(mouse_x, mouse_y, O_othernewbutton)
 			}
 			else
 			{
-				show_message("you're broke");
+				show_message("you're broke"); //replace this ofc
 			}
 		}
 		else

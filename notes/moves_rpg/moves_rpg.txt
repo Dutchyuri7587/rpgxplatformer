@@ -1,0 +1,16 @@
+basic attack: just walks up and punches the enemy, like with an uppercut or sm shit.
+	-just does simple single target dmg
+
+skateboard with explosive strapped to it: grabs a skateboard with a bomb strapped to it, and launches it towards the enemy. (dont ask how he got it)
+	-Does single target dmg to selected foe, and afterwards does an aoe attack via the bomb.
+	
+Bottle of acid: throws a bottle of acid that breaks when it hits the enemy
+	-does DOT damage for like, say 3 turns.
+	
+Gun: heavy single target damage
+	-legit just grabs a pistol and shoots the enemy
+	-has bullet system to balance it
+	
+jetpack: grabs a jetpack and starts flying.
+	-now you either take less dmg or get hit less often
+	

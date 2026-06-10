@@ -1,7 +1,7 @@
 {
   "$GMNotes":"v1",
-  "%Name":"Unfinished_stuff",
-  "name":"Unfinished_stuff",
+  "%Name":"lefttodo",
+  "name":"lefttodo",
   "parent":{
     "name":"rpgXplatformer",
     "path":"rpgXplatformer.yyp",

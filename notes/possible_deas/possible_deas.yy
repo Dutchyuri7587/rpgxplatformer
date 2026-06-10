@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"possible_deas",
+  "name":"possible_deas",
+  "parent":{
+    "name":"rpgXplatformer",
+    "path":"rpgXplatformer.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

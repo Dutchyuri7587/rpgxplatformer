@@ -1,0 +1,1 @@
+neededbuys = 10;

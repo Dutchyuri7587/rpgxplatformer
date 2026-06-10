@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"bugs",
+  "name":"bugs",
+  "parent":{
+    "name":"rpgXplatformer",
+    "path":"rpgXplatformer.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

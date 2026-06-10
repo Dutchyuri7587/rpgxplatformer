@@ -1,0 +1,10 @@
+finish the rpg part
+decide on how many levels
+decide what the rpg shop should sell
+decide what the platformer shop should sell
+decide on possible rpg enemies
+decide how many rpg levels
+decide on moves in rpg
+make assets
+reposition the ui to actually be yk, correct.
+implement music

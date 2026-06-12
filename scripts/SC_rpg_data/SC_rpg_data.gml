@@ -68,6 +68,34 @@ global.actionlibrarby =
 			battlechangemp(_user, -mpcost)
 		}
 	},
+		glock:
+	{
+		name: "gun.",
+		description: "Is that a fucking gun",
+		submenu: -1, //whar?
+		targetrequired: true,
+		targetenemybydefault: true,
+		targetall: MODE.NEVER,
+		useranimation: "attack",
+		effectsprite: S_rpg_hitfx,
+		effectontarget: MODE.ALWAYS,
+		bullets: 3,
+		func: function(_user, _targets)
+		{
+			if (bullets > 0)
+			{
+				removebullet(_user);
+				var _damage = ceil((_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50)) * global.attackmultiplier);
+				battlechangehp(_targets[0], -_damage, 0);
+			}
+			else
+			{
+				
+			}
+			
+		}
+	},
+	
 	//enemy attacks
 	enemy_attack:
 	{
@@ -106,8 +134,9 @@ global.party =
 		maxmp: 50,
 		minmp: 0,
 		strength: 5,
+		bullets: 3,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
-		actions: [global.actionlibrarby.attack, global.actionlibrarby.magic, global.actionlibrarby.magichitall]
+		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.magic, global.actionlibrarby.magichitall]
 	}
 ];
 

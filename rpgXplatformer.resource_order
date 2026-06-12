@@ -35,6 +35,7 @@
     {"name":"bugs","order":10,"path":"notes/bugs/bugs.yy",},
     {"name":"lefttodo","order":11,"path":"notes/lefttodo/lefttodo.yy",},
     {"name":"moves_rpg","order":13,"path":"notes/moves_rpg/moves_rpg.yy",},
+    {"name":"Note5","order":14,"path":"notes/Note5/Note5.yy",},
     {"name":"possible_deas","order":12,"path":"notes/possible_deas/possible_deas.yy",},
     {"name":"O_battleencounter_2","order":8,"path":"objects/O_battleencounter_2/O_battleencounter_2.yy",},
     {"name":"O_battlefloatingtext","order":1,"path":"objects/O_battlefloatingtext/O_battlefloatingtext.yy",},

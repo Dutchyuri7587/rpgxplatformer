@@ -90,3 +90,20 @@ function failattackcausemp(_user, _amount)
 	{font: testfont, col: _col, text: string("no mp!")}
 	);
 }
+
+function removebullet(_user)
+{
+	_user.bullets -= 1;
+}
+
+function nobullets(_user)
+{
+	instance_create_depth
+	(
+	_user.x,
+	_user.y,
+	_user.depth-1,
+	O_battlefloatingtext,
+	{font: testfont, col: c_white, text: string("I'm outta bullets.")}
+	);
+}

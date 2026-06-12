@@ -93,7 +93,7 @@ function failattackcausemp(_user, _amount)
 
 function removebullet(_user)
 {
-	_user.bullets -= 1;
+	global.bullets -= 1;
 }
 
 function nobullets(_user)

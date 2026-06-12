@@ -1,6 +1,6 @@
-global.attackmultiplier = 1.0
-global.testvar = 0
-global.boughtsomething = 0
-global.sale = 1.0
+global.attackmultiplier = 1.0;
+global.testvar = 0;
+global.boughtsomething = 0;
+global.sale = 1.0;
 global.bullets = 3;
 global.bossunlockcounter = 0;

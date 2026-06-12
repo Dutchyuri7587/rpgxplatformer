@@ -2,10 +2,8 @@
 ___________________________________________
 ############################################################################################
 ERROR in action number 1
-of  Step Event0 for object O_battle_manager:
-Variable struct.bullets(100031, -2147483648) not set before reading it.
- at gml_Script_anon@2006@___struct___9@___struct___5@SC_rpg_data (line 84) -                      if (bullets > 0)
+of Draw Event for object O_menu:
+Push :: Execution Error - Variable Index [4] out of range [4] - -6.options(100035,4)
+ at gml_Object_O_menu_Draw_0 (line 21) -               var _str = options[_optionstoshow][0];
 ############################################################################################
-gml_Script_anon@2006@___struct___9@___struct___5@SC_rpg_data (line 84)
-gml_Script_battlestateperformaction@gml_Object_O_battle_manager_Create_0 (line 200) -                      currentaction.func(currentuser, currenttargets);
-gml_Object_O_battle_manager_Step_0 (line 1) - battlestate();
+gml_Object_O_menu_Draw_0 (line 21)

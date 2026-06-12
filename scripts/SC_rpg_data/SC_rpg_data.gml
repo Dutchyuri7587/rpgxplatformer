@@ -71,7 +71,7 @@ global.actionlibrarby =
 		glock:
 	{
 		name: "gun.",
-		description: "Is that a fucking gun",
+		description: "Is that a gun???",
 		submenu: -1, //whar?
 		targetrequired: true,
 		targetenemybydefault: true,
@@ -79,20 +79,48 @@ global.actionlibrarby =
 		useranimation: "attack",
 		effectsprite: S_rpg_hitfx,
 		effectontarget: MODE.ALWAYS,
-		bullets: 3,
 		func: function(_user, _targets)
 		{
-			if (bullets > 0)
+			if (global.bullets > 0)
 			{
 				removebullet(_user);
-				var _damage = ceil((_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50)) * global.attackmultiplier);
+				var _damage = ceil((_user.strength*3 + choose(_user.strength * 0.25*3, _user.strength * 0.50*3)) * global.attackmultiplier);
 				battlechangehp(_targets[0], -_damage, 0);
 			}
 			else
 			{
-				
+				nobullets(_user);
 			}
 			
+		}
+	},
+	
+	testmenu:
+	{
+		name: "test1",
+		description: "{0} magic's an enemy!",
+		submenu: "test", //whar?
+		mpcost: 4,
+		targetrequired: true,
+		targetenemybydefault: true,
+		targetall: MODE.NEVER,
+		useranimation: "attack",
+		effectsprite: S_rpg_hitfx,
+		effectontarget: MODE.ALWAYS,
+		func: function(_user, _targets)
+		{
+			var _damage = irandom_range(10, 15);
+			if (_user.mp >= mpcost)
+			{
+				battlechangehp(_targets[0], -_damage);
+				battlechangemp(_user, -mpcost);
+			}
+			else
+			{
+				failattackcausemp(_user, -_damage);
+				effectontarget = MODE.NEVER;
+				effectsprite = S_rpg_noeffect;
+			}
 		}
 	},
 	
@@ -134,9 +162,8 @@ global.party =
 		maxmp: 50,
 		minmp: 0,
 		strength: 5,
-		bullets: 3,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
-		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.magic, global.actionlibrarby.magichitall]
+		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.testmenu, global.actionlibrarby.magic, global.actionlibrarby.magichitall]
 	}
 ];
 

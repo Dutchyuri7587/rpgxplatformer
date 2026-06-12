@@ -36,8 +36,17 @@ global.actionlibrarby =
 		func: function(_user, _targets)
 		{
 			var _damage = irandom_range(10, 15);
-			battlechangehp(_targets[0], -_damage);
-			battlechangemp(_user, -mpcost)
+			if (_user.mp >= mpcost)
+			{
+				battlechangehp(_targets[0], -_damage);
+				battlechangemp(_user, -mpcost);
+			}
+			else
+			{
+				failattackcausemp(_user, -_damage);
+				effectontarget = MODE.NEVER;
+				effectsprite = S_rpg_noeffect;
+			}
 		}
 	},
 	magichitall:

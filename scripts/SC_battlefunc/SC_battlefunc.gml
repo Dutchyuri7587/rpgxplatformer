@@ -75,3 +75,18 @@ function givemoney()
 		global.money += moneyworth;
 	}
 }
+
+function failattackcausemp(_user, _amount)
+{
+	effectontarget = MODE.NEVER;
+	effectsprite = S_rpg_noeffect;
+	var _col = c_white;
+	instance_create_depth
+	(
+	_user.x,
+	_user.y,
+	_user.depth-1,
+	O_battlefloatingtext,
+	{font: testfont, col: _col, text: string("no mp!")}
+	);
+}

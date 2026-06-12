@@ -101,6 +101,7 @@
     {"name":"S_playerplatjump","order":2,"path":"sprites/S_playerplatjump/S_playerplatjump.yy",},
     {"name":"S_playerplatrun","order":3,"path":"sprites/S_playerplatrun/S_playerplatrun.yy",},
     {"name":"S_playerplatwalk","order":4,"path":"sprites/S_playerplatwalk/S_playerplatwalk.yy",},
+    {"name":"S_rpg_noeffect","order":1,"path":"sprites/S_rpg_noeffect/S_rpg_noeffect.yy",},
     {"name":"S_semisolidmoving","order":6,"path":"sprites/S_semisolidmoving/S_semisolidmoving.yy",},
     {"name":"S_semisolidwall","order":5,"path":"sprites/S_semisolidwall/S_semisolidwall.yy",},
     {"name":"S_slope45_2","order":1,"path":"sprites/S_slope45_2/S_slope45_2.yy",},

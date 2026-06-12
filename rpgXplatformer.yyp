@@ -145,6 +145,7 @@
     {"id":{"name":"S_playerplatrun","path":"sprites/S_playerplatrun/S_playerplatrun.yy",},},
     {"id":{"name":"S_playerplatwalk","path":"sprites/S_playerplatwalk/S_playerplatwalk.yy",},},
     {"id":{"name":"S_rpg_hitfx","path":"sprites/S_rpg_hitfx/S_rpg_hitfx.yy",},},
+    {"id":{"name":"S_rpg_noeffect","path":"sprites/S_rpg_noeffect/S_rpg_noeffect.yy",},},
     {"id":{"name":"S_semisolidmoving","path":"sprites/S_semisolidmoving/S_semisolidmoving.yy",},},
     {"id":{"name":"S_semisolidwall","path":"sprites/S_semisolidwall/S_semisolidwall.yy",},},
     {"id":{"name":"S_slope45_1","path":"sprites/S_slope45_1/S_slope45_1.yy",},},

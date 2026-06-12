@@ -7,7 +7,7 @@ draw_set_valign(fa_top);
 var _desc = !(description == -1);
 var _scrollpush = max(0, hover - (visibleoptionsmax-1));
 
-for (l = 0; 1 < (visibleoptionsmax + _desc); l++)
+for (l = 0; l < (visibleoptionsmax + _desc); l++)
 {
 	if (l >= array_length(options)) break;
 	draw_set_color(c_white);
@@ -18,6 +18,7 @@ for (l = 0; 1 < (visibleoptionsmax + _desc); l++)
 	else
 	{
 		var _optionstoshow = l - _desc + _scrollpush;
+		if (_optionstoshow < 0 || _optionstoshow >= array_length(options)) continue;
 		var _str = options[_optionstoshow][0];
 		if (hover == _optionstoshow - _desc)
 		{

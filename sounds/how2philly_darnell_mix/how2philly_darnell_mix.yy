@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Bopeebo_darnell_mix",
+  "%Name":"how2philly_darnell_mix",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":147.1537,
   "exportDir":"",
-  "name":"Bopeebo_darnell_mix",
+  "name":"how2philly_darnell_mix",
   "parent":{
     "name":"Music",
     "path":"folders/Audio/Music.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Bopeebo_darnell_mix.ogg",
+  "soundFile":"how2philly_darnell_mix.ogg",
   "volume":1.0,
 }

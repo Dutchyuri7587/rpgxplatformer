@@ -4,7 +4,8 @@ decide what the rpg shop should sell
 decide what the platformer shop should sell
 decide on possible rpg enemies
 decide how many rpg levels
-decide on moves in rpg
+decide on moves in rpg - almost done!
 make assets
 reposition the ui to actually be yk, correct.
-implement music
+implement music - done!
+make a main menu

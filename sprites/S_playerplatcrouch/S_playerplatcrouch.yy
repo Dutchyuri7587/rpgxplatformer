@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"player_plat",
-    "path":"folders/Sprites/Platformer/player_plat.yy",
+    "name":"player",
+    "path":"folders/Sprites/Platformer/player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

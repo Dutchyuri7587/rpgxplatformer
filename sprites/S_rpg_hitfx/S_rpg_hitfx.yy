@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"effects",
-    "path":"folders/Sprites/RPG/Player_rpg/effects.yy",
+    "name":"Effects",
+    "path":"folders/Sprites/RPG/Effects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

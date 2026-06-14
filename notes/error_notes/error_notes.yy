@@ -1,7 +1,7 @@
 {
   "$GMNotes":"v1",
-  "%Name":"bugs",
-  "name":"bugs",
+  "%Name":"error_notes",
+  "name":"error_notes",
   "parent":{
     "name":"rpgXplatformer",
     "path":"rpgXplatformer.yyp",

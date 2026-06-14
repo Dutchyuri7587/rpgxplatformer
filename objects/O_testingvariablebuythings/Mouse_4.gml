@@ -11,6 +11,7 @@ if position_meeting(mouse_x, mouse_y, O_testingvariablebuythings)
 				mousepressed = false;
 				global.testvar += 1;
 				timesbeenbought += 1;
+				audio_play_sound(dogtrill,1,false);
 				if (timesbeenbought = maxtimesbeenbought)
 				{
 					hasbeenbought = true;

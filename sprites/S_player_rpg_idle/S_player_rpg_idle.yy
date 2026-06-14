@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Player_rpg",
-    "path":"folders/Sprites/RPG/Player_rpg.yy",
+    "name":"animations",
+    "path":"folders/Sprites/RPG/Player/animations.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

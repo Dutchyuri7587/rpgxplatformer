@@ -11,6 +11,7 @@ if position_meeting(mouse_x, mouse_y, O_othernewbutton)
 				mousepressed = false;
 				global.attackmultiplier = 1.5;
 				timesbeenbought += 1;
+				audio_play_sound(dogtrill,1,false);
 				if (timesbeenbought = maxtimesbeenbought)
 				{
 					hasbeenbought = true;

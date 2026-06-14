@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"O_player_rpg",
+  "%Name":"O_musicsetter",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_player_rpg",
+  "name":"O_musicsetter",
   "overriddenProperties":[],
   "parent":{
-    "name":"RPG",
-    "path":"folders/Objects/RPG.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_player_rpg_noanim",
-    "path":"sprites/S_player_rpg_noanim/S_player_rpg_noanim.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

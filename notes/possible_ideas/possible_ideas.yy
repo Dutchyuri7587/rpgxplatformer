@@ -1,7 +1,7 @@
 {
   "$GMNotes":"v1",
-  "%Name":"Note5",
-  "name":"Note5",
+  "%Name":"possible_ideas",
+  "name":"possible_ideas",
   "parent":{
     "name":"rpgXplatformer",
     "path":"rpgXplatformer.yyp",

@@ -1,7 +1,7 @@
 {
   "$GMNotes":"v1",
-  "%Name":"possible_deas",
-  "name":"possible_deas",
+  "%Name":"bugs_or_unfinished",
+  "name":"bugs_or_unfinished",
   "parent":{
     "name":"rpgXplatformer",
     "path":"rpgXplatformer.yyp",

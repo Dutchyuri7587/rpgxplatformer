@@ -3,7 +3,7 @@ decide on how many levels
 decide what the rpg shop should sell
 decide what the platformer shop should sell
 decide on possible rpg enemies
-decide how many rpg levels
+decide how many rpg levels - done!
 decide on moves in rpg - almost done!
 make assets
 reposition the ui to actually be yk, correct.

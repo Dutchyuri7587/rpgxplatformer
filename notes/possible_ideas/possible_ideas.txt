@@ -7,3 +7,6 @@ you can display the price of something by doing in the draw event: draw_text_tra
 make a miss chance
 
 the gun has bullets, you get 3 bullets, and you can get a restock at the shop.
+
+je kan doen dat de secret boss niet gewoon een simpel knopje is op de winscreen, maar dat er iets verandert vergeleken met de normale winscreen, en als de player daarop drukt, triggert een cutscene (of een nieuwe soort movement die eerder op rpg overworld lijkt), waar je dan naar de secret guy moet lopen, die je naar de boss level brengt.
+je kan ook doen dat drukken op het veranderde stuk, je naar een nieuw platformer level brengt, die je via een secret pad naar de boss level kan brengen.

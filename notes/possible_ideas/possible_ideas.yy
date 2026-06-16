@@ -3,8 +3,8 @@
   "%Name":"possible_ideas",
   "name":"possible_ideas",
   "parent":{
-    "name":"rpgXplatformer",
-    "path":"rpgXplatformer.yyp",
+    "name":"organisation",
+    "path":"folders/organisation.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

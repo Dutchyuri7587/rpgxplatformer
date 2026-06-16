@@ -1,7 +1,7 @@
 {
   "$GMNotes":"v1",
-  "%Name":"moves_rpg",
-  "name":"moves_rpg",
+  "%Name":"enemies",
+  "name":"enemies",
   "parent":{
     "name":"themes??",
     "path":"folders/organisation/themes??.yy",

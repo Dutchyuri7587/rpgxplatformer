@@ -3,8 +3,8 @@
   "%Name":"error_notes",
   "name":"error_notes",
   "parent":{
-    "name":"rpgXplatformer",
-    "path":"rpgXplatformer.yyp",
+    "name":"organisation",
+    "path":"folders/organisation.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"carol_appeared",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":41.6,
+  "exportDir":"",
+  "name":"carol_appeared",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Audio/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"carol_appeared.ogg",
+  "volume":1.0,
+}

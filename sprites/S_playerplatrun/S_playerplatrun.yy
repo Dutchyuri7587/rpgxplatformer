@@ -27,7 +27,7 @@
   "origin":7,
   "parent":{
     "name":"player",
-    "path":"folders/Sprites/Platformer/player.yy",
+    "path":"folders/Sprites/Platformer/entities/player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

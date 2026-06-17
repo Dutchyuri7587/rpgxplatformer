@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_player_plat",
+  "%Name":"O_platenemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_player_plat",
+  "name":"O_platenemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entities",
-    "path":"folders/Objects/Platformer/Entities.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Platformer/Entities/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_player_plat",
-    "path":"sprites/S_player_plat/S_player_plat.yy",
+    "name":"S_platenemy",
+    "path":"sprites/S_platenemy/S_platenemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

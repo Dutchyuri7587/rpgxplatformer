@@ -91,7 +91,6 @@ global.actionlibrarby =
 			{
 				nobullets(_user);
 			}
-			
 		}
 	},
 	

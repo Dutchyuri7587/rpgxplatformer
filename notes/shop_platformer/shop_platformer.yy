@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"shop_platformer",
+  "name":"shop_platformer",
+  "parent":{
+    "name":"themes??",
+    "path":"folders/organisation/themes??.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

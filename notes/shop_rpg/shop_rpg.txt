@@ -1,0 +1,23 @@
+bullet refills
+
+
+attack multiplier
+defense multiplier(?)
+sale multiplier
+
+basic attack: attacks twice
+
+gun upgrade: add a bullet to the clip/add another dmg multiplier
+
+skateboard: improves the aoe dmg to be on par with the single target damage
+
+acid: make the DOT effect longer
+
+bottle: makes the chance higher (1/50)
+
+bandage: spawns a mininini heal bot upon healing/heals more ig
+
+heal bot: reduces mp it costs
+
+
+totem of undying: lets you die once

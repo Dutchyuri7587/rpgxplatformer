@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"shop_rpg",
+  "name":"shop_rpg",
+  "parent":{
+    "name":"themes??",
+    "path":"folders/organisation/themes??.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

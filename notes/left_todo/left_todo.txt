@@ -1,8 +1,8 @@
 finish the rpg part
-decide on how many levels
+decide on how many levels - done
 decide what the rpg shop should sell
 decide what the platformer shop should sell
-decide on possible rpg enemies
+decide on possible rpg enemies - i think done!
 decide how many rpg levels - done!
 decide on moves in rpg - almost done!
 make assets

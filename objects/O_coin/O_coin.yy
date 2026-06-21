@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"O_player_plat",
+  "%Name":"O_coin",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_platenemy","path":"objects/O_platenemy/O_platenemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_player_plat","path":"objects/O_player_plat/O_player_plat.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_player_plat",
+  "name":"O_coin",
   "overriddenProperties":[],
   "parent":{
     "name":"Entities",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_player_plat",
-    "path":"sprites/S_player_plat/S_player_plat.yy",
+    "name":"S_coin",
+    "path":"sprites/S_coin/S_coin.yy",
   },
   "spriteMaskId":null,
   "visible":true,

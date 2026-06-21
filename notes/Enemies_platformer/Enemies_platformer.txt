@@ -1,0 +1,18 @@
+Cafe:
+Kat (goomba-like)
+beeg kat (goomba-like)(takes 3 jumps)
+
+Snow:
+Sneeuwman (goomba-like)(you bounce on them multiple times)
+cadeau (goomba-like)(wanneer vermoord, explodeert)
+
+Brouwerij:
+Bier + glas (goomba-like)(na eerste stomp verandert het naar een speciaale soort enemy)
+bier ton (unkillable)(rolt steeds verder, is snel, gaat dood als het een muur raakt)
+
+Digitale wereld:
+spam-mail (goomba-like)(you spawn like a bajillion of them)
+Search engine (spawner)(spawns a random enemy from any zone of the game (no bosses tho))
+
+Drukke fabriek:
+robot (goomba-like)()

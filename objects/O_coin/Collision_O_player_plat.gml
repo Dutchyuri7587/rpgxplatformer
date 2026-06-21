@@ -1,0 +1,2 @@
+givemoney();
+instance_destroy();

@@ -1,3 +1,11 @@
+cafe:
+cat
+really big cat
+honestly concerningly big cat
+levende koffie brouwer
+random barista
+levende sandwich
+stoel
 
 
 snow area:
@@ -8,17 +16,6 @@ snow mage
 the snowy knight
 christmas tree
 presents: (my mango, is to blow up!)
-
-
-
-cafe:
-cat
-really big cat
-honestly concerningly big cat
-levende koffie brouwer
-random barista
-levende sandwich
-stoel
 
 
 brouwerij:

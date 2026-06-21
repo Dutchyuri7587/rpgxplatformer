@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Enemies_platformer",
+  "name":"Enemies_platformer",
+  "parent":{
+    "name":"themes??",
+    "path":"folders/organisation/themes??.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

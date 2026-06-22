@@ -1,0 +1,11 @@
+falling code for enemy
+
+if !place_meeting(x-7,y+2,O_wall)
+{
+	y += velocity;
+}
+
+if place_meeting(x,y,O_wall)
+{
+	y = O_wall.bbox_top;
+}

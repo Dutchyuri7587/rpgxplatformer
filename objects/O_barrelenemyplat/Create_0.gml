@@ -1,4 +1,4 @@
-xspeed = 1.5;
+xspeed = -1.5;
 yspeed = 1;
 velocity = 0.275;
 movedirection = 1;

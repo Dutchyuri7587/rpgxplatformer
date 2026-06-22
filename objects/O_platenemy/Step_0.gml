@@ -1,7 +1,13 @@
-if place_meeting(x,y-1,O_wall)
+if place_meeting(x,y,O_wall)
 {
-	xspeed = xspeed*-1;
-	movedirection = movedirection*-1;
+	xspeed *= -1;
+	movedirection *= -1;
+}
+
+if !place_meeting(x,y+2,O_wall)
+{
+	xspeed *= -1;
+	movedirection *= -1;
 }
 
 x += xspeed;

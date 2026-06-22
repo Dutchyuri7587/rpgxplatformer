@@ -1,2 +1,2 @@
 //teleport coords
-target_room = Room1;
+target_room = firstroom;

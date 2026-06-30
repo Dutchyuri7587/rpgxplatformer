@@ -226,6 +226,8 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 		if jumpcount == 0 && coyotejumptimer <= 0 {jumpcount = 1;};
 	}
 	
+
+	
 	//jump jump into the air! || initiate the jump
 	var _floorissolid = false;
 	if instance_exists(myfloorplat)

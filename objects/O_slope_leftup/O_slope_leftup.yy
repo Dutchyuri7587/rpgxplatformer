@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_slope45_1",
+  "%Name":"O_slope_leftup",
   "eventList":[],
   "managed":true,
-  "name":"O_slope45_1",
+  "name":"O_slope_leftup",
   "overriddenProperties":[],
   "parent":{
     "name":"Ground",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_slope45_1",
-    "path":"sprites/S_slope45_1/S_slope45_1.yy",
+    "name":"S_slope45_4",
+    "path":"sprites/S_slope45_4/S_slope45_4.yy",
   },
   "spriteMaskId":null,
   "visible":true,

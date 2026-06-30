@@ -89,3 +89,8 @@ downslopesemisolid = noone;
 forgetsemisolid = noone;
 moveplatxspeed = 0;
 moveplatmaxyspd = terminalvlcity;
+
+//enemy things
+haskilledenemy = false
+enemyjumpkilltimer = 12000;
+enemyjumpkillframes = 12000;

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_slope45_3",
+  "%Name":"O_slope_leftdown",
   "eventList":[],
   "managed":true,
-  "name":"O_slope45_3",
+  "name":"O_slope_leftdown",
   "overriddenProperties":[],
   "parent":{
     "name":"Ground",

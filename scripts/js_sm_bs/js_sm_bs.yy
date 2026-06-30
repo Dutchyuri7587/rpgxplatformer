@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"js_sm_bs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"js_sm_bs",
+  "parent":{
+    "name":"Platformer",
+    "path":"folders/Scripts/Platformer.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

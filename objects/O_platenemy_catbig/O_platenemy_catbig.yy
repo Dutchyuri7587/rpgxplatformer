@@ -11,8 +11,8 @@
   "name":"O_platenemy_catbig",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Platformer/Entities/Enemies.yy",
+    "name":"Testenemies",
+    "path":"folders/Objects/Platformer/Entities/Enemies/Testenemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

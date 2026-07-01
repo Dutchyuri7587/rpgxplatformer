@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"O_platenemy_catbig_1",
+  "%Name":"O_platenemy_snowyballs",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,7 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_platenemy_catbig_1",
+  "name":"O_platenemy_snowyballs",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_platenemy_catbig",
-    "path":"sprites/S_platenemy_catbig/S_platenemy_catbig.yy",
+    "name":"S_platenemy_stage0",
+    "path":"sprites/S_platenemy_stage0/S_platenemy_stage0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

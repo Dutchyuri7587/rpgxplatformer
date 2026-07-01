@@ -92,5 +92,6 @@ moveplatmaxyspd = terminalvlcity;
 
 //enemy things
 haskilledenemy = false
-enemyjumpkilltimer = 12000;
-enemyjumpkillframes = 12000;
+enemyjumpkilltimer = 0;
+enemyjumpkillframes = 12;
+enemykilljumpspeed = -5;

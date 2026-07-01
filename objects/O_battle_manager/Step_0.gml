@@ -1,6 +1,5 @@
 battlestate();
 
-//set battle theme
 if (room = rpgbattletest)
 {
 	roomtheme = 1;

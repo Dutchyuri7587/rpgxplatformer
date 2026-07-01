@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"js_sm_bs",
+  "%Name":"SC_js_sm_bs",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"js_sm_bs",
+  "name":"SC_js_sm_bs",
   "parent":{
     "name":"Platformer",
     "path":"folders/Scripts/Platformer.yy",

@@ -10,8 +10,8 @@
   "name":"O_effectspawnertest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Platformer",
-    "path":"folders/Objects/Platformer.yy",
+    "name":"effects",
+    "path":"folders/Objects/effects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

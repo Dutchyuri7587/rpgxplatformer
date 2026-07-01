@@ -10,8 +10,8 @@
   "name":"O_battlefloatingtext",
   "overriddenProperties":[],
   "parent":{
-    "name":"setup",
-    "path":"folders/Objects/RPG/setup.yy",
+    "name":"effects",
+    "path":"folders/Objects/effects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

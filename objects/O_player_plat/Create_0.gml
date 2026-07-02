@@ -66,7 +66,7 @@ crouching = false;
 	grvty = .275;
 	terminalvlcity = 6.5;
 
-	maxamountjumps = 1;
+	maxamountjumps = 2;
 	jumpcount = 0;
 	holdingjumptimer = 0;
 	jumpholdframes = 12; //frames to be able to hold the jump

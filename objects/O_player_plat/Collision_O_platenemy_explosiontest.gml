@@ -6,7 +6,8 @@
 		
 		if (O_platenemy_explosiontest.hits >= O_platenemy_explosiontest.maxhits)
 		{
-			instance_destroy(other);
+			instance_create_depth(x,y, -9999999, O_explosion);
+			instance_destroy(O_platenemy_explosiontest.id);
 		}
 
 	}

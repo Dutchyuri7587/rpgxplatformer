@@ -95,3 +95,7 @@ haskilledenemy = false
 enemyjumpkilltimer = 0;
 enemyjumpkillframes = 12;
 enemykilljumpspeed = -5;
+
+//health
+hp = 5;
+maxhp = 5;

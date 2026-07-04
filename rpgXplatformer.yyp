@@ -73,6 +73,7 @@
     {"id":{"name":"Enemies_platformer","path":"notes/Enemies_platformer/Enemies_platformer.yy",},},
     {"id":{"name":"enemies","path":"notes/enemies/enemies.yy",},},
     {"id":{"name":"error_notes","path":"notes/error_notes/error_notes.yy",},},
+    {"id":{"name":"goals","path":"notes/goals/goals.yy",},},
     {"id":{"name":"left_todo","path":"notes/left_todo/left_todo.yy",},},
     {"id":{"name":"Locations","path":"notes/Locations/Locations.yy",},},
     {"id":{"name":"moves_rpg","path":"notes/moves_rpg/moves_rpg.yy",},},

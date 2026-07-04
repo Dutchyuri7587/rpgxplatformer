@@ -99,3 +99,7 @@ enemykilljumpspeed = -5;
 //health
 hp = 5;
 maxhp = 5;
+gothitplayer = false;
+
+invincibilitytime = 0 
+invincibilityframes = 180 // 3 seconds

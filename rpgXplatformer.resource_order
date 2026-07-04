@@ -44,6 +44,7 @@
     {"name":"Enemies_platformer","order":5,"path":"notes/Enemies_platformer/Enemies_platformer.yy",},
     {"name":"enemies","order":2,"path":"notes/enemies/enemies.yy",},
     {"name":"error_notes","order":1,"path":"notes/error_notes/error_notes.yy",},
+    {"name":"goals","order":8,"path":"notes/goals/goals.yy",},
     {"name":"left_todo","order":2,"path":"notes/left_todo/left_todo.yy",},
     {"name":"Locations","order":1,"path":"notes/Locations/Locations.yy",},
     {"name":"possible_ideas","order":5,"path":"notes/possible_ideas/possible_ideas.yy",},

@@ -1,0 +1,14 @@
+What is needed for alpha 1.0:
+
+platformer:
+
+	enemies: done
+	health platformer: done
+	collisions: done
+	testlevels:
+
+rpg:
+	
+	enemies:
+	ending a battle:
+	testbattles:

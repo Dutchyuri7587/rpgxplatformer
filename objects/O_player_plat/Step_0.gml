@@ -505,6 +505,16 @@ if place_meeting(x,y,O_wall)
 {
 	image_blend = c_blue
 }
+
+if gothitplayer = true
+{
+	invincibilitytime--;
+	
+	if invincibilitytime <= 0
+	{
+		gothitplayer = false;
+	}
+}
 	
 //sprite controi
 	//walk

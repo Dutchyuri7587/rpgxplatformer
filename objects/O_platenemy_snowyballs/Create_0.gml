@@ -9,9 +9,13 @@ falling = false
 //death
 maxhits = 4;
 hits = 0;
+hasbeenhit = false;
 
 //kill or be killed
 damage = 1;
+
+enemyinvincibilitytime = 0;
+enemyinvincibilityframes = 10;
 
 
 //assets for the different stages

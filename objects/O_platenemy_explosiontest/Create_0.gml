@@ -10,5 +10,10 @@ falling = false
 maxhits = 1;
 hits = 0;
 
+hasbeenhit = false;
+
 //kill or be killed
 damage = 1;
+
+enemyinvincibilitytime = 0;
+enemyinvincibilityframes = 10;

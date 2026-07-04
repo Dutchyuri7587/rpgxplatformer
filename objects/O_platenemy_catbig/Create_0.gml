@@ -9,6 +9,10 @@ falling = false
 //death
 maxhits = 3;
 hits = 0;
+hasbeenhit = false;
 
 //kill the player ya dingus
 damage = 1;
+
+enemyinvincibilitytime = 0;
+enemyinvincibilityframes = 10;

@@ -1,8 +1,9 @@
-if (bbox_bottom-4 <= O_platenemy_snowyballs.bbox_top+2)
+if (bbox_bottom-4 <= other.bbox_top+2)
 {
-
+	other.enemyinvincibilitytime = other.enemyinvincibilityframes;
+	other.hasbeenhit = true;
 	enemyjump();
-	O_platenemy_snowyballs.hits += 1;
+	other.hits += 1;
 	
 	instance_create_depth
 	(
@@ -12,9 +13,15 @@ if (bbox_bottom-4 <= O_platenemy_snowyballs.bbox_top+2)
 	O_effectspawnertest,
 	{sprite: S_platenemy_stage3, xscale: 1, yscale: 1}
 	);
-	
-	if (O_platenemy_snowyballs.hits >= O_platenemy_snowyballs.maxhits)
+		
+	if (other.hits >= other.maxhits)
 	{
-		instance_destroy(other);
+		instance_destroy(other.id);
 	}
+}
+else if (!other.hasbeenhit && !gothitplayer)
+{
+	hp -= other.damage;
+	gothitplayer = true;
+    invincibilitytime = invincibilityframes;
 }

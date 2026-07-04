@@ -7,8 +7,6 @@ if (bbox_bottom-4 <= other.bbox_top+2)
 		
 	if (other.hits >= other.maxhits)
 	{
-
-		
 		instance_create_depth
 		(
 		x,

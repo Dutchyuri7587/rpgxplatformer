@@ -10,5 +10,6 @@ platformer:
 rpg:
 	
 	enemies:
-	ending a battle:
+	ending a battle: DONE!!!!!!!!!!!
 	testbattles:
+	attacks can hit multiple enemies: 

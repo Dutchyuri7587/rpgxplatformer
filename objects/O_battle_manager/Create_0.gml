@@ -254,6 +254,10 @@ function battlestatevictorycheck()
 		instance_activate_all();
 		instance_destroy(creator);
 		instance_destroy();
+		
+		O_player_rpg.x = O_teleport.x
+		O_player_rpg.y = O_teleport.y
+		
 	}	
 	
 	battlestate = battlestateturnprogress;	

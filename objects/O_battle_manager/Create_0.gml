@@ -14,7 +14,9 @@ currentuser = noone;
 currentaction = -1;
 currenttargets = noone;
 acting = false;
-roomtheme = 1;
+roomtheme = 1; // sets the battle bg
+
+battlewon = false;
 
 
 
@@ -215,9 +217,46 @@ function battlestateperformaction()
 
 function battlestatevictorycheck()
 {
-	battlestate = battlestateturnprogress;
-	/*haswonbattle = true;*/
+	refreshpartyhealthorder = function()
+	{
+		partyunitsbyhp = []
+		array_copy(partyunitsbyhp,0, partyunits, 0, array_length(partyunits));
+		array_sort(partyunitsbyhp, function(_1, _2)
+		{
+			return _2.hp - _1.hp;
+		});
+	}
+	refreshpartyhealthorder();
 	
+	refreshenemyhealthorder = function()
+	{
+		enemyunitsbyhp = []
+		array_copy(enemyunitsbyhp, 0, enemyunits, 0, array_length(enemyunits));
+		array_sort(enemyunitsbyhp, function(_1, _2)
+		{
+			return _2.hp - _1.hp;
+		});
+	}
+	
+	refreshenemyhealthorder();
+	
+	if (partyunitsbyhp[0].hp <= 0)
+	{
+		show_message("you lost");
+	}
+	
+	if (enemyunitsbyhp[0].hp <= 0)
+	{
+		for (var i = 0; i <array_length(global.party); i++)
+		{
+			global.party[i].hp = partyunits[i].hp
+		}
+		instance_activate_all();
+		instance_destroy(creator);
+		instance_destroy();
+	}	
+	
+	battlestate = battlestateturnprogress;	
 }
 
 function battlestateturnprogress()
@@ -231,6 +270,15 @@ function battlestateturnprogress()
 		turn = 0;
 		roundcount++;
 	}
+	
+	//check if all enemies are dead, if so, win the battle.
+	if global.enemies.testenemy.hp <= 0
+	{
+		battlewon = true;
+	}
+	
+	//check if the player is dead, if so, lose the battle.
+	
 	battlestate = battlestateselectaction;
 }
 

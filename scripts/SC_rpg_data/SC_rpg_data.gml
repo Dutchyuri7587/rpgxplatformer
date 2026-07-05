@@ -172,7 +172,7 @@ global.enemies =
 	testenemy:
 	{
 		name: "testenemy",
-		hp: 50,
+		hp: 10,
 		maxhp: 50,
 		mp: 0,
 		maxmp: 0,

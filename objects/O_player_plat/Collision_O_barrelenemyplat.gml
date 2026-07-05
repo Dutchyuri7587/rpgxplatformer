@@ -1,6 +1,6 @@
 if (!gothitplayer)
 {
-	hp -= other.damage;
+	global.plathp -= other.damage;
 	gothitplayer = true;
     invincibilitytime = invincibilityframes;
 }

@@ -20,7 +20,7 @@ if (bbox_bottom-4 <= other.bbox_top+2)
 }
 else if (!other.hasbeenhit && !gothitplayer)
 {
-	hp -= other.damage;
+	global.plathp -= other.damage;
 	gothitplayer = true;
     invincibilitytime = invincibilityframes;
 }

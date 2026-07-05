@@ -66,7 +66,7 @@ crouching = false;
 	grvty = .275;
 	terminalvlcity = 6.5;
 
-	maxamountjumps = 2;
+	maxamountjumps = global.maxplatjumps;
 	jumpcount = 0;
 	holdingjumptimer = 0;
 	jumpholdframes = 12; //frames to be able to hold the jump
@@ -97,7 +97,6 @@ enemyjumpkillframes = 12;
 enemykilljumpspeed = -5;
 
 //health
-hp = 5;
 maxhp = 5;
 gothitplayer = false;
 

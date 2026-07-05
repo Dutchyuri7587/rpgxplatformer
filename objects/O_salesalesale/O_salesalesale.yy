@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_button_shop_2",
-    "path":"sprites/S_button_shop_2/S_button_shop_2.yy",
+    "name":"S_shopsale",
+    "path":"sprites/S_shopsale/S_shopsale.yy",
   },
   "spriteMaskId":null,
   "visible":true,

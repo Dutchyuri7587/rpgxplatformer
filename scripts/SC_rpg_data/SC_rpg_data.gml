@@ -180,7 +180,7 @@ global.enemies =
 		sprites: {idle: S_testenemy_idle, attack: S_testenemy_attack},
 		actions: [global.actionlibrarby.enemy_attack],
 		XPvalue: 5,
-		moneyworth: 25,
+		moneyworth: 10,
 		AIscript: function()
 		{
 			//attack player
@@ -204,7 +204,7 @@ global.enemies =
 		sprites: {idle: S_snowenemy_idle, attack: S_snowenemy_attack},
 		actions: [global.actionlibrarby.enemy_attack],
 		XPvalue: 5,
-		moneyworth: 100,
+		moneyworth: 15,
 		AIscript: function()
 		{
 			//attack player

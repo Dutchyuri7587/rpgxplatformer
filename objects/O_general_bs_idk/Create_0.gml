@@ -6,3 +6,4 @@ global.bullets = 3;
 global.bossunlockcounter = 0;
 global.plathp = 5
 global.maxplatjumps = 1
+global.money = 0;

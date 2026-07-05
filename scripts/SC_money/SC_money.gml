@@ -16,3 +16,12 @@ function givemoney()
 		);
 	}
 }
+
+function givemoneyrpg()
+{
+	if (hasgivenmoney = false)
+	{
+		hasgivenmoney = true;
+		global.money += moneyworth;
+	}
+}

@@ -9,3 +9,20 @@ function enemyjump()
 		enemyjumpkilltimer -= 1;
 	}
 }
+
+function playerhitkb()
+{
+	if invincibilitytime >= 170
+	{
+		if face = -1
+		{
+			x += 2.5;
+			xspeed = 0;
+		}
+		if face = 1
+		{
+			x -= 2.5;
+			xspeed = 0;
+		}
+	}
+}

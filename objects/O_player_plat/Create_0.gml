@@ -103,3 +103,5 @@ gothitplayer = false;
 
 invincibilitytime = 0 
 invincibilityframes = 180 // 3 seconds
+
+alpha_amount = 0.15;

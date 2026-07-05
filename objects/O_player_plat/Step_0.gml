@@ -196,9 +196,13 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 			while !place_meeting(x + xspeed, y + _subpixel, O_wall) {y += _subpixel; };
 		}	
 	}
+	
+		playerhitkb();
 
 	//moving
 	x += xspeed;
+	
+
 
 //y movement!
 

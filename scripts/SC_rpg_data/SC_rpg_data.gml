@@ -79,12 +79,13 @@ global.actionlibrarby =
 		useranimation: "attack",
 		effectsprite: S_rpg_hitfx,
 		effectontarget: MODE.ALWAYS,
+		
 		func: function(_user, _targets)
 		{
 			if (global.bullets > 0)
 			{
 				removebullet(_user);
-				var _damage = ceil((_user.strength*3 + choose(_user.strength * 0.25*3, _user.strength * 0.50*3)) * global.attackmultiplier);
+				var _damage = ceil((_user.strength*3 + choose(_user.strength * 0.25*3, _user.strength * 0.50*3) + _user.gunupgrade) * global.attackmultiplier);
 				battlechangehp(_targets[0], -_damage, 0);
 			}
 			else
@@ -149,23 +150,21 @@ enum MODE
 	ALWAYS = 1,
 	VARIES = 2, //multi tasrget
 }
-
-global.rpghealth = 100;
-global.rpgmaxhealth = 100;
 		
 //party data
 global.party =
 [
 	{
 		name: "player",
-		hp: global.rpghealth,
-		maxhp: global.rpgmaxhealth,
+		hp: 50,
+		maxhp: 50,
 		mp: 50,
 		maxmp: 50,
 		minmp: 0,
 		strength: 5,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
-		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.testmenu, global.actionlibrarby.magic, global.actionlibrarby.magichitall]
+		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.testmenu, global.actionlibrarby.magic, global.actionlibrarby.magichitall],
+		gunupgrade: 0
 	}
 ];
 

@@ -13,8 +13,8 @@ if position_meeting(mouse_x, mouse_y, O_rpghealthupbutton)
 				timesbeenbought += 1;
 				
 				//actual button function
-				global.party.hp += 25
-				global.party.maxhp += 25
+				global.rpghealth += 25
+				global.rpgmaxhealth += 25
 				
 				audio_play_sound(dogtrill,1,false);
 				//setup junk

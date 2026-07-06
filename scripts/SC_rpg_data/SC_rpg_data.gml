@@ -149,14 +149,17 @@ enum MODE
 	ALWAYS = 1,
 	VARIES = 2, //multi tasrget
 }
+
+global.rpghealth = 100;
+global.rpgmaxhealth = 100;
 		
 //party data
 global.party =
 [
 	{
 		name: "player",
-		hp: 100,
-		maxhp: 100,
+		hp: global.rpghealth,
+		maxhp: global.rpgmaxhealth,
 		mp: 50,
 		maxmp: 50,
 		minmp: 0,

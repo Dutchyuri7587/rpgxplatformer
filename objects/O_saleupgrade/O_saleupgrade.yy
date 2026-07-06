@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_templatebutton",
+  "%Name":"O_saleupgrade",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_templatebutton",
+  "name":"O_saleupgrade",
   "overriddenProperties":[],
   "parent":{
     "name":"alpha_1.0",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_button_shop",
-    "path":"sprites/S_button_shop/S_button_shop.yy",
+    "name":"S_shopsale",
+    "path":"sprites/S_shopsale/S_shopsale.yy",
   },
   "spriteMaskId":null,
   "visible":true,

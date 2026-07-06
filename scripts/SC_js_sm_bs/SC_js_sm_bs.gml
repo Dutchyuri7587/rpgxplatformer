@@ -18,11 +18,27 @@ function playerhitkb()
 		{
 			x += 2.5;
 			xspeed = 0;
+			if (crushed = true)
+			{
+				x -= 4.5;
+				if (!place_meeting(x,y,O_wall))
+				{
+					crushed = false;
+				}
+			}
 		}
 		if face = 1
 		{
 			x -= 2.5;
 			xspeed = 0;
+			if (crushed = true)
+			{
+				x += 4.5;
+				if (!place_meeting(x,y,O_wall))
+				{
+					crushed = false;
+				}
+			}
 		}
 	}
 }

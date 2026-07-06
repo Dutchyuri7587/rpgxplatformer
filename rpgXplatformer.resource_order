@@ -36,6 +36,7 @@
     {"name":"entities","order":1,"path":"folders/Sprites/Platformer/entities.yy",},
     {"name":"testenemies","order":5,"path":"folders/Sprites/Platformer/entities/Enemies/testenemies.yy",},
     {"name":"player","order":1,"path":"folders/Sprites/Platformer/entities/player.yy",},
+    {"name":"tilesets","order":4,"path":"folders/Sprites/Platformer/tilesets.yy",},
     {"name":"Effects","order":7,"path":"folders/Sprites/RPG/Effects.yy",},
     {"name":"Enemies","order":4,"path":"folders/Sprites/RPG/Enemies.yy",},
     {"name":"Testenemy","order":1,"path":"folders/Sprites/RPG/Enemies/Testenemy.yy",},
@@ -84,6 +85,7 @@
     {"name":"O_platenemy_snowyballs","order":3,"path":"objects/O_platenemy_snowyballs/O_platenemy_snowyballs.yy",},
     {"name":"O_platenemy","order":1,"path":"objects/O_platenemy/O_platenemy.yy",},
     {"name":"O_platjumpbuyer","order":1,"path":"objects/O_platjumpbuyer/O_platjumpbuyer.yy",},
+    {"name":"O_rpgfight1alpha1","order":9,"path":"objects/O_rpgfight1alpha1/O_rpgfight1alpha1.yy",},
     {"name":"O_rpgswordshopnbutton","order":1,"path":"objects/O_rpgswordshopnbutton/O_rpgswordshopnbutton.yy",},
     {"name":"O_salesalesale","order":6,"path":"objects/O_salesalesale/O_salesalesale.yy",},
     {"name":"O_secretboss","order":13,"path":"objects/O_secretboss/O_secretboss.yy",},
@@ -173,5 +175,6 @@
     {"name":"S_wall","order":4,"path":"sprites/S_wall/S_wall.yy",},
     {"name":"T_rpgindicators","order":2,"path":"tilesets/T_rpgindicators/T_rpgindicators.yy",},
     {"name":"T_shopindicators","order":1,"path":"tilesets/T_shopindicators/T_shopindicators.yy",},
+    {"name":"TileSet4","order":3,"path":"tilesets/TileSet4/TileSet4.yy",},
   ],
 }

@@ -508,6 +508,7 @@ image_blend = c_white
 if place_meeting(x,y,O_wall)
 {
 	image_blend = c_blue
+	crushed = true;
 }
 
 if gothitplayer = true

@@ -1,0 +1,1 @@
+target_room = R_platformer2;

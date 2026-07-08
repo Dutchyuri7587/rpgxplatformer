@@ -1,19 +1,86 @@
-if place_meeting(x,y,O_wall)
-{
-	xspeed *= -1;
-	movedirection *= -1;
-}
+//get out of solid moveplatforms that have put themselves into the player in the begin step
+#region
+	var _rightwall = noone;
+	var _leftwall = noone;
+	var _bottomwall = noone;
+	var _topwall = noone;
+	var _list = ds_list_create();
+	var _listsize = instance_place_list(x,y,O_moveplatform, _list, false);
 
-
-
-if hasbeenhit = true
-{
-	enemyinvincibilitytime--;
-	if enemyinvincibilitytime <= 0
+	//loop through all colliding move platforms
+	for (var i = 0; i < _listsize; i++)
 	{
-		hasbeenhit = false;
+		var _listinst = _list[| i];
+		
+		//ifind closest walls in each direction
+			//right walls
+			if _listinst.bbox_left - _listinst.xspeed >= bbox_right-1
+			{
+				if !instance_exists(_rightwall) || _listinst.bbox_left < _rightwall.bbox_left
+				{
+					_rightwall = _listinst;
+				}
+			}
+			//left wall
+			if _listinst.bbox_right - _listinst.xspeed <= bbox_left+1
+			{
+				if !instance_exists(_leftwall) || _listinst.bbox_right > _rightwall.bbox_right
+				{
+					_leftwall = _listinst;
+				}
+			}
+			//bottom wall
+			if _listinst.bbox_top - _listinst.yspeed >= bbox_bottom-1
+			{
+				if !_bottomwall || _listinst.bbox_top < _bottomwall.bbox_top
+				{
+					_bottomwall = _listinst;
+				}
+			}
+			//top wall
+			if _listinst.bbox_bottom - _listinst.yspeed <= bbox_top+1
+			{
+				if !_topwall || _listinst.bbox_bottom > _topwall.bbox_bottom
+				{
+					_topwall = _listinst;
+				}
+			}
 	}
-}
+	
+	ds_list_destroy(_list);
+	
+	//get out of walls
+		//right wall
+		if instance_exists(_rightwall)
+		{
+			var _rightdist = bbox_right - x;
+			x = _rightwall.bbox_left - _rightdist;
+		}
+		//left wall
+		if instance_exists(_leftwall)
+		{
+			var _leftdist = x - bbox_left;
+			x = _leftwall.bbox_right + _leftdist;
+		}
+		//bottom wall
+		if instance_exists(_bottomwall)
+		{
+			var _bottomdist = bbox_bottom - y;
+			y = _bottomwall.bbox_top - _bottomdist
+		}
+		//top wall (includes collision for crouch and polish
+		if instance_exists(_topwall)
+		{
+			var _updist = y - bbox_top;
+			var _targetY = _topwall.bbox_bottom + _updist;
+			//check if there isnt a wall in the way
+			if !place_meeting(x, _targetY, O_wall)
+			{
+				y = _targetY;
+			}
+		}
+
+
 
 //dont get left behind by my moveplat
 earlymovemoveplatxspeed = false;
@@ -34,7 +101,7 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 		_floorissolid = true;
 	}
 
-x += xspeed;
+
 
 	//floor y collision
 	
@@ -120,24 +187,6 @@ x += xspeed;
 		{
 			y = myfloorplat.bbox_top;
 		}
-		
-		//made redundant
-									//going up into a solid wall while on a semisolid
-									/*if myfloorplat.yspeed < 0 && place_meeting(x, y + myfloorplat.yspeed, O_wall)
-									{
-										//get pushed down through the semisolid
-										if myfloorplat.object_index == O_semisolidwall || object_is_ancestor(myfloorplat.object_index, O_semisolidwall)
-										{
-											//get pushed down trhough the semisolid
-											var _subpixel = .25;
-											while place_meeting(x, y + myfloorplat.yspeed, O_wall) {y += _subpixel;};
-											//if we got pushed into a solid wall while going downwards push ourselfse out
-											while place_meeting(x, y, O_wall) {y -= _subpixel;};
-											y = round(y);
-										}
-										//cancel the myfloorplat variable
-										setonground(false);
-									}*/
 	}
 	
 	//push myself through semisolid if being crushed
@@ -163,9 +212,29 @@ x += xspeed;
 		//return myself to start y cause ive been crushed
 		if _pusheddist > _maxpushdist {y = _startY};
 	}
-	
-if !place_meeting(x-9,y+2,O_wall) || !place_meeting(x+9,y+2,O_wall)
+#endregion
+
+
+if ((!place_meeting(x-9,y+2,O_wall)) || (!place_meeting(x+9,y+2,O_wall))) 
 {
 	xspeed *= -1;
 	movedirection *= -1;
 }
+
+if place_meeting(x,y,O_wall)
+{
+	xspeed *= -1;
+	movedirection *= -1;
+}
+
+x += xspeed;
+
+if hasbeenhit = true
+{
+	enemyinvincibilitytime--;
+	if enemyinvincibilitytime <= 0
+	{
+		hasbeenhit = false;
+	}
+}
+

@@ -32,6 +32,8 @@ movedirection = 1;
 velocity = 2.5
 falling = false
 
+
+//moving platforms
 myfloorplat = noone;
 earlymovemoveplatxspeed = false;
 downslopesemisolid = noone;

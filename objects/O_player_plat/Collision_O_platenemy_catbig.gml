@@ -16,6 +16,8 @@ if (bbox_bottom-4 <= other.bbox_top+2)
 		{sprite: S_platenemy_catbig, xscale: 2, yscale: 2}
 		);
 		instance_destroy(other.id);
+		
+		givemoneyenemy();
 	}
 }
 else if (!other.hasbeenhit && !gothitplayer)

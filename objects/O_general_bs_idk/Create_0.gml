@@ -5,5 +5,6 @@ global.sale = 1.0;
 global.bullets = 3;
 global.bossunlockcounter = 0;
 global.plathp = 5
+global.maxplathp = 5;
 global.maxplatjumps = 1
 global.money = 0;

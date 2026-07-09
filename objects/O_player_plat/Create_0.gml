@@ -97,7 +97,7 @@ enemyjumpkillframes = 12;
 enemykilljumpspeed = -5;
 
 //health
-maxhp = 5;
+maxhp = global.maxplathp;
 gothitplayer = false;
 
 invincibilitytime = 0 
@@ -106,3 +106,4 @@ invincibilityframes = 180 // 3 seconds
 alpha_amount = 0.15;
 
 crushed = false;
+

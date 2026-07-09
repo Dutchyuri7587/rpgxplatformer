@@ -57,3 +57,7 @@ spr_stage0 = S_platenemy_stage0;
 spr_stage1 = S_platenemy_stage1;
 spr_stage2 = S_platenemy_stage2;
 spr_stage3 = S_platenemy_stage3;
+
+
+moneyworth = 7;
+hasgivenmoney = false;

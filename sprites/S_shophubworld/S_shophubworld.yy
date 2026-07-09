@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"S_shophubworld",
   "bboxMode":0,
-  "bbox_bottom":15,
+  "bbox_bottom":31,
   "bbox_left":0,
   "bbox_right":62,
   "bbox_top":0,

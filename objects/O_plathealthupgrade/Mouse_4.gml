@@ -14,6 +14,7 @@ if position_meeting(mouse_x, mouse_y, O_plathealthupgrade)
 				
 				//actual functions
 				global.plathp += 1;
+				global.maxplathp += 1;
 				
 				audio_play_sound(dogtrill,1,false);
 				//setup junk
@@ -21,6 +22,7 @@ if position_meeting(mouse_x, mouse_y, O_plathealthupgrade)
 				{
 					hasbeenbought = true;
 					global.bossunlockcounter ++;
+					global.flag[1] = true;
 				}
 			}
 			else

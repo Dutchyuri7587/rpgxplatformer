@@ -16,10 +16,6 @@ currenttargets = noone;
 acting = false;
 roomtheme = 1; // sets the battle bg
 
-battlewon = false;
-
-
-
 //targeting cursor
 cursor =
 {

@@ -9,6 +9,8 @@ if (bbox_bottom-4 <= other.bbox_top+2)
 	{
 		instance_create_depth(x,y, -9999999, O_explosion);
 		instance_destroy(other.id);
+		
+		givemoneyenemy();
 	}
 
 }

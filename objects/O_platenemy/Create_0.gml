@@ -53,3 +53,4 @@ enemyinvincibilitytime = 0;
 enemyinvincibilityframes = 10;
 
 moneyworth = 2;
+hasgivenmoney = false;

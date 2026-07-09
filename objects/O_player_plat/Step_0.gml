@@ -2,6 +2,11 @@
 getControls();
 
 
+if hp <= 0
+{
+	room_goto(R_loss);
+}
+
 //get out of solid moveplatforms that have put themselves into the player in the begin step
 #region
 	var _rightwall = noone;

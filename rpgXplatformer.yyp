@@ -158,6 +158,7 @@
     {"id":{"name":"firstroom","path":"rooms/firstroom/firstroom.yy",},},
     {"id":{"name":"hubworld","path":"rooms/hubworld/hubworld.yy",},},
     {"id":{"name":"movingplattest","path":"rooms/movingplattest/movingplattest.yy",},},
+    {"id":{"name":"R_loss","path":"rooms/R_loss/R_loss.yy",},},
     {"id":{"name":"R_platformer1","path":"rooms/R_platformer1/R_platformer1.yy",},},
     {"id":{"name":"R_platformer2","path":"rooms/R_platformer2/R_platformer2.yy",},},
     {"id":{"name":"R_rpg1","path":"rooms/R_rpg1/R_rpg1.yy",},},
@@ -207,6 +208,7 @@
     {"id":{"name":"S_jumpupgrade","path":"sprites/S_jumpupgrade/S_jumpupgrade.yy",},},
     {"id":{"name":"S_leavebutton_2","path":"sprites/S_leavebutton_2/S_leavebutton_2.yy",},},
     {"id":{"name":"S_leavebutton","path":"sprites/S_leavebutton/S_leavebutton.yy",},},
+    {"id":{"name":"S_loss","path":"sprites/S_loss/S_loss.yy",},},
     {"id":{"name":"S_moveplatform","path":"sprites/S_moveplatform/S_moveplatform.yy",},},
     {"id":{"name":"S_platenemy_catbig","path":"sprites/S_platenemy_catbig/S_platenemy_catbig.yy",},},
     {"id":{"name":"S_platenemy_stage0","path":"sprites/S_platenemy_stage0/S_platenemy_stage0.yy",},},
@@ -281,6 +283,7 @@
     {"roomId":{"name":"R_platformer2","path":"rooms/R_platformer2/R_platformer2.yy",},},
     {"roomId":{"name":"R_rpg2","path":"rooms/R_rpg2/R_rpg2.yy",},},
     {"roomId":{"name":"R_shoprpg2","path":"rooms/R_shoprpg2/R_shoprpg2.yy",},},
+    {"roomId":{"name":"R_loss","path":"rooms/R_loss/R_loss.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

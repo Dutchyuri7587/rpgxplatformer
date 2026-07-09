@@ -156,7 +156,7 @@ global.party =
 [
 	{
 		name: "player",
-		hp: 999,
+		hp: 2,
 		maxhp: 50,
 		mp: 50,
 		maxmp: 50,

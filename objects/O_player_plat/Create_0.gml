@@ -97,6 +97,7 @@ enemyjumpkillframes = 12;
 enemykilljumpspeed = -5;
 
 //health
+hp = global.plathp;
 maxhp = global.maxplathp;
 gothitplayer = false;
 

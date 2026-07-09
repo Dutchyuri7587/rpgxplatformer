@@ -238,7 +238,12 @@ function battlestatevictorycheck()
 	
 	if (partyunitsbyhp[0].hp <= 0)
 	{
-		show_message("you lost");
+		instance_activate_all();
+		instance_destroy(creator);
+		instance_destroy();
+		instance_deactivate_object(O_general_drawer);
+		
+		room_goto(R_loss);
 	}
 	
 	if (enemyunitsbyhp[0].hp <= 0)

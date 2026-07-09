@@ -227,6 +227,12 @@ if place_meeting(x,y,O_wall)
 	movedirection *= -1;
 }
 
+if place_meeting(x,y,O_teleport)
+{
+	xspeed *= -1;
+	movedirection *= -1;
+}
+
 x += xspeed;
 
 if hasbeenhit = true

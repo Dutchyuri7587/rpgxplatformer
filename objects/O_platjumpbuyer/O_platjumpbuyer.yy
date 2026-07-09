@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_button_shop_template_1",
-    "path":"sprites/S_button_shop_template_1/S_button_shop_template_1.yy",
+    "name":"S_jumpupgrade",
+    "path":"sprites/S_jumpupgrade/S_jumpupgrade.yy",
   },
   "spriteMaskId":null,
   "visible":true,

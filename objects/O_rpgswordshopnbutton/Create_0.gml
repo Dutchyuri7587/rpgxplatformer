@@ -1,5 +1,5 @@
 hasbeenbought = false;
-cost = 15;
+cost = 40;
 mousepressed = false;
 timesbeenbought = 0;
 maxtimesbeenbought = 1;

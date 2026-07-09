@@ -3,14 +3,13 @@
   "%Name":"O_rpgfight2alpha1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_player_rpg","path":"objects/O_player_rpg/O_player_rpg.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_player_plat","path":"objects/O_player_plat/O_player_plat.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_rpgfight2alpha1",
   "overriddenProperties":[],
   "parent":{
-    "name":"RPG",
-    "path":"folders/Objects/RPG.yy",
+    "name":"alpha 1 fights",
+    "path":"folders/Objects/RPG/alpha 1 fights.yy",
   },
   "parentObjectId":null,
   "persistent":false,

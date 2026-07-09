@@ -156,14 +156,14 @@ global.party =
 [
 	{
 		name: "player",
-		hp: 50,
+		hp: 999,
 		maxhp: 50,
 		mp: 50,
 		maxmp: 50,
 		minmp: 0,
 		strength: 5,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
-		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.testmenu, global.actionlibrarby.magic, global.actionlibrarby.magichitall],
+		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.magic, global.actionlibrarby.magichitall],
 		gunupgrade: 0
 	}
 ];

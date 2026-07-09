@@ -1,5 +1,4 @@
-//i'm debugging it.
-//and by it? my hp.
+//show how many bullets
 draw_set_font(testfont);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);

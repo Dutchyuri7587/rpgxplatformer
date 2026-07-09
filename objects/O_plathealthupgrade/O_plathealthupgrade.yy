@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_button_shop_addhealth",
-    "path":"sprites/S_button_shop_addhealth/S_button_shop_addhealth.yy",
+    "name":"S_button_shop_addplathealth",
+    "path":"sprites/S_button_shop_addplathealth/S_button_shop_addplathealth.yy",
   },
   "spriteMaskId":null,
   "visible":true,

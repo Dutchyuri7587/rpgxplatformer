@@ -4,7 +4,7 @@ draw_set_font(testfont);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_color(c_white);
-draw_text(x,y,"€" + string(cost*global.sale));
+draw_text(x+50,y+20,"€" + string(cost*global.sale));
 
 if (mouse_x >= bbox_left) && (mouse_x <= bbox_right) && (mouse_y <= bbox_bottom) && (mouse_y >= bbox_top)
 {
@@ -12,5 +12,5 @@ if (mouse_x >= bbox_left) && (mouse_x <= bbox_right) && (mouse_y <= bbox_bottom)
 	draw_set_halign(fa_left);
     draw_set_valign(fa_top);
 	draw_set_color(c_white);
-	draw_text(x,y-15, "this is a test :D");
+	draw_text(x,y-15, "Everything will be 50% off!");
 }

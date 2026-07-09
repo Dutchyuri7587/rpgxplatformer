@@ -34,9 +34,9 @@ for (var i = 0; i < array_length(enemies); i++)
 {
     enemyunits[i] = instance_create_depth(
         x+250+(i*10),
-        y+20+(i*20)+(i*random(floor(50)-5)),
+        y+20+(i*25),
         depth-10,
-        O_battleunittestenemy,
+        O_battleunitenemy,
         enemies[i]
     );
 

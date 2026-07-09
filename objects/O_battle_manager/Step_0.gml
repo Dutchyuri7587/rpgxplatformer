@@ -30,7 +30,7 @@ if (cursor.active)
 			_keytoggle = keyboard_check_pressed(vk_shift); //switch between single and multitarghet mode
 		}
 		var _movehorizontal = _keyright - _keyleft;
-		var _movevertical = _keydown - _keyup;
+		var _movevertical = _keyup - _keydown;
 		
 		if (_movehorizontal == -1) targetside = O_battle_manager.partyunits;
 		if (_movehorizontal == 1) targetside = O_battle_manager.enemyunits;

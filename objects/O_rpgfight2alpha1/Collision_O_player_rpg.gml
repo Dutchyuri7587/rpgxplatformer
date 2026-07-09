@@ -1,0 +1,1 @@
+Newencounter([global.enemies.testenemy, global.enemies.testenemy, global.enemies.testenemy, global.enemies.testenemysnow], S_battlebg_test);

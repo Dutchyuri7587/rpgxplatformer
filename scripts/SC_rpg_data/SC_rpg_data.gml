@@ -156,8 +156,8 @@ global.party =
 [
 	{
 		name: "player",
-		hp: 2,
-		maxhp: 50,
+		hp: 75,
+		maxhp: 75,
 		mp: 50,
 		maxmp: 50,
 		minmp: 0,
@@ -174,7 +174,7 @@ global.enemies =
 	testenemy:
 	{
 		name: "testenemy",
-		hp: 10,
+		hp: 50,
 		maxhp: 50,
 		mp: 0,
 		maxmp: 0,
@@ -218,5 +218,29 @@ global.enemies =
 			var _target = _possibletargets[irandom(array_length(_possibletargets)-1)];
 			return [_action, _target];
 		}
-	}
+	},
+	bigenemy:
+	{
+		name: "enemybig",
+		hp: 150,
+		maxhp: 150,
+		mp: 0,
+		maxmp: 0,
+		strength: 5,
+		sprites: {idle: S_bigenemy_idle, attack: S_bigenemy_attack},
+		actions: [global.actionlibrarby.enemy_attack],
+		XPvalue: 25,
+		moneyworth: 30,
+		AIscript: function()
+		{
+			//attack player
+			var _action = actions[0];
+			var _possibletargets = array_filter(O_battle_manager.partyunits, function(_unit, _index)
+			{
+				return (_unit.hp > 0);
+			});
+			var _target = _possibletargets[irandom(array_length(_possibletargets)-1)];
+			return [_action, _target];
+		}
+	},
 }

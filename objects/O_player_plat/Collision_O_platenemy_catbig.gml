@@ -13,7 +13,7 @@ if (bbox_bottom-4 <= other.bbox_top+2)
 		y,
 		depth-1,
 		O_effectspawnertest,
-		{sprite: S_platenemy_catbig, xscale: 2, yscale: 2}
+		{sprite: S_platenemy_catbig, xscale: other.effectxscale, yscale: other.effectyscale}
 		);
 		instance_destroy(other.id);
 		

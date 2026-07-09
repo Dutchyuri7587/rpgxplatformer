@@ -54,3 +54,9 @@ enemyinvincibilityframes = 10;
 
 moneyworth = 4;
 hasgivenmoney = false;
+
+
+//explosion
+explosiontimer = 0;
+explosionframes = 45;
+startcounting = false;

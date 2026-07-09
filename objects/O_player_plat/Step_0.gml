@@ -2,7 +2,7 @@
 getControls();
 
 
-if hp <= 0
+if global.plathp <= 0
 {
 	room_goto(R_loss);
 }

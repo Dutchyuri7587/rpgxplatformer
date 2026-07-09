@@ -12,3 +12,8 @@ if keyboard_check_pressed(ord("2"))
 {
 	room_goto(R_platformer2);
 }
+
+if keyboard_check_pressed(ord("3"))
+{
+	room_goto(R_platformer3);
+}

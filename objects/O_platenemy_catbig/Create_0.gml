@@ -53,3 +53,7 @@ enemyinvincibilityframes = 10;
 
 moneyworth = 5;
 hasgivenmoney = false;
+
+
+effectxscale = 2;
+effectyscale = 2;

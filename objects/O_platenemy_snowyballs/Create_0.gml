@@ -24,6 +24,8 @@ function checkforsemisolidplatform(_x, _y)
 	return _return;
 }
 
+depth = 0;
+
 //movement
 xspeed = 0.75;
 yspeed = 1;
@@ -59,5 +61,5 @@ spr_stage2 = S_platenemy_stage2;
 spr_stage3 = S_platenemy_stage3;
 
 
-moneyworth = 7;
+moneyworth = 5;
 hasgivenmoney = false;

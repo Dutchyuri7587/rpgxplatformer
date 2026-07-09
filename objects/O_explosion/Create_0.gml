@@ -1,1 +1,3 @@
-damage = 5;
+damage = 1;
+
+hashitplayer = false;

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_rpgfight1alpha1",
+  "%Name":"O_rpgfight2_alpha1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_player_rpg","path":"objects/O_player_rpg/O_player_rpg.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_rpgfight1alpha1",
+  "name":"O_rpgfight2_alpha1",
   "overriddenProperties":[],
   "parent":{
     "name":"alpha 1 fights",

@@ -1,5 +1,5 @@
-//get out of solid moveplatforms that have put themselves into the player in the begin step
 #region
+//get out of solid moveplatforms that have put themselves into the player in the begin step
 	var _rightwall = noone;
 	var _leftwall = noone;
 	var _bottomwall = noone;
@@ -226,7 +226,10 @@ if place_meeting(x,y,O_wall)
 	movedirection *= -1;
 }
 
-x += xspeed;
+if !startcounting
+{
+	x += xspeed;
+}
 
 if hasbeenhit = true
 {
@@ -234,5 +237,15 @@ if hasbeenhit = true
 	if enemyinvincibilitytime <= 0
 	{
 		hasbeenhit = false;
+	}
+}
+
+if startcounting = true
+{
+	explosiontimer--;
+	if explosiontimer <= 0
+	{
+		instance_create_depth(x,y, -9999999, O_explosion);
+		instance_destroy();
 	}
 }

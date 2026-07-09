@@ -12,31 +12,31 @@ function enemyjump()
 
 function playerhitkb()
 {
-	if invincibilitytime >= 170
+	if O_player_plat.invincibilitytime >= 170
 	{
-		if face = -1
+		if O_player_plat.face = -1
 		{
 			x += 2.5;
-			xspeed = 0;
-			if (crushed = true)
+			O_player_plat.xspeed = 0;
+			if (O_player_plat.crushed = true)
 			{
 				x -= 4.5;
 				if (!place_meeting(x,y,O_wall))
 				{
-					crushed = false;
+					O_player_plat.crushed = false;
 				}
 			}
 		}
-		if face = 1
+		if O_player_plat.face = 1
 		{
 			x -= 2.5;
-			xspeed = 0;
-			if (crushed = true)
+			O_player_plat.xspeed = 0;
+			if (O_player_plat.crushed = true)
 			{
 				x += 4.5;
 				if (!place_meeting(x,y,O_wall))
 				{
-					crushed = false;
+					O_player_plat.crushed = false;
 				}
 			}
 		}

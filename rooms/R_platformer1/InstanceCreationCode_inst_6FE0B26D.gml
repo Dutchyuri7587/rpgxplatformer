@@ -1,1 +1,1 @@
-target_room = R_shoprpg;
+target_room = R_shoprpg1;

@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"platformer",
-    "path":"folders/Sprites/Shop/buttons/alpha_1.0/platformer.yy",
+    "name":"health",
+    "path":"folders/Sprites/Shop/buttons/alpha_1.0/platformer/health.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

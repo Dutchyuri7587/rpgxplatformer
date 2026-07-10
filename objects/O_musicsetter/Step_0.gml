@@ -1,5 +1,17 @@
 var _finalvolume = global.musicvolume*global.mastervolume;
 
+if keyboard_check_pressed(ord("5"))
+{
+	global.mastervolume -= 0.1;
+	clamp(global.mastervolume, 0,1);
+}
+
+if keyboard_check_pressed(ord("6"))
+{
+	global.mastervolume += 0.1;
+	clamp(global.mastervolume, 0,1);
+}
+
 //play the target song
 if which_song != whichswapsong
 {

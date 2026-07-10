@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"alpha_1.0",
-    "path":"folders/Sprites/Shop/buttons/alpha_1.0.yy",
+    "name":"sale",
+    "path":"folders/Sprites/Shop/buttons/alpha_1.0/sale.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

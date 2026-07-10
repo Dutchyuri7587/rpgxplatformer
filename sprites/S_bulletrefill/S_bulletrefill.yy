@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"rpg",
-    "path":"folders/Sprites/Shop/buttons/alpha_1.0/rpg.yy",
+    "name":"bullet",
+    "path":"folders/Sprites/Shop/buttons/alpha_1.0/rpg/bullet.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,1 +1,1 @@
-target_room = R_shopplatformer;
+target_room = R_shopplatformer1;

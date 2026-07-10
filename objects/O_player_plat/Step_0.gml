@@ -4,6 +4,8 @@ getControls();
 
 if global.plathp <= 0
 {
+	instance_deactivate_object(O_general_drawer);
+	
 	room_goto(R_loss);
 }
 

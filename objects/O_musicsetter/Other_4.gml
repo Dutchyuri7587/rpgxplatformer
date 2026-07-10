@@ -9,12 +9,12 @@ if room = Shoptest
 	set_song_ingame(Funkinlite_fresh, 10, 0);
 }
 
-if room = R_shoprpg
+if room = R_shoprpg1
 {
 	set_song_ingame(Funkinlite_fresh, 10, 0);
 }
 
-if room = R_shopplatformer
+if room = R_shopplatformer1
 {
 	set_song_ingame(Funkinlite_fresh, 10, 0);
 }

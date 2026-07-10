@@ -1,0 +1,5 @@
+implement flags for the shop - done
+
+make a sound config -
+
+tweak the rpg stuff a lil -

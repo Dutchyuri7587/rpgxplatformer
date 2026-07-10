@@ -1,1 +1,1 @@
-target_room = hubworld;
+target_room = R_shopplatformer2;

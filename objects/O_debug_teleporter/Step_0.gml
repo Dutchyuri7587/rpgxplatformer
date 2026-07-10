@@ -8,6 +8,11 @@ if keyboard_check_pressed(ord("M"))
 	global.money += 9999;
 }
 
+if keyboard_check_pressed(ord("N"))
+{
+	global.plathp += 9999;
+}
+
 if keyboard_check_pressed(ord("2"))
 {
 	room_goto(R_platformer2);

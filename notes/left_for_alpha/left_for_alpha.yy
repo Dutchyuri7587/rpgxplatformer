@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"left_for_alpha",
+  "name":"left_for_alpha",
+  "parent":{
+    "name":"organisation",
+    "path":"folders/organisation.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

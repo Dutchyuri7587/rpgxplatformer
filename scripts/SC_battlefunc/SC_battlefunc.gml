@@ -52,7 +52,7 @@ function battlechangemp(_target, _amount)
 	_target.y,
 	_target.depth-1,
 	O_battlefloatingtext,
-	{font: testfont, col: _col, text: string(_amount) + "Mp"}
+	{font: testfont, col: _col, text: string(_amount) + " Mp"}
 	);
 	if (!_failedmpcheck) _target.mp = clamp(_target.mp + _amount, 0, _target.maxmp);
 }
@@ -82,13 +82,9 @@ function battlechangehp(_target, _amount, _alivedeadoreither = 0)
 	if (!_failed) _target.hp = clamp(_target.hp + _amount, 0, _target.maxhp);
 }
 
-
-
-
-
 function removebullet(_user)
 {
-	global.bullets -= 1;
+	global.bullets --;
 }
 
 function nobullets(_user)

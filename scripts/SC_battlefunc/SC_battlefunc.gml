@@ -52,7 +52,7 @@ function battlechangemp(_target, _amount)
 	_target.y,
 	_target.depth-1,
 	O_battlefloatingtext,
-	{font: testfont, col: _col, text: string(_amount)}
+	{font: testfont, col: _col, text: string(_amount) + "Mp"}
 	);
 	if (!_failedmpcheck) _target.mp = clamp(_target.mp + _amount, 0, _target.maxmp);
 }

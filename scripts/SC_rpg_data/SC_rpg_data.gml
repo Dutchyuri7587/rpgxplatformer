@@ -8,7 +8,7 @@ global.actionlibrarby =
 	{
 		name: "Hit",
 		description: "{0} hits an enemy!",
-		submenu: -1, //whar?
+		submenu: -1, //no submenu
 		targetrequired: true,
 		targetenemybydefault: true,
 		targetall: MODE.NEVER,
@@ -25,7 +25,7 @@ global.actionlibrarby =
 	{
 		name: "magic",
 		description: "{0} magic's an enemy!",
-		submenu: "magic", //whar?
+		submenu: "magic", //in the magic submenu
 		mpcost: 4,
 		targetrequired: true,
 		targetenemybydefault: true,
@@ -35,7 +35,7 @@ global.actionlibrarby =
 		effectontarget: MODE.ALWAYS,
 		func: function(_user, _targets)
 		{
-			var _damage = irandom_range(10, 15);
+			var _damage = irandom_range(10,20) + irandom_range(3,8) + ceil((_user.strength*0.25))
 			if (_user.mp >= mpcost)
 			{
 				battlechangehp(_targets[0], -_damage);
@@ -53,7 +53,7 @@ global.actionlibrarby =
 	{
 		name: "magicall",
 		description: "{0} Hit's all enemies!",
-		submenu: "magic", //whar?
+		submenu: "magic", //magic submenu
 		mpcost: 8,
 		targetrequired: true,
 		targetenemybydefault: true,
@@ -72,7 +72,7 @@ global.actionlibrarby =
 	{
 		name: "gun.",
 		description: "Is that a gun???",
-		submenu: -1, //whar?
+		submenu: -1, //no submenu
 		targetrequired: true,
 		targetenemybydefault: true,
 		targetall: MODE.NEVER,
@@ -85,7 +85,7 @@ global.actionlibrarby =
 			if (global.bullets > 0)
 			{
 				removebullet(_user);
-				var _damage = ceil((_user.strength*3 + choose(_user.strength * 0.25*3, _user.strength * 0.50*3) + _user.gunupgrade) * global.attackmultiplier);
+				var _damage = ceil((_user.strength*4 + choose(_user.strength * 0.25*4, _user.strength * 0.50*4) + _user.gunupgrade) * global.attackmultiplier);
 				battlechangehp(_targets[0], -_damage, 0);
 			}
 			else
@@ -123,13 +123,41 @@ global.actionlibrarby =
 			}
 		}
 	},
+	alphaheal:
+	{
+		name: "heal",
+		description: "{0} heals themself!",
+		submenu: "magic", //in the magic submenu
+		mpcost: 12,
+		targetrequired: true,
+		targetenemybydefault: true,
+		targetall: MODE.NEVER,
+		useranimation: "attack",
+		effectsprite: S_rpg_hitfx,
+		effectontarget: MODE.ALWAYS,
+		func: function(_user, _targets)
+		{
+			var _damage = 40
+			if (_user.mp >= mpcost)
+			{
+				battlechangehp(_targets[0], + _damage);
+				battlechangemp(_user, -mpcost);
+			}
+			else
+			{
+				failattackcausemp(_user, -_damage);
+				effectontarget = MODE.NEVER;
+				effectsprite = S_rpg_noeffect;
+			}
+		}
+	},
 	
 	//enemy attacks
 	enemy_attack:
 	{
 		name: "enemy_attack",
 		description: "{0} hits you!",
-		submenu: -1, //whar?
+		submenu: -1, //no submenu, this never gets seen by player
 		targetrequired: true,
 		targetenemybydefault: true,
 		targetall: MODE.NEVER,
@@ -161,9 +189,9 @@ global.party =
 		mp: 50,
 		maxmp: 50,
 		minmp: 0,
-		strength: 5,
+		strength: 8,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
-		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.magic, global.actionlibrarby.magichitall],
+		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.magic, global.actionlibrarby.magichitall, global.actionlibrarby.alphaheal],
 		gunupgrade: 0
 	}
 ];

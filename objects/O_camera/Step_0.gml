@@ -1,8 +1,8 @@
 //fullscreen
-if keyboard_check_pressed(vk_f4)
+if keyboard_check_pressed(vk_f11)
 {window_set_fullscreen(!window_get_fullscreen());}
 
-//exit if therres no player
+//exit if there's no player
 if !instance_exists(O_player_plat) exit;
 
 //get camera size

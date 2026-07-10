@@ -12,6 +12,12 @@ if keyboard_check_pressed(ord("6"))
 	clamp(global.mastervolume, 0,1);
 }
 
+if keyboard_check_pressed(ord("7"))
+{
+	global.mastervolume = 0;
+	clamp(global.mastervolume, 0,1);
+}
+
 //play the target song
 if which_song != whichswapsong
 {

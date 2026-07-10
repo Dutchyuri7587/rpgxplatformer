@@ -54,7 +54,7 @@ global.actionlibrarby =
 		name: "magicall",
 		description: "{0} Hit's all enemies!",
 		submenu: "magic", //magic submenu
-		mpcost: 8,
+		mpcost: 9,
 		targetrequired: true,
 		targetenemybydefault: true,
 		targetall: MODE.VARIES,
@@ -63,7 +63,7 @@ global.actionlibrarby =
 		effectontarget: MODE.ALWAYS,
 		func: function(_user, _targets)
 		{
-			var _damage = irandom_range(10, 15);
+			var _damage = irandom_range(5,15) + irandom_range(3,8) + ceil((_user.strength*0.25))
 			for (var i = 0; i < array_length(_targets); i++)
 			{
 				battlechangehp(_targets[i], -_damage);
@@ -192,7 +192,7 @@ global.party =
 		mp: 50,
 		maxmp: 50,
 		minmp: 0,
-		strength: 80000,
+		strength: 8,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
 		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.magic, global.actionlibrarby.magichitall, global.actionlibrarby.alphaheal],
 		gunupgrade: 0
@@ -205,8 +205,8 @@ global.enemies =
 	testenemy:
 	{
 		name: "testenemy",
-		hp: 50,
-		maxhp: 50,
+		hp: 40,
+		maxhp: 40,
 		mp: 0,
 		maxmp: 0,
 		strength: 2,
@@ -253,8 +253,8 @@ global.enemies =
 	bigenemy:
 	{
 		name: "enemybig",
-		hp: 150,
-		maxhp: 150,
+		hp: 120,
+		maxhp: 120,
 		mp: 0,
 		maxmp: 0,
 		strength: 5,

@@ -1,4 +1,7 @@
 instance_deactivate_all(true);
+instance_activate_object(O_musicsetter);
+instance_activate_object(O_camera);
+instance_activate_object(O_general_drawer);
 
 units = [];
 turn = 0;
@@ -33,8 +36,8 @@ cursor =
 for (var i = 0; i < array_length(enemies); i++)
 {
     enemyunits[i] = instance_create_depth(
-        x+250+(i*10),
-        y+20+(i*25),
+        x+250+(i*10) + (irandom_range(0,5)),
+        y+20*(i+1)+(i*7) + (irandom_range(2,5)),
         depth-10,
         O_battleunitenemy,
         enemies[i]

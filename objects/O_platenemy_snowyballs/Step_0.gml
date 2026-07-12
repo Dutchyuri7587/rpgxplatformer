@@ -237,17 +237,17 @@ if hasbeenhit = true
 	}
 }
 
-if hits = 1
+if hp <= 39
 {
 	sprite_index = spr_stage1;
 }
 
-if hits = 2
+if hp <= 29
 {
 	sprite_index = spr_stage2;
 }
 
-if hits = 3
+if hp <= 19
 {
 	sprite_index = spr_stage3;
 }

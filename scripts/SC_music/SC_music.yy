@@ -6,7 +6,7 @@
   "name":"SC_music",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "path":"folders/Nondescript/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

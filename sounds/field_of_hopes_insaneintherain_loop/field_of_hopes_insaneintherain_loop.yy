@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"field_of_hopes_insaneintherain_loop",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":168.95984,
+  "exportDir":"",
+  "name":"field_of_hopes_insaneintherain_loop",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"field_of_hopes_insaneintherain_loop.ogg",
+  "volume":1.0,
+}

@@ -23,3 +23,8 @@ if room = R_platformer1
 {
 	set_song_ingame(Pico_darnell_mix, 10, 0);
 }
+
+if room = R_rpg1
+{
+	set_song_ingame(cliff, 10, 0);
+}

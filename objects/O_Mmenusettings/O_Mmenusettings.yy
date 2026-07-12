@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Mmenutemplate_1",
-    "path":"sprites/S_Mmenutemplate_1/S_Mmenutemplate_1.yy",
+    "name":"S_Mmenusettingsbutton",
+    "path":"sprites/S_Mmenusettingsbutton/S_Mmenusettingsbutton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

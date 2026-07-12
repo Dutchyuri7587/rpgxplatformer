@@ -41,9 +41,10 @@ moveplatxspeed = 0;
 moveplatmaxyspd = velocity;
 
 //death
-maxhits = 3;
-hits = 0;
 hasbeenhit = false;
+
+maxhp = 30;
+hp = maxhp;
 
 //kill the player ya dingus
 damage = 1;

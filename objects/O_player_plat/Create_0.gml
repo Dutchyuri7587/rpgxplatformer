@@ -40,6 +40,8 @@ function checkforsemisolidplatform(_x, _y)
 
 depth = -30;
 
+damage = 10;
+
 //controlling setup
 controlsSetup();
 

@@ -41,10 +41,10 @@ moveplatxspeed = 0;
 moveplatmaxyspd = velocity;
 
 //death
-maxhits = 1;
-hits = 0;
-
 hasbeenhit = false;
+
+maxhp = 10;
+hp = maxhp;
 
 //kill or be killed
 damage = 1;

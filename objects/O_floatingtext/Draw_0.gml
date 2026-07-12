@@ -10,3 +10,14 @@ draw_text(x,y-1,text);
 draw_set_color(col);
 draw_text(x,y,text);
 draw_set_alpha(1.0);
+
+
+//example
+/*instance_create_depth
+	(
+	x,
+	y,
+	depth-1,
+	O_floatingtext,
+	{font: testfont, col: _col, text: string(_amount) + " Mp"}
+	);*/

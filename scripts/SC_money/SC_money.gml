@@ -11,7 +11,7 @@ function givemoney()
 		x,
 		y,
 		depth-1,
-		O_battlefloatingtext,
+		O_floatingtext,
 		{font: testfont, col: c_white, text: string(moneyworth)}
 		);
 	}
@@ -30,7 +30,7 @@ function givemoneyenemy()
 		x,
 		y,
 		depth-1,
-		O_battlefloatingtext,
+		O_floatingtext,
 		{font: testfont, col: c_white, text: string(other.moneyworth)}
 		);
 	}

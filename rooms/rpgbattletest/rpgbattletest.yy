@@ -21,8 +21,8 @@
   ],
   "name":"rpgbattletest",
   "parent":{
-    "name":"RPG",
-    "path":"folders/Rooms/RPG.yy",
+    "name":"Tests",
+    "path":"folders/Rpg/Rooms/Tests.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

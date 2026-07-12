@@ -27,7 +27,7 @@ function failattackcausemp(_user, _amount)
 	_user.x,
 	_user.y,
 	_user.depth-1,
-	O_battlefloatingtext,
+	O_floatingtext,
 	{font: testfont, col: _col, text: string("no mp!")}
 	);
 }
@@ -51,7 +51,7 @@ function battlechangemp(_target, _amount)
 	_target.x,
 	_target.y,
 	_target.depth-1,
-	O_battlefloatingtext,
+	O_floatingtext,
 	{font: testfont, col: _col, text: string(_amount) + " Mp"}
 	);
 	if (!_failedmpcheck) _target.mp = clamp(_target.mp + _amount, 0, _target.maxmp);
@@ -76,7 +76,7 @@ function battlechangehp(_target, _amount, _alivedeadoreither = 0)
 	_target.x,
 	_target.y,
 	_target.depth-1,
-	O_battlefloatingtext,
+	O_floatingtext,
 	{font: testfont, col: _col, text: string(_amount)}
 	);
 	if (!_failed) _target.hp = clamp(_target.hp + _amount, 0, _target.maxhp);
@@ -94,7 +94,7 @@ function nobullets(_user)
 	_user.x,
 	_user.y,
 	_user.depth-1,
-	O_battlefloatingtext,
+	O_floatingtext,
 	{font: testfont, col: c_white, text: string("I'm outta bullets.")}
 	);
 }

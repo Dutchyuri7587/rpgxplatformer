@@ -17,7 +17,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Entities",
-    "path":"folders/Objects/Platformer/Entities.yy",
+    "path":"folders/Platformer/Objects/Entities.yy",
   },
   "parentObjectId":null,
   "persistent":false,

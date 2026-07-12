@@ -26,7 +26,7 @@
   "name":"setup",
   "parent":{
     "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "path":"folders/Nondescript/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

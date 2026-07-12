@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"UI",
-    "path":"folders/Sprites/RPG/UI.yy",
+    "path":"folders/Rpg/Sprites/UI.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

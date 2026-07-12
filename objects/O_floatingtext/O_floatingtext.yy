@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_battlefloatingtext",
+  "%Name":"O_floatingtext",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_battlefloatingtext",
+  "name":"O_floatingtext",
   "overriddenProperties":[],
   "parent":{
     "name":"effects",
-    "path":"folders/Objects/effects.yy",
+    "path":"folders/Nondescript/Objects/effects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

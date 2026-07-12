@@ -6,7 +6,7 @@
   "name":"SC_playerplatcontrols",
   "parent":{
     "name":"Platformer",
-    "path":"folders/Scripts/Platformer.yy",
+    "path":"folders/Platformer/Scripts/Platformer.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

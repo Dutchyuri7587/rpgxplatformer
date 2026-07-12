@@ -21,8 +21,8 @@
   ],
   "name":"R_rpg3",
   "parent":{
-    "name":"rpg",
-    "path":"folders/Rooms/alpha_1.0/rpg.yy",
+    "name":"Alpha_1",
+    "path":"folders/Platformer/Rooms/Alpha_1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

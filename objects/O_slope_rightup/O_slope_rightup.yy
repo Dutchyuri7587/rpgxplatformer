@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ground",
-    "path":"folders/Objects/Platformer/Ground.yy",
+    "path":"folders/Platformer/Objects/Ground.yy",
   },
   "parentObjectId":{
     "name":"O_wall",

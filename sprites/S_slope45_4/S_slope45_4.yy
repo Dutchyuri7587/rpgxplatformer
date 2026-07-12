@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"ground",
-    "path":"folders/Sprites/Platformer/ground.yy",
+    "path":"folders/Platformer/Sprites/ground.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

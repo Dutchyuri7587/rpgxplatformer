@@ -10,7 +10,7 @@ if (bbox_bottom-4 <= other.bbox_top+2)
 	x,
 	y,
 	depth-1,
-	O_effectspawnertest,
+	O_effectspawner,
 	{sprite: S_platenemy_stage3, xscale: 1, yscale: 1}
 	);
 		

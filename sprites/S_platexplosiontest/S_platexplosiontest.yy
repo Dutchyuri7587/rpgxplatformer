@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Platformer",
-    "path":"folders/Sprites/Platformer.yy",
+    "name":"Sprites",
+    "path":"folders/Platformer/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Effects",
-    "path":"folders/Sprites/RPG/Effects.yy",
+    "name":"VFX",
+    "path":"folders/Rpg/Sprites/VFX.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

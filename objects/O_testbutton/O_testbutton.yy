@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Oldbuttonsystem",
-    "path":"folders/Objects/Shop/Buttons/Oldbuttonsystem.yy",
+    "path":"folders/Shop/Objects/Shop/Buttons/Oldbuttonsystem.yy",
   },
   "parentObjectId":{
     "name":"O_shop_button",

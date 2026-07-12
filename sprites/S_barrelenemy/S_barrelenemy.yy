@@ -29,7 +29,7 @@
   "origin":7,
   "parent":{
     "name":"testenemies",
-    "path":"folders/Sprites/Platformer/entities/Enemies/testenemies.yy",
+    "path":"folders/Platformer/Sprites/entities/Enemies/testenemies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

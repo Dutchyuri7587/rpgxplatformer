@@ -41,8 +41,8 @@
   ],
   "name":"semisolidstest",
   "parent":{
-    "name":"Platformer",
-    "path":"folders/Rooms/Platformer.yy",
+    "name":"tests",
+    "path":"folders/Platformer/Rooms/tests.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

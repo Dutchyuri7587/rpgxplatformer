@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"bg",
-    "path":"folders/Main menu/bg.yy",
+    "path":"folders/Title_screen/Sprites/bg.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

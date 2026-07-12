@@ -10,8 +10,8 @@
   "name":"O_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Platformer",
-    "path":"folders/Objects/Platformer.yy",
+    "name":"Objects",
+    "path":"folders/Platformer/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"Testenemy",
-    "path":"folders/Sprites/RPG/Enemies/Testenemy.yy",
+    "path":"folders/Rpg/Sprites/Enemies/Testenemies/Testenemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

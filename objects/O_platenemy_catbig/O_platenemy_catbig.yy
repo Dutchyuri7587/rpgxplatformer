@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Testenemies",
-    "path":"folders/Objects/Platformer/Entities/Enemies/Testenemies.yy",
+    "path":"folders/Platformer/Objects/Entities/Enemies/Testenemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

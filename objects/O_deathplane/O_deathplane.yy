@@ -8,8 +8,8 @@
   "name":"O_deathplane",
   "overriddenProperties":[],
   "parent":{
-    "name":"Platformer",
-    "path":"folders/Objects/Platformer.yy",
+    "name":"Objects",
+    "path":"folders/Platformer/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

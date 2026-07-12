@@ -9,8 +9,8 @@
   "name":"O_testenemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"RPG",
-    "path":"folders/Objects/RPG.yy",
+    "name":"test_fights",
+    "path":"folders/Rpg/Objects/Fights/test_fights.yy",
   },
   "parentObjectId":null,
   "persistent":false,

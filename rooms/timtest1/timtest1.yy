@@ -108,7 +108,7 @@
   "name":"timtest1",
   "parent":{
     "name":"Timtest",
-    "path":"folders/Rooms/Platformer/Timtest.yy",
+    "path":"folders/Platformer/Rooms/tests/Timtest.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

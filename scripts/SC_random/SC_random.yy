@@ -6,7 +6,7 @@
   "name":"SC_random",
   "parent":{
     "name":"RPG",
-    "path":"folders/Scripts/RPG.yy",
+    "path":"folders/Rpg/scripts/RPG.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

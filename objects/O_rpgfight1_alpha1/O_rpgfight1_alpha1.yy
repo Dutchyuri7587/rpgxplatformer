@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"alpha 1 fights",
-    "path":"folders/Objects/RPG/alpha 1 fights.yy",
+    "path":"folders/Rpg/Objects/Fights/alpha 1 fights.yy",
   },
   "parentObjectId":null,
   "persistent":false,

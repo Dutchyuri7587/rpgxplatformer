@@ -19,8 +19,8 @@
   ],
   "name":"R_Title_screen",
   "parent":{
-    "name":"alpha_1.0",
-    "path":"folders/Rooms/alpha_1.0.yy",
+    "name":"Alpha_1",
+    "path":"folders/Nondescript/Rooms/Alpha_1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

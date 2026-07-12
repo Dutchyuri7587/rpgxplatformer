@@ -9,8 +9,8 @@
   "name":"O_Mmenusettings",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/Main menu/buttons/objects.yy",
+    "name":"buttons",
+    "path":"folders/Title_screen/Objects/buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

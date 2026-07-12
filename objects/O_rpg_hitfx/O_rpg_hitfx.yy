@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"effects",
-    "path":"folders/Objects/RPG/effects.yy",
+    "path":"folders/Rpg/Objects/effects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

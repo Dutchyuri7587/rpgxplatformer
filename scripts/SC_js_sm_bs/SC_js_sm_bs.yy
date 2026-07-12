@@ -6,7 +6,7 @@
   "name":"SC_js_sm_bs",
   "parent":{
     "name":"Platformer",
-    "path":"folders/Scripts/Platformer.yy",
+    "path":"folders/Platformer/Scripts/Platformer.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

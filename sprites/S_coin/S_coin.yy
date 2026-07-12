@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"entities",
-    "path":"folders/Sprites/Platformer/entities.yy",
+    "path":"folders/Platformer/Sprites/entities.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

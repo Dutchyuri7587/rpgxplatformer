@@ -293,8 +293,8 @@
   ],
   "name":"R_platformer3",
   "parent":{
-    "name":"platformer",
-    "path":"folders/Rooms/alpha_1.0/platformer.yy",
+    "name":"Alpha_1",
+    "path":"folders/Rpg/Rooms/Alpha_1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

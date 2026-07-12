@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"snowballtest",
-    "path":"folders/Sprites/Platformer/entities/Enemies/testenemies/snowballtest.yy",
+    "path":"folders/Platformer/Sprites/entities/Enemies/testenemies/snowballtest.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

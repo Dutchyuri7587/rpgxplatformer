@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"snowenemy",
-    "path":"folders/Sprites/RPG/Enemies/snowenemy.yy",
+    "path":"folders/Rpg/Sprites/Enemies/Testenemies/snowenemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

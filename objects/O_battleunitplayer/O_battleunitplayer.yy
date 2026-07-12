@@ -9,8 +9,8 @@
   "name":"O_battleunitplayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"setup",
-    "path":"folders/Objects/RPG/setup.yy",
+    "name":"Battle_setup",
+    "path":"folders/Rpg/Objects/Battle_setup.yy",
   },
   "parentObjectId":{
     "name":"O_battleunit",

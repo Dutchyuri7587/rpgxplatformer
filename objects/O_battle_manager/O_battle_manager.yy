@@ -11,8 +11,8 @@
   "name":"O_battle_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"setup",
-    "path":"folders/Objects/RPG/setup.yy",
+    "name":"Battle_setup",
+    "path":"folders/Rpg/Objects/Battle_setup.yy",
   },
   "parentObjectId":null,
   "persistent":false,

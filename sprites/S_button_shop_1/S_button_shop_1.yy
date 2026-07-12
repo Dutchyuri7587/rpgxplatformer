@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"buttons",
-    "path":"folders/Sprites/Shop/buttons.yy",
+    "path":"folders/Shop/Shop/buttons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

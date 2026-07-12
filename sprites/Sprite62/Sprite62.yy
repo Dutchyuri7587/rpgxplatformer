@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"tilesets",
-    "path":"folders/Sprites/Platformer/tilesets.yy",
+    "path":"folders/Platformer/Sprites/tilesets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

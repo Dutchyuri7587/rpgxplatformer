@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"assets",
-    "path":"folders/Main menu/buttons/assets.yy",
+    "name":"Buttons",
+    "path":"folders/Title_screen/Sprites/Buttons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"rpg",
-    "path":"folders/Objects/Shop/Buttons/alpha_1.0/rpg.yy",
+    "path":"folders/Shop/Objects/Shop/Buttons/alpha_1.0/rpg.yy",
   },
   "parentObjectId":null,
   "persistent":false,

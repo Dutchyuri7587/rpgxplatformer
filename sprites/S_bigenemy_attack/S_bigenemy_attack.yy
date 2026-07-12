@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"bigenemy",
-    "path":"folders/Sprites/RPG/Enemies/bigenemy.yy",
+    "path":"folders/Rpg/Sprites/Enemies/Testenemies/bigenemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

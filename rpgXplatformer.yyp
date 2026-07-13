@@ -168,6 +168,7 @@
     {"id":{"name":"O_secretboss","path":"objects/O_secretboss/O_secretboss.yy",},},
     {"id":{"name":"O_semisolidmoveplat","path":"objects/O_semisolidmoveplat/O_semisolidmoveplat.yy",},},
     {"id":{"name":"O_semisolidwall","path":"objects/O_semisolidwall/O_semisolidwall.yy",},},
+    {"id":{"name":"O_settingsdeadtivator","path":"objects/O_settingsdeadtivator/O_settingsdeadtivator.yy",},},
     {"id":{"name":"O_settingsmenu","path":"objects/O_settingsmenu/O_settingsmenu.yy",},},
     {"id":{"name":"O_shop_button","path":"objects/O_shop_button/O_shop_button.yy",},},
     {"id":{"name":"O_shop_flagsetter","path":"objects/O_shop_flagsetter/O_shop_flagsetter.yy",},},

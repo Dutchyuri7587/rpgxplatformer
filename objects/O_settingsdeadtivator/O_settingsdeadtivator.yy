@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"O_settingsmenu",
+  "%Name":"O_settingsdeadtivator",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_settingsmenu",
+  "name":"O_settingsdeadtivator",
   "overriddenProperties":[],
   "parent":{
     "name":"settings",
     "path":"folders/Title_screen/Objects/settings.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_Mmenu_settings",
-    "path":"sprites/S_Mmenu_settings/S_Mmenu_settings.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

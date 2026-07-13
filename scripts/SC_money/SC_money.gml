@@ -10,9 +10,9 @@ function givemoney()
 		(
 		x,
 		y,
-		depth-1,
+		depth-100,
 		O_floatingtext,
-		{font: testfont, col: c_white, text: string(moneyworth)}
+		{font: testfont, col: c_yellow, text: "+" + string(moneyworth)}
 		);
 	}
 }
@@ -29,9 +29,9 @@ function givemoneyenemy()
 		(
 		x,
 		y,
-		depth-1,
+		depth-100,
 		O_floatingtext,
-		{font: testfont, col: c_white, text: string(other.moneyworth)}
+		{font: testfont, col: c_yellow, text: "+" + string(other.moneyworth)}
 		);
 	}
 }

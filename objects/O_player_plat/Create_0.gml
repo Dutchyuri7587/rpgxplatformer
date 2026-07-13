@@ -41,6 +41,7 @@ function checkforsemisolidplatform(_x, _y)
 depth = -30;
 
 damage = 10;
+platmp = global.party[0].mp
 
 //controlling setup
 controlsSetup();

@@ -1,2 +1,1 @@
-moneyworth = 1;
-hasgivenmoney = false;
+heartadded = 1;

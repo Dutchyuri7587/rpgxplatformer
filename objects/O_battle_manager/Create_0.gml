@@ -246,7 +246,7 @@ function battlestatevictorycheck()
 		instance_destroy();
 		instance_deactivate_object(O_general_drawer);
 		
-		room_goto(R_loss);
+		room_goto(R_loss_alpha1);
 	}
 	
 	if (enemyunitsbyhp[0].hp <= 0)

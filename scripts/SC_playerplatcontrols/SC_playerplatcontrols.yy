@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"SC_playerplatcontrols",
   "parent":{
-    "name":"Platformer",
-    "path":"folders/Platformer/Scripts/Platformer.yy",
+    "name":"Scripts",
+    "path":"folders/Platformer/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

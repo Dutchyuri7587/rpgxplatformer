@@ -4,9 +4,8 @@ getControls();
 
 if global.plathp <= 0
 {
-	instance_deactivate_object(O_general_drawer);
 	
-	room_goto(R_loss);
+	room_goto(R_loss_alpha2);
 }
 
 //get out of solid moveplatforms that have put themselves into the player in the begin step

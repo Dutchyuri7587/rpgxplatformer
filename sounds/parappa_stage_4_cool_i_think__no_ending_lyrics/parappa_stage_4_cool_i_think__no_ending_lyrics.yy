@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"parappa_stage_4_cool_i_think__no_ending_lyrics",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":127.55916,
+  "exportDir":"",
+  "name":"parappa_stage_4_cool_i_think__no_ending_lyrics",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"parappa_stage_4_cool_i_think__no_ending_lyrics.ogg",
+  "volume":1.0,
+}

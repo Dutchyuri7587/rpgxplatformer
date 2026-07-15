@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"SC_js_sm_bs",
   "parent":{
-    "name":"Platformer",
-    "path":"folders/Platformer/Scripts/Platformer.yy",
+    "name":"Scripts",
+    "path":"folders/Platformer/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

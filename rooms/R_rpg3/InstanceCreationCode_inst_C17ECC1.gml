@@ -1,1 +1,1 @@
-target_room = R_win;
+target_room = R_win_alpha1;

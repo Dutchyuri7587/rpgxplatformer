@@ -106,6 +106,7 @@
     {"name":"O_musicsetter","order":4,"path":"objects/O_musicsetter/O_musicsetter.yy",},
     {"name":"O_newbutton","order":1,"path":"objects/O_newbutton/O_newbutton.yy",},
     {"name":"O_othernewbutton","order":2,"path":"objects/O_othernewbutton/O_othernewbutton.yy",},
+    {"name":"O_pauser","order":11,"path":"objects/O_pauser/O_pauser.yy",},
     {"name":"O_platenemy_catbig","order":2,"path":"objects/O_platenemy_catbig/O_platenemy_catbig.yy",},
     {"name":"O_platenemy_explosiontest","order":4,"path":"objects/O_platenemy_explosiontest/O_platenemy_explosiontest.yy",},
     {"name":"O_platenemy_snowyballs","order":3,"path":"objects/O_platenemy_snowyballs/O_platenemy_snowyballs.yy",},

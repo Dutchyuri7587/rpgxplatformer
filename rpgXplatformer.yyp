@@ -149,6 +149,7 @@
     {"id":{"name":"O_musicsetter","path":"objects/O_musicsetter/O_musicsetter.yy",},},
     {"id":{"name":"O_newbutton","path":"objects/O_newbutton/O_newbutton.yy",},},
     {"id":{"name":"O_othernewbutton","path":"objects/O_othernewbutton/O_othernewbutton.yy",},},
+    {"id":{"name":"O_pauser","path":"objects/O_pauser/O_pauser.yy",},},
     {"id":{"name":"O_platenemy_catbig","path":"objects/O_platenemy_catbig/O_platenemy_catbig.yy",},},
     {"id":{"name":"O_platenemy_explosiontest","path":"objects/O_platenemy_explosiontest/O_platenemy_explosiontest.yy",},},
     {"id":{"name":"O_platenemy_snowyballs","path":"objects/O_platenemy_snowyballs/O_platenemy_snowyballs.yy",},},

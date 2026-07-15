@@ -1,4 +1,10 @@
 //play the correct music
+
+if room = R_Title_screen
+{
+	set_song_ingame(parappa_stage_4_cool_i_think__no_ending_lyrics, 20, 0);
+}
+
 if room = hubworld
 {
 	set_song_ingame(how2philly_darnell_mix, 20, 0);

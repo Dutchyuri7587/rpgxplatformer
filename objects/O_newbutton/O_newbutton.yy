@@ -11,8 +11,8 @@
   "name":"O_newbutton",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Shop/Objects/Shop/Buttons.yy",
+    "name":"tests",
+    "path":"folders/Shop/Objects/Shop/Buttons/tests.yy",
   },
   "parentObjectId":null,
   "persistent":false,

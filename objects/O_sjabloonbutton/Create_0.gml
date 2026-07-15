@@ -1,13 +1,13 @@
 hasbeenbought = false;
-cost = 50;
+cost = 1;
 mousepressed = false;
 timesbeenbought = 0;
 maxtimesbeenbought = 1;
 
-spr_unbought = S_shopsale;
-spr_bought = S_shopsale_bought;
+spr_unbought = S_button_shop;
+spr_bought = S_button_shop;
 
-if global.flagshop[99] = true
+if global.flagshop[1] = true
 {
 	sprite_index = spr_bought;
 }

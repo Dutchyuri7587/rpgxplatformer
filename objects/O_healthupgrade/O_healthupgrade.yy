@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_leavebutton",
+  "%Name":"O_healthupgrade",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_leavebutton",
+  "name":"O_healthupgrade",
   "overriddenProperties":[],
   "parent":{
-    "name":"tests",
-    "path":"folders/Shop/Objects/Shop/Buttons/tests.yy",
+    "name":"Alpha_2",
+    "path":"folders/Shop/Objects/Shop/Buttons/Alpha_2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_leavebutton",
-    "path":"sprites/S_leavebutton/S_leavebutton.yy",
+    "name":"S_button_shop_addplathealth",
+    "path":"sprites/S_button_shop_addplathealth/S_button_shop_addplathealth.yy",
   },
   "spriteMaskId":null,
   "visible":true,

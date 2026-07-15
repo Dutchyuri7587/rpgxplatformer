@@ -23,8 +23,8 @@
   ],
   "name":"R_shopplatformer1",
   "parent":{
-    "name":"shop",
-    "path":"folders/Shop/Rooms/shop.yy",
+    "name":"Alpha1",
+    "path":"folders/Shop/Rooms/Alpha1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

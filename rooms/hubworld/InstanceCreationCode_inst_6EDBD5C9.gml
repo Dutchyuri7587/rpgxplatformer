@@ -1,0 +1,1 @@
+target_room = R_shop_alpha2;

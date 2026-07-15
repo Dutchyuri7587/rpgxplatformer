@@ -2,7 +2,7 @@ if position_meeting(mouse_x, mouse_y, O_saleupgrade)
 {
 	if (mouse_check_button_pressed(mb_left))
 	{
-		if global.flagshop[1] = false
+		if global.flagshop[99] = false
 		{
 			if (hasbeenbought = false)
 			{
@@ -23,7 +23,7 @@ if position_meeting(mouse_x, mouse_y, O_saleupgrade)
 					{
 						hasbeenbought = true;
 						global.bossunlockcounter ++;
-						global.flagshop[1] = true
+						global.flagshop[99] = true
 					}
 				}
 				else
@@ -39,7 +39,7 @@ if position_meeting(mouse_x, mouse_y, O_saleupgrade)
 	}
 }
 
-if global.flagshop[1] = true
+if global.flagshop[99] = true
 {
 	sprite_index = spr_bought;
 }

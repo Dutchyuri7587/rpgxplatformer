@@ -1,30 +1,28 @@
 {
   "$GMRoom":"v1",
-  "%Name":"R_shopplatformer2",
+  "%Name":"R_shop_alpha2",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_5153459B1","path":"rooms/R_shopplatformer2/R_shopplatformer2.yy",},
-    {"name":"inst_E4466B4_1","path":"rooms/R_shopplatformer2/R_shopplatformer2.yy",},
-    {"name":"inst_6DBD5720_1","path":"rooms/R_shopplatformer2/R_shopplatformer2.yy",},
-    {"name":"inst_588FC71E1","path":"rooms/R_shopplatformer2/R_shopplatformer2.yy",},
+    {"name":"inst_2D44AEBC2","path":"rooms/R_shop_alpha2/R_shop_alpha2.yy",},
+    {"name":"inst_2C93BF90_2","path":"rooms/R_shop_alpha2/R_shop_alpha2.yy",},
+    {"name":"inst_1BF9561B","path":"rooms/R_shop_alpha2/R_shop_alpha2.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_5153459B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5153459B1","objectId":{"name":"O_plathealthupgrade","path":"objects/O_plathealthupgrade/O_plathealthupgrade.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":128.0,},
-        {"$GMRInstance":"v4","%Name":"inst_E4466B4_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E4466B4_1","objectId":{"name":"O_platjumpbuyer","path":"objects/O_platjumpbuyer/O_platjumpbuyer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":128.0,},
-        {"$GMRInstance":"v4","%Name":"inst_6DBD5720_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DBD5720_1","objectId":{"name":"O_leavebutt","path":"objects/O_leavebutt/O_leavebutt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":192.0,},
-        {"$GMRInstance":"v4","%Name":"inst_588FC71E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_588FC71E1","objectId":{"name":"O_saleupgrade","path":"objects/O_saleupgrade/O_saleupgrade.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":64.0,},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_2D44AEBC2","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D44AEBC2","objectId":{"name":"O_leavebutt","path":"objects/O_leavebutt/O_leavebutt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":192.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2C93BF90_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C93BF90_2","objectId":{"name":"O_saleupgrade","path":"objects/O_saleupgrade/O_saleupgrade.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":80.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1BF9561B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1BF9561B","objectId":{"name":"O_healthupgrade","path":"objects/O_healthupgrade/O_healthupgrade.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":128.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"S_testshopbg","path":"sprites/S_testshopbg/S_testshopbg.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"R_shopplatformer2",
+  "name":"R_shop_alpha2",
   "parent":{
-    "name":"Alpha1",
-    "path":"folders/Shop/Rooms/Alpha1.yy",
+    "name":"Alpha2",
+    "path":"folders/Shop/Rooms/Alpha2.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

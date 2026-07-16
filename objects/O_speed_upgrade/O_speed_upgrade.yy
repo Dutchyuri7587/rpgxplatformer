@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_battle_manager",
+  "%Name":"O_speed_upgrade",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":89,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_battle_manager",
+  "name":"O_speed_upgrade",
   "overriddenProperties":[],
   "parent":{
-    "name":"Battle_setup",
-    "path":"folders/Rpg/Objects/Battle_setup.yy",
+    "name":"Alpha_2",
+    "path":"folders/Shop/Objects/Shop/Buttons/Alpha_2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_shop_speed",
+    "path":"sprites/S_shop_speed/S_shop_speed.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

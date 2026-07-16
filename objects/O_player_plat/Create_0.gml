@@ -58,7 +58,7 @@ face = 1;
 movedirection = 0;
 runtype = 0;
 movespeed[0] = 2.5;
-movespeed[1] = 3;
+movespeed[1] = global.runspeed;
 xspeed = 0;
 yspeed = 0;
 

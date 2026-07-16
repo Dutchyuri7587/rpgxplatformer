@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_debug_teleporter",
+  "%Name":"O_debug_mode",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_debug_teleporter",
+  "name":"O_debug_mode",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

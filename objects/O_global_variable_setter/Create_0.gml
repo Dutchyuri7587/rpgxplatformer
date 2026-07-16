@@ -8,6 +8,7 @@ global.plathp = 5
 global.maxplathp = 5;
 global.maxplatjumps = 1
 global.money = 0;
+global.runspeed = 3;
 
 
 

@@ -13,4 +13,10 @@ draw_set_valign(fa_top);
 draw_set_color(c_white);
 draw_text_transformed(100,190,"maxhp: " + string(global.maxplathp),5,5,0);
 
+draw_set_font(testfont);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_color(c_white);
+draw_text_transformed(100,290,"movespeed[1]: " + string(movespeed[1]),5,5,0);
+
 //and by it? my hp.

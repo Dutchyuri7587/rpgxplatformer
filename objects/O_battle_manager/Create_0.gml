@@ -32,20 +32,6 @@ cursor =
 	active: false
 };
 
-//make enemies
-for (var i = 0; i < array_length(enemies); i++)
-{
-    enemyunits[i] = instance_create_depth(
-        x+250+(i*10) + (irandom_range(0,5)),
-        y+20*(i+1)+(i*7) + (irandom_range(2,5)),
-        depth-10,
-        O_battleunitenemy,
-        enemies[i]
-    );
-
-    array_push(units, enemyunits[i]);
-}
-
 //make party
 for (var i = 0; i < array_length(global.party); i++)
 {
@@ -60,8 +46,31 @@ for (var i = 0; i < array_length(global.party); i++)
     array_push(units, partyunits[i]);
 }
 
+//make enemies
+for (var i = 0; i < array_length(enemies); i++)
+{
+    enemyunits[i] = instance_create_depth(
+        x+250+(i*10) + (irandom_range(0,5)),
+        y+20*(i+1)+(i*7) + (irandom_range(2,5)),
+        depth-10,
+        O_battleunitenemy,
+        enemies[i]
+    );
+
+    array_push(units, enemyunits[i]);
+}
+
+
+
 //shuffle turn order
-turnorder = array_shuffle(units);
+if global.party[0].speedupgrade = true
+{
+	turnorder = units
+}
+else
+{
+	turnorder = array_shuffle(units);
+}
 
 //get renderoder
 refreshrenderorder = function()

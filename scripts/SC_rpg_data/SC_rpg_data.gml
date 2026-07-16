@@ -196,7 +196,8 @@ global.party =
 		turns: 1,
 		sprites: {idle: S_player_rpg_idle, attack: S_player_rpg_attack, defend: S_player_rpg_defend, downed: S_player_rpg_downed},
 		actions: [global.actionlibrarby.attack, global.actionlibrarby.glock, global.actionlibrarby.magic, global.actionlibrarby.magichitall, global.actionlibrarby.alphaheal],
-		gunupgrade: 0
+		gunupgrade: 0,
+		speedupgrade: false
 	}
 ];
 

@@ -4,7 +4,7 @@ global.flagshop[2] = false; // health upgrade
 global.flagshop[3] = false; // damage upgrade 1
 global.flagshop[4] = false; // damage upgrade 2
 global.flagshop[5] = false; // jump/turn upgrade
-global.flagshop[6] = false; // 
+global.flagshop[6] = false; // speed upgrade
 
 
 

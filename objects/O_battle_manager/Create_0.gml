@@ -269,9 +269,21 @@ function battlestatevictorycheck()
 
 function battlestateturnprogress()
 {
+	//get current unit
+	var _unit = turnorder[turn];
+	var _playerunit = global.party[0]
+	
 	battletext = ""; //reset text
-	turncount++;
-	turn++;
+	if (_unit.object_index == O_battleunitplayer)
+	{
+		turncount += _playerunit.turns;
+		turn += _playerunit.turns;
+	}
+	else
+	{
+		turncount++;
+		turn++;
+	}
 	//loop turns
 	if (turn > array_length(turnorder) - 1)
 	{

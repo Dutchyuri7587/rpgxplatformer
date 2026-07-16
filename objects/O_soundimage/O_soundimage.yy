@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"O_Xbutton",
+  "%Name":"O_soundimage",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Xbutton",
+  "name":"O_soundimage",
   "overriddenProperties":[],
   "parent":{
     "name":"settings",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Xbutton",
-    "path":"sprites/S_Xbutton/S_Xbutton.yy",
+    "name":"S_Mmenu_settings_1",
+    "path":"sprites/S_Mmenu_settings_1/S_Mmenu_settings_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

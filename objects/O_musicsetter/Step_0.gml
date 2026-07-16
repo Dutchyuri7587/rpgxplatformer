@@ -3,13 +3,19 @@ var _finalvolume = global.musicvolume*global.mastervolume;
 if keyboard_check_pressed(ord("5"))
 {
 	global.mastervolume -= 0.1;
-	clamp(global.mastervolume, 0,1);
+	if global.mastervolume < 0
+	{
+		global.mastervolume = 0;
+	}
 }
 
 if keyboard_check_pressed(ord("6"))
 {
 	global.mastervolume += 0.1;
-	clamp(global.mastervolume, 0,1);
+	if global.mastervolume > 1
+	{
+		global.mastervolume = 1;
+	}
 }
 
 if keyboard_check_pressed(ord("7"))

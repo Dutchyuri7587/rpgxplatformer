@@ -12,7 +12,7 @@ function givemoney()
 		y,
 		depth-100,
 		O_floatingtext,
-		{font: testfont, col: c_yellow, text: "+" + string(moneyworth)}
+		{font: testfont, col: c_yellow, text: "+ €" + string(moneyworth)}
 		);
 	}
 }
@@ -31,7 +31,7 @@ function givemoneyenemy()
 		y,
 		depth-100,
 		O_floatingtext,
-		{font: testfont, col: c_yellow, text: "+" + string(other.moneyworth)}
+		{font: testfont, col: c_yellow, text: "+ €" + string(other.moneyworth)}
 		);
 	}
 }
@@ -42,5 +42,15 @@ function givemoneyrpg()
 	{
 		hasgivenmoney = true;
 		global.money += moneyworth;
+		
+		//draw text that fadessssssss
+		instance_create_depth
+		(
+		x,
+		y,
+		depth-100,
+		O_floatingtext,
+		{font: testfont, col: c_yellow, text: "+ €" + string(other.moneyworth)}
+		);
 	}
 }

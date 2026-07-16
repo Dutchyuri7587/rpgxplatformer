@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Xbutton",
+  "%Name":"O_Music_up_button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Xbutton",
+  "name":"O_Music_up_button",
   "overriddenProperties":[],
   "parent":{
     "name":"settings",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Xbutton",
-    "path":"sprites/S_Xbutton/S_Xbutton.yy",
+    "name":"S_music_up",
+    "path":"sprites/S_music_up/S_music_up.yy",
   },
   "spriteMaskId":null,
   "visible":true,

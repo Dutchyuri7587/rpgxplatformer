@@ -14,7 +14,7 @@ if position_meeting(mouse_x, mouse_y, O_speed_upgrade)
 				
 				//actual functions
 				global.party[0].speedupgrade = true;
-				global.runspeed += 1;
+				global.runspeed += 0.5;
 				
 				audio_play_sound(dogtrill,1,false);
 				//setup junk

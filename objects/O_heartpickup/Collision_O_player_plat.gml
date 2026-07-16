@@ -6,6 +6,6 @@ instance_create_depth
 	y,
 	depth-100,
 	O_floatingtext,
-	{font: testfont, col: c_red, text: "+" + string(heartadded)}
+	{font: testfont, col: c_red, text: "+" + string(heartadded) + "HP"}
 	);
 instance_destroy();

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Caf____Rhythm_Heaven_Groove__OST_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":149.44363,
+  "exportDir":"",
+  "name":"Caf____Rhythm_Heaven_Groove__OST_",
+  "parent":{
+    "name":"shop",
+    "path":"folders/Audio/Music/shop.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Caf____Rhythm_Heaven_Groove__OST_.ogg",
+  "volume":1.0,
+}

@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"tests",
-    "path":"folders/Shop/Objects/Shop/Buttons/tests.yy",
+    "path":"folders/Shop/Objects/Shop/Buttons/Deprecated/tests.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,7 +9,7 @@ if global.plathp <= 0
 }
 
 //get out of solid moveplatforms that have put themselves into the player in the begin step
-#region
+#region get out of walls
 	var _rightwall = noone;
 	var _leftwall = noone;
 	var _bottomwall = noone;
@@ -90,6 +90,7 @@ if global.plathp <= 0
 			}
 		}
 #endregion
+
 //dont get left behind by my moveplat
 earlymovemoveplatxspeed = false;
 if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y+moveplatmaxyspd+1, myfloorplat)
@@ -102,6 +103,7 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 	}
 }
 
+#region crouching
 //crouching
 	//get into crouch
 
@@ -145,6 +147,7 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 				mask_index = sprcrouch;
 			}
 		}
+#endregion
 
 //x movement
 	//get the direction
@@ -212,8 +215,7 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 
 //y movement!
 
-	//gravity
-	
+	#region gravity
 	if coyotehangtimer > 0
 	{
 		//count the timer down
@@ -235,9 +237,9 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 		coyotejumptimer--;
 		if jumpcount == 0 && coyotejumptimer <= 0 {jumpcount = 1;};
 	}
-	
+	#endregion
 
-	
+	#region jumping
 	//jump jump into the air! || initiate the jump
 	var _floorissolid = false;
 	if instance_exists(myfloorplat)
@@ -261,15 +263,17 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 	{
 		holdingjumptimer = 0;
 	}
-		// jump based on timer/holding jump button
-		if holdingjumptimer > 0
-		{
-			// rerpeatedly set the yspeed to your jumping speed
-			yspeed = jumpspeed;
-			
-			// count down the timer
-			holdingjumptimer--;
-		}
+	
+	// jump based on timer/holding jump button
+	if holdingjumptimer > 0
+	{
+		// rerpeatedly set the yspeed to your jumping speed
+		yspeed = jumpspeed;
+		
+		// count down the timer
+		holdingjumptimer--;
+	}
+	#endregion
 
 // y collision and movement
 	//cap falling speed
@@ -465,24 +469,6 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 		{
 			y = myfloorplat.bbox_top;
 		}
-		
-		//made redundant
-									//going up into a solid wall while on a semisolid
-									/*if myfloorplat.yspeed < 0 && place_meeting(x, y + myfloorplat.yspeed, O_wall)
-									{
-										//get pushed down through the semisolid
-										if myfloorplat.object_index == O_semisolidwall || object_is_ancestor(myfloorplat.object_index, O_semisolidwall)
-										{
-											//get pushed down trhough the semisolid
-											var _subpixel = .25;
-											while place_meeting(x, y + myfloorplat.yspeed, O_wall) {y += _subpixel;};
-											//if we got pushed into a solid wall while going downwards push ourselfse out
-											while place_meeting(x, y, O_wall) {y -= _subpixel;};
-											y = round(y);
-										}
-										//cancel the myfloorplat variable
-										setonground(false);
-									}*/
 	}
 	
 	//push myself through semisolid if being crushed
@@ -509,6 +495,57 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 		if _pusheddist > _maxpushdist {y = _startY};
 	}
 	
+#region magic
+
+
+if normalmagickey = 1 && hascastmagic = false
+{
+	if mp >= normalmagic_mpcost
+	{
+		currentlycasting = true;
+		hascastmagic = true;
+		mp -= normalmagic_mpcost;
+		instance_create_depth(x+20, y-16, -1000, O_normal_magic)
+	}
+	else if mp < normalmagic_mpcost
+	{
+		currentlycasting = true;
+		hascastmagic = true;
+		mptexttimer = mptextframes;
+		
+		instance_create_depth
+		(
+		x,
+		y-5,
+		depth-100,
+		O_floatingtext,
+		{font: testfont, col: c_white, text:"not enough mp"}
+		);
+	}
+}
+
+if  mp < normalmagic_mpcost
+{
+	if (mptexttimer > 0)
+	{
+		mptexttimer--;
+	}
+	if (mptexttimer <= 0)
+	{
+		hascastmagic = false;
+	}
+}
+
+
+if normalmagickey != 1
+{
+	currentlycasting = false;
+}
+
+
+#endregion
+
+	
 //check if im crushed
 image_blend = c_white
 if place_meeting(x,y,O_wall)
@@ -520,7 +557,6 @@ if place_meeting(x,y,O_wall)
 if gothitplayer = true
 {
 	invincibilitytime--;
-	
 	if invincibilitytime <= 0
 	{
 		gothitplayer = false;
@@ -529,15 +565,22 @@ if gothitplayer = true
 	
 //sprite controi
 	//walk
-	if abs(xspeed) > 0 {sprite_index = sprwalk};
+	if abs(xspeed) > 0 {sprite_index = sprwalk;};
 	//running
 	if abs(xspeed) >= movespeed[1] {sprite_index = sprrun;};
 	//idle
-	if xspeed == 0 {sprite_index = spridle};
+	if xspeed == 0 {sprite_index = spridle;};
 	//jump
-	if !onground {sprite_index = sprjump};
+	if !onground {sprite_index = sprjump;};
+	//magic
+	if currentlycasting = true
+	{
+		sprite_index = sprmagic;
+	};
+	
 	//crouch
 	if crouching {sprite_index = sprcrouch;};
 	//collision mask
 	mask_index = spridle;
 	if crouching {mask_index = sprcrouch;};
+	

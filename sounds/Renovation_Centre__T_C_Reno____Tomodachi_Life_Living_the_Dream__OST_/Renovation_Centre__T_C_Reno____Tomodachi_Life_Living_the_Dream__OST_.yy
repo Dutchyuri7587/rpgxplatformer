@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Renovation_Centre__T_C_Reno____Tomodachi_Life_Living_the_Dream__OST_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":221.23973,
+  "exportDir":"",
+  "name":"Renovation_Centre__T_C_Reno____Tomodachi_Life_Living_the_Dream__OST_",
+  "parent":{
+    "name":"shop",
+    "path":"folders/Audio/Music/shop.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Renovation_Centre__T_C_Reno____Tomodachi_Life_Living_the_Dream__OST_.ogg",
+  "volume":1.0,
+}

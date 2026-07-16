@@ -2,6 +2,8 @@ instance_deactivate_all(true);
 instance_activate_object(O_musicsetter);
 instance_activate_object(O_camera);
 instance_activate_object(O_general_drawer);
+instance_activate_object(O_retry);
+instance_activate_object(O_pauser);
 
 units = [];
 turn = 0;

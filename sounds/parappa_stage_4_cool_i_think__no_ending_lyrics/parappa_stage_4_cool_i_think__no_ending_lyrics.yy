@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"parappa_stage_4_cool_i_think__no_ending_lyrics",
   "parent":{
-    "name":"Music",
-    "path":"folders/Audio/Music.yy",
+    "name":"title",
+    "path":"folders/Audio/Music/title.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

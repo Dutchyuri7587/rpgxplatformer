@@ -5,6 +5,7 @@ global.flagshop[3] = false; // damage upgrade 1
 global.flagshop[4] = false; // damage upgrade 2
 global.flagshop[5] = false; // jump/turn upgrade
 global.flagshop[6] = false; // speed upgrade
+global.flagshop[7] = false; // sale for alpha 2
 
 
 

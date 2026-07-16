@@ -34,3 +34,22 @@ if room = R_rpg1
 {
 	set_song_ingame(cliff, 10, 0);
 }
+
+if room = R_shop_alpha2
+{
+	var _random_shop_music = irandom_range(1,3)
+	{
+		if _random_shop_music = 1
+		{
+			set_song_ingame(Island_Design_Centre__Quik_Build____Tomodachi_Life_Living_the_Dream__OST_, 10, 0);
+		}
+		if _random_shop_music = 2
+		{
+			set_song_ingame(Renovation_Centre__T_C_Reno____Tomodachi_Life_Living_the_Dream__OST_, 10, 0);
+		}
+		if _random_shop_music = 3
+		{
+			set_song_ingame(Caf____Rhythm_Heaven_Groove__OST_, 10, 0);
+		}
+	}
+}

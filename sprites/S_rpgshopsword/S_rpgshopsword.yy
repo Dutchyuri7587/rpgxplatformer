@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"sword",
-    "path":"folders/Shop/Sprites/buttons/alpha_1.0/rpg/sword.yy",
+    "path":"folders/Shop/Sprites/buttons/deprecated/alpha_1.0/rpg/sword.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

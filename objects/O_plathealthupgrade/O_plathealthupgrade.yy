@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"platformer",
-    "path":"folders/Shop/Objects/Shop/Buttons/alpha_1.0/platformer.yy",
+    "path":"folders/Shop/Objects/Shop/Buttons/Deprecated/alpha_1.0/platformer.yy",
   },
   "parentObjectId":null,
   "persistent":false,

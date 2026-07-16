@@ -16,8 +16,8 @@
   "name":"O_player_plat",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entities",
-    "path":"folders/Platformer/Objects/Entities.yy",
+    "name":"player",
+    "path":"folders/Platformer/Objects/Entities/player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

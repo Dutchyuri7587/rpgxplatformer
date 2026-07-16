@@ -46,7 +46,7 @@
   "origin":0,
   "parent":{
     "name":"jump",
-    "path":"folders/Shop/Sprites/buttons/alpha_1.0/platformer/jump.yy",
+    "path":"folders/Shop/Sprites/buttons/deprecated/alpha_1.0/platformer/jump.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

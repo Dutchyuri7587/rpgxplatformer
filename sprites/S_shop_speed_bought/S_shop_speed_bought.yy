@@ -45,8 +45,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"jumper",
-    "path":"folders/Shop/Sprites/buttons/alpha_2/jumper.yy",
+    "name":"speed",
+    "path":"folders/Shop/Sprites/buttons/alpha_2/speed.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

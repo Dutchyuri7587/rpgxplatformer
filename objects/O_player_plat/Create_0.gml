@@ -43,6 +43,17 @@ depth = -30;
 damage = 10;
 platmp = global.party[0].mp
 
+hascastmagic = false;
+currentlycasting = false;
+
+normalmagic_mpcost = 5;
+
+mptextframes = 30;
+mptexttimer = 0;
+
+mp = global.party[0].mp;
+maxmp = global.party[0].maxmp;
+
 //controlling setup
 controlsSetup();
 
@@ -52,6 +63,7 @@ sprrun = S_playerplatrun;
 sprjump = S_playerplatjump;
 sprwalk = S_playerplatwalk;
 sprcrouch = S_playerplatcrouch;
+sprmagic = S_playerplatmagic;
 
 //moving
 face = 1;

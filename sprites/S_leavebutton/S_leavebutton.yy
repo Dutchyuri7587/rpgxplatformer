@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"buttons",
-    "path":"folders/Shop/Sprites/buttons.yy",
+    "name":"deprecated",
+    "path":"folders/Shop/Sprites/buttons/deprecated.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

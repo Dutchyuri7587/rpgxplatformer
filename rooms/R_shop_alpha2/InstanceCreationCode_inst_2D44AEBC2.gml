@@ -1,1 +1,0 @@
-target_room = R_rpg1;

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Island_Design_Centre__Quik_Build____Tomodachi_Life_Living_the_Dream__OST_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":184.22713,
+  "exportDir":"",
+  "name":"Island_Design_Centre__Quik_Build____Tomodachi_Life_Living_the_Dream__OST_",
+  "parent":{
+    "name":"shop",
+    "path":"folders/Audio/Music/shop.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Island_Design_Centre__Quik_Build____Tomodachi_Life_Living_the_Dream__OST_.ogg",
+  "volume":1.0,
+}

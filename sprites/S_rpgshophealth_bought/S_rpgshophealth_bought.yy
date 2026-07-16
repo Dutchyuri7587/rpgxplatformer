@@ -46,7 +46,7 @@
   "origin":0,
   "parent":{
     "name":"health",
-    "path":"folders/Shop/Sprites/buttons/alpha_1.0/rpg/health.yy",
+    "path":"folders/Shop/Sprites/buttons/deprecated/alpha_1.0/rpg/health.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

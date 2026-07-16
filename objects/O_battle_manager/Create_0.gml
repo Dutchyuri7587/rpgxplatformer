@@ -10,7 +10,7 @@ renderorder = [];
 
 turncount = 0;
 roundcount = 0;
-battlewaitframes = 30;
+battlewaitframes = 2;
 battlewaittimeremaining = 0;
 battletext = "";
 currentuser = noone;
@@ -278,14 +278,6 @@ function battlestateturnprogress()
 		turn = 0;
 		roundcount++;
 	}
-	
-	//check if all enemies are dead, if so, win the battle.
-	if global.enemies.testenemy.hp <= 0
-	{
-		battlewon = true;
-	}
-	
-	//check if the player is dead, if so, lose the battle.
 	
 	battlestate = battlestateselectaction;
 }

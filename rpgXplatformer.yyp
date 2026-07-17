@@ -146,6 +146,7 @@
     {"id":{"name":"O_battleunit","path":"objects/O_battleunit/O_battleunit.yy",},},
     {"id":{"name":"O_battleunitenemy","path":"objects/O_battleunitenemy/O_battleunitenemy.yy",},},
     {"id":{"name":"O_battleunitplayer","path":"objects/O_battleunitplayer/O_battleunitplayer.yy",},},
+    {"id":{"name":"O_bigcoin","path":"objects/O_bigcoin/O_bigcoin.yy",},},
     {"id":{"name":"O_camera","path":"objects/O_camera/O_camera.yy",},},
     {"id":{"name":"O_coin","path":"objects/O_coin/O_coin.yy",},},
     {"id":{"name":"O_damage_upgrade1","path":"objects/O_damage_upgrade1/O_damage_upgrade1.yy",},},

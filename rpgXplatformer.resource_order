@@ -102,6 +102,7 @@
     {"name":"O_battleunit","order":1,"path":"objects/O_battleunit/O_battleunit.yy",},
     {"name":"O_battleunitenemy","order":2,"path":"objects/O_battleunitenemy/O_battleunitenemy.yy",},
     {"name":"O_battleunitplayer","order":3,"path":"objects/O_battleunitplayer/O_battleunitplayer.yy",},
+    {"name":"O_bigcoin","order":5,"path":"objects/O_bigcoin/O_bigcoin.yy",},
     {"name":"O_camera","order":2,"path":"objects/O_camera/O_camera.yy",},
     {"name":"O_coin","order":2,"path":"objects/O_coin/O_coin.yy",},
     {"name":"O_damage_upgrade1","order":2,"path":"objects/O_damage_upgrade1/O_damage_upgrade1.yy",},

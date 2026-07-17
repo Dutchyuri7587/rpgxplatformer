@@ -1,21 +1,26 @@
-if !hashit
+if hashitenemy = false
 {
-	other.enemyinvincibilitytime = other.enemyinvincibilityframes;
-	other.hasbeenhit = true;
-	hashit = true;
-	other.hp -= enemydamage;
+	other.hp -= damage;
 	
-	instance_create_depth
-	(
-	x+20,
-	y,
-	depth-100,
-	O_floatingtext,
-	{font: testfont, col: c_white, text: "-"+string(damage)}
-	);
-	
-	if other.hp <= 0
+	if !hasshowntext
 	{
+		instance_create_depth
+		(
+		x+20,
+		y,
+		depth-1,
+		O_floatingtext,
+		{font: testfont, col: c_white, text: "-"+string(damage*global.attackmultiplier)}
+		);
+	}
+	
+	hasshowntext = true;
+	texttimer = textframes;
+	
+	if (other.hp <= 0)
+	{	
 		givemoneyenemy();
+		other.explosiontimer = other.explosionframes;
+		other.startcounting = true;
 	}
 }

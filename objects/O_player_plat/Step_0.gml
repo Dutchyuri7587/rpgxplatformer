@@ -505,7 +505,7 @@ if normalmagickey = 1 && hascastmagic = false
 		currentlycasting = true;
 		hascastmagic = true;
 		mp -= normalmagic_mpcost;
-		instance_create_depth(x+20, y-16, -1000, O_normal_magic)
+		instance_create_depth(x+35 * face, y-16, -1000, O_normal_magic)
 	}
 	else if mp < normalmagic_mpcost
 	{
@@ -524,7 +524,47 @@ if normalmagickey = 1 && hascastmagic = false
 	}
 }
 
+
+
+if aoemagickey = 1 && hascastmagic = false
+{
+	if mp >= aoemagic_mpcost
+	{
+		currentlycasting = true;
+		hascastmagic = true;
+		mp -= aoemagic_mpcost;
+		instance_create_depth(x+50 * face, y-20, -1000, O_aoe_magic)
+	}
+	else if mp < aoemagic_mpcost
+	{
+		currentlycasting = true;
+		hascastmagic = true;
+		mptexttimer = mptextframes;
+		
+		instance_create_depth
+		(
+		x,
+		y-5,
+		depth-100,
+		O_floatingtext,
+		{font: testfont, col: c_white, text:"not enough mp"}
+		);
+	}
+}
+
+
 if  mp < normalmagic_mpcost
+{
+	if (mptexttimer > 0)
+	{
+		mptexttimer--;
+	}
+	if (mptexttimer <= 0)
+	{
+		hascastmagic = false;
+	}
+}
+if  mp < aoemagic_mpcost
 {
 	if (mptexttimer > 0)
 	{
@@ -537,10 +577,11 @@ if  mp < normalmagic_mpcost
 }
 
 
-if normalmagickey != 1
+if normalmagickey != 1 && aoemagickey != 1
 {
 	currentlycasting = false;
 }
+
 
 
 #endregion

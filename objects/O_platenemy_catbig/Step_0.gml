@@ -214,7 +214,7 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 	}
 #endregion
 
-if place_meeting(x,y,O_wall)
+if place_meeting(x,y-1,O_wall)
 {
 	xspeed *= -1;
 	movedirection *= -1;

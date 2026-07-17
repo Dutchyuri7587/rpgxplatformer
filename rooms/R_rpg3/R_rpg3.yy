@@ -22,7 +22,7 @@
   "name":"R_rpg3",
   "parent":{
     "name":"Alpha_1",
-    "path":"folders/Platformer/Rooms/Alpha_1.yy",
+    "path":"folders/Rpg/Rooms/Alpha_1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

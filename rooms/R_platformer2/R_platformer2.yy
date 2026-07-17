@@ -165,13 +165,13 @@
           -2147483648,1,10,-119,-2147483648,1,10,-119,-2147483648,1,10,-119,-2147483648,1,10,-119,-2147483648,
           1,10,-103,-2147483648,1,11,-14,-2147483648,2,7,9,-103,-2147483648,2,8,6,-12,-2147483648,3,7,1,9,-103,
           -2147483648,2,3,5,-12,13,-2,5,1,2,-2164,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"T_clouds","path":"tilesets/T_clouds/T_clouds.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4294950783,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"R_platformer2",
   "parent":{
     "name":"Alpha_1",
-    "path":"folders/Rpg/Rooms/Alpha_1.yy",
+    "path":"folders/Platformer/Rooms/Alpha_1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

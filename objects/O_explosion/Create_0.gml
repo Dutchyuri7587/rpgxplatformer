@@ -1,3 +1,4 @@
 damage = 1;
+enemydamage = 10;
 
-hashitplayer = false;
+hashit = false;

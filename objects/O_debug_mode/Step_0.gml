@@ -14,6 +14,7 @@ if keyboard_check_pressed(ord("N")) // essentially godmode
 	global.party[0].hp += 9999;
 	global.party[0].maxhp += 9999;
 	global.party[0].strength += 9999;
+	O_player_plat.mp = 9999
 }
 
 if keyboard_check_pressed(ord("Y")) // make you always go first

@@ -1,7 +1,6 @@
 if hashitenemy = false
 {
 	other.hp -= damage;
-	hashitenemy = true;
 	
 	instance_create_depth
 	(

@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet4",
+  "%Name":"T_clouds",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet4",
+  "name":"T_clouds",
   "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Tilesets",
-    "path":"folders/Tilesets.yy",
+    "name":"tilesets",
+    "path":"folders/Tilesets/tilesets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite62",
-    "path":"sprites/Sprite62/Sprite62.yy",
+    "name":"S_clouds",
+    "path":"sprites/S_clouds/S_clouds.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

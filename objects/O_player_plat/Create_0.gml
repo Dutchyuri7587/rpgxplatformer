@@ -46,7 +46,10 @@ platmp = global.party[0].mp
 hascastmagic = false;
 currentlycasting = false;
 
+#region mp costs
 normalmagic_mpcost = 5;
+aoemagic_mpcost = 10;
+#endregion
 
 mptextframes = 30;
 mptexttimer = 0;

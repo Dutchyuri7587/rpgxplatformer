@@ -165,7 +165,6 @@
     {"name":"inst_7ADC7377","path":"rooms/R_platformer1/R_platformer1.yy",},
     {"name":"inst_68A34674","path":"rooms/R_platformer1/R_platformer1.yy",},
     {"name":"inst_6CF298EB","path":"rooms/R_platformer1/R_platformer1.yy",},
-    {"name":"inst_2BF6F532","path":"rooms/R_platformer1/R_platformer1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -179,9 +178,8 @@
           8,1,2,-61,-2147483648,2,7,6,-24,-2147483648,4,7,1,1,9,-26,-2147483648,2,3,2,-61,-2147483648,3,7,1,2,
           -22,-2147483648,1,7,-4,1,1,2,-89,-2147483648,2,3,2,-23,-2147483648,1,8,-3,1,1,2,-115,-2147483648,4,3,
           5,5,2,-897,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"T_clouds","path":"tilesets/T_clouds/T_clouds.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_2BF6F532","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2BF6F532","objectId":{"name":"O_general_drawer","path":"objects/O_general_drawer/O_general_drawer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":112.0,},
         {"$GMRInstance":"v4","%Name":"inst_49C4C1CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49C4C1CB","objectId":{"name":"O_wall","path":"objects/O_wall/O_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":46.0,"scaleY":2.0,"x":0.0,"y":368.0,},
         {"$GMRInstance":"v4","%Name":"inst_2A3DA044","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A3DA044","objectId":{"name":"O_player_plat","path":"objects/O_player_plat/O_player_plat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":368.0,},
         {"$GMRInstance":"v4","%Name":"inst_348501CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_348501CF","objectId":{"name":"O_platenemy","path":"objects/O_platenemy/O_platenemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":368.0,},
@@ -347,7 +345,7 @@
   "name":"R_platformer1",
   "parent":{
     "name":"Alpha_1",
-    "path":"folders/Rpg/Rooms/Alpha_1.yy",
+    "path":"folders/Platformer/Rooms/Alpha_1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

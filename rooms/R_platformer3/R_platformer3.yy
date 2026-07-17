@@ -294,7 +294,7 @@
   "name":"R_platformer3",
   "parent":{
     "name":"Alpha_1",
-    "path":"folders/Rpg/Rooms/Alpha_1.yy",
+    "path":"folders/Platformer/Rooms/Alpha_1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

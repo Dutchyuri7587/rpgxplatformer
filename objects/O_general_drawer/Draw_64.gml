@@ -12,6 +12,6 @@ if room != R_Title_screen
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
 	draw_set_color(c_white);
-	draw_text_transformed(1400,190,"mastervolume: " + string(global.mastervolume),5,5,0);
+	draw_text_transformed(1400,190,("mastervolume: " + string(global.mastervolume*100) + "%"),5,5,0);
 }
 

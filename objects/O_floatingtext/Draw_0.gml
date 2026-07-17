@@ -13,11 +13,13 @@ draw_set_alpha(1.0);
 
 
 //example
-/*instance_create_depth
-	(
-	x,
-	y,
-	depth-1,
-	O_floatingtext,
-	{font: testfont, col: _col, text: string(_amount) + " Mp"}
-	);*/
+/*
+instance_create_depth
+(
+x,
+y,
+depth-300,
+O_floatingtext,
+{font: testfont, col: c_white, text: string(_amount) + " Mp"}
+);
+*/

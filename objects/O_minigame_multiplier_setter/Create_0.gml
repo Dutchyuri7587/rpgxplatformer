@@ -1,0 +1,1 @@
+global.deltarune_multiplier = 1.0;

@@ -29,10 +29,10 @@ function getControls()
 		
 		
 	#region magic
-	normalmagickey = keyboard_check(ord("Z")) + keyboard_check(ord("U"))
+	normalmagickey = keyboard_check(ord("X")) + keyboard_check(ord("U"))
 		normalmagickey = clamp(normalmagickey, 0, 1)
 		
-	aoemagickey = keyboard_check(ord("X")) + keyboard_check(ord("I"))
+	aoemagickey = keyboard_check(ord("Z")) + keyboard_check(ord("I"))
 		aoemagickey = clamp(aoemagickey, 0, 1)
 		
 	#endregion

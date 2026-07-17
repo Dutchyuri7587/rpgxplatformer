@@ -31,3 +31,8 @@ if keyboard_check_pressed(ord("3"))
 {
 	room_goto(R_platformer3);
 }
+
+if keyboard_check_pressed(ord("L"))
+{
+	deltarune_minigame();
+}

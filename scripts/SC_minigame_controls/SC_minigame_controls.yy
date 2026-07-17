@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"SC_battlefunc",
+  "%Name":"SC_minigame_controls",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SC_battlefunc",
+  "name":"SC_minigame_controls",
   "parent":{
     "name":"scripts",
     "path":"folders/Rpg/scripts.yy",

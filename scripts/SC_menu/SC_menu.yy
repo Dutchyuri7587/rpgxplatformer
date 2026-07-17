@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"SC_menu",
   "parent":{
-    "name":"RPG",
-    "path":"folders/Rpg/scripts/RPG.yy",
+    "name":"scripts",
+    "path":"folders/Rpg/scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

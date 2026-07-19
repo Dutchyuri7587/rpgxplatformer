@@ -5,6 +5,9 @@ instance_activate_object(O_general_drawer);
 instance_activate_object(O_retry);
 instance_activate_object(O_pauser);
 
+completedminigame = false;
+spawnedminigame = false;
+
 units = [];
 turn = 0;
 turnorder = [];
@@ -18,6 +21,7 @@ battletext = "";
 currentuser = noone;
 currentaction = -1;
 currenttargets = noone;
+currentminigame = noone;
 acting = false;
 roomtheme = 1; // sets the battle bg
 
@@ -163,8 +167,23 @@ function beginaction(_user, _action, _targets)
 	currentuser = _user;
 	currentaction = _action;
 	currenttargets = _targets;
+	currentminigame = _action.minigame;
+	
+	do{
+		if spawnedminigame = false
+		{
+			currentminigame
+		}
+		
+	}
+	until completedminigame = true
+	
+	
 	battletext = string_ext(_action.description, [_user.name]);
 	if (!is_array(currenttargets)) currenttargets = [currenttargets];
+	
+	
+	
 	battlewaittimeremaining = battlewaitframes;
 	with (_user)
 	{

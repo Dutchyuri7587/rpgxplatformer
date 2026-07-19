@@ -4,6 +4,7 @@ x -= xspeed;
 
 if x <= O_bar_deltarune.bbox_left-16
 {
+	O_battle_manager.completedminigame = true;
 	delete_minigame();
 	exit;
 }
@@ -34,6 +35,7 @@ if hitkey = 1
 		{font: testfont, col: c_white, text: string(global.deltarune_multiplier)+"X"}
 		);
 		
+		O_battle_manager.completedminigame = true;
 		
 		delete_minigame();
 		exit;
@@ -62,6 +64,9 @@ if hitkey = 1
 		O_floatingtext,
 		{font: testfont, col: c_white, text: string(global.deltarune_multiplier) + "X"}
 		);
+		
+		O_battle_manager.completedminigame = true;
+		
 		delete_minigame();
 		exit;
 	}
@@ -89,6 +94,9 @@ if hitkey = 1
 		O_floatingtext,
 		{font: testfont, col: c_white, text: string(global.deltarune_multiplier)+"X"}
 		);
+		
+		O_battle_manager.completedminigame = true;
+		
 		delete_minigame();
 		exit;
 	}

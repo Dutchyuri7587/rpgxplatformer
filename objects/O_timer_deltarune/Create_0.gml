@@ -8,3 +8,5 @@ function delete_minigame()
 	instance_destroy(O_Inside_deltarune);
 	instance_destroy(O_bar_deltarune);
 }
+
+didminigame = false;

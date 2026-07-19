@@ -7,7 +7,7 @@ global.actionlibrarby =
 	attack:
 	{
 		name: "Hit",
-		description: "{0} hits an enemy!",
+		description: "You hit an enemy!",
 		submenu: -1, //no submenu
 		targetrequired: true,
 		targetenemybydefault: true,
@@ -15,21 +15,11 @@ global.actionlibrarby =
 		useranimation: "attack",
 		effectsprite: S_rpg_hitfx,
 		effectontarget: MODE.ALWAYS,
+		minigame: deltarune_minigame(),
 		func: function(_user, _targets)
 		{
-			var _waittime = 0;
-			var _waitframes = 180;
-			deltarune_minigame();
-			_waittime = _waitframes;
-			if _waittime > 0
-			{
-				_waittime--;
-				if _waittime <= 0
-				{
-					var _damage = ceil(((_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50)) * global.attackmultiplier)*global.deltarune_multiplier);
-					battlechangehp(_targets[0], -_damage, 0);
-				}
-			}
+			var _damage = ceil(_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50) * global.attackmultiplier * global.deltarune_multiplier)
+				battlechangehp(_targets[0], -_damage);
 		}
 	},
 	magic:
@@ -82,7 +72,7 @@ global.actionlibrarby =
 			battlechangemp(_user, -mpcost)
 		}
 	},
-		glock:
+	glock:
 	{
 		name: "gun.",
 		description: "Is that a gun???",
@@ -108,7 +98,6 @@ global.actionlibrarby =
 			}
 		}
 	},
-	
 	testmenu:
 	{
 		name: "test1",
@@ -165,7 +154,6 @@ global.actionlibrarby =
 			}
 		}
 	},
-	
 	//enemy attacks
 	enemy_attack:
 	{

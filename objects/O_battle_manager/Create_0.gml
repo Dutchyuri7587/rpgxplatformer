@@ -21,7 +21,6 @@ battletext = "";
 currentuser = noone;
 currentaction = -1;
 currenttargets = noone;
-currentminigame = noone;
 acting = false;
 roomtheme = 1; // sets the battle bg
 
@@ -106,7 +105,6 @@ function battlestateselectaction()
 		}
 	
 		//select an action to perform
-		//beginaction(_unit.id, global.actionlibrarby.attack, _unit.id);
 	
 		//if unit is player controlled:
 		if (_unit.object_index == O_battleunitplayer)
@@ -162,27 +160,49 @@ function battlestateselectaction()
 	}
 }
 
+
 function beginaction(_user, _action, _targets)
 {
 	currentuser = _user;
 	currentaction = _action;
+	
 	currenttargets = _targets;
-	currentminigame = _action.minigame;
 	
-	do{
-		if spawnedminigame = false
-		{
-			currentminigame
-		}
-		
+	battlestate = minigame;
+}
+
+
+function minigame()
+{
+	var _unit = turnorder[turn];
+	var _actionlist = _unit.actions;
+	for (var i = 0; i < array_length(_actionlist); i++)
+	{
+		var _action = _actionlist[i];
 	}
-	until completedminigame = true
+	var _currentminigame = _action.minigame;
 	
+	if spawnedminigame = false
+	{
+		_currentminigame();
+	}
+		
+	if completedminigame = true
+	{
+		battlestate = finishaction;
+	}
+}
+
+
+
+function finishaction(_user, _action, _targets)
+{	
+	currentuser = _user;
+	currentaction = _action;
+	currenttargets = _targets;
 	
 	battletext = string_ext(_action.description, [_user.name]);
 	if (!is_array(currenttargets)) currenttargets = [currenttargets];
-	
-	
 	
 	battlewaittimeremaining = battlewaitframes;
 	with (_user)
@@ -196,6 +216,7 @@ function beginaction(_user, _action, _targets)
 		}
 	}
 	battlestate = battlestateperformaction;
+	
 }
 
 function battlestateperformaction()

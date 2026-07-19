@@ -15,7 +15,7 @@ global.actionlibrarby =
 		useranimation: "attack",
 		effectsprite: S_rpg_hitfx,
 		effectontarget: MODE.ALWAYS,
-		minigame: deltarune_minigame(),
+		minigame: deltarune_minigame,
 		func: function(_user, _targets)
 		{
 			var _damage = ceil(_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50) * global.attackmultiplier * global.deltarune_multiplier)
@@ -166,6 +166,7 @@ global.actionlibrarby =
 		useranimation: "attack",
 		effectsprite: S_rpg_hitfx,
 		effectontarget: MODE.ALWAYS,
+		minigame: empty_minigame,
 		func: function(_user, _targets)
 		{
 			var _damage = ceil(_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50));

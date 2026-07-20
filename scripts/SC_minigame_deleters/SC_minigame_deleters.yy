@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"SC_Minigames",
+  "%Name":"SC_minigame_deleters",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SC_Minigames",
+  "name":"SC_minigame_deleters",
   "parent":{
     "name":"Minigames",
     "path":"folders/Rpg/scripts/Minigames.yy",

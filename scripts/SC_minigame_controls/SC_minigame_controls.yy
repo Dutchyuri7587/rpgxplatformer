@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"SC_minigame_controls",
   "parent":{
-    "name":"scripts",
-    "path":"folders/Rpg/scripts.yy",
+    "name":"Minigames",
+    "path":"folders/Rpg/scripts/Minigames.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

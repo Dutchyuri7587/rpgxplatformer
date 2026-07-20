@@ -269,6 +269,7 @@ function battlestatevictorycheck()
 {
 	spawnedminigame = false;
 	completedminigame = false;
+	global.minigame_multiplier = 1.0;
 	
 	refreshpartyhealthorder = function()
 	{

@@ -18,7 +18,7 @@ global.actionlibrarby =
 		minigame: deltarune_minigame,
 		func: function(_user, _targets)
 		{
-			var _damage = ceil((_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50) * global.attackmultiplier) * global.deltarune_multiplier)
+			var _damage = ceil((_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50) * global.attackmultiplier) * global.minigame_multiplier)
 				battlechangehp(_targets[0], -_damage);
 		}
 	},
@@ -34,9 +34,10 @@ global.actionlibrarby =
 		useranimation: "attack",
 		effectsprite: S_rpg_hitfx,
 		effectontarget: MODE.ALWAYS,
+		minigame: spam_minigame,
 		func: function(_user, _targets)
 		{
-			var _damage = irandom_range(10,20) + irandom_range(3,8) + ceil((_user.strength*0.25))
+			var _damage = ceil(irandom_range(10,20) + irandom_range(3,8) + ceil((_user.strength*0.25)) * global.minigame_multiplier)
 			if (_user.mp >= mpcost)
 			{
 				battlechangehp(_targets[0], -_damage);
@@ -62,9 +63,10 @@ global.actionlibrarby =
 		useranimation: "attack",
 		effectsprite: S_rpg_hitfx,
 		effectontarget: MODE.ALWAYS,
+		minigame: spam_minigame,
 		func: function(_user, _targets)
 		{
-			var _damage = irandom_range(5,15) + irandom_range(3,8) + ceil((_user.strength*0.25))
+			var _damage = ceil((irandom_range(5,15) + irandom_range(3,8) + ceil((_user.strength*0.25))) * global.minigame_multiplier)
 			for (var i = 0; i < array_length(_targets); i++)
 			{
 				battlechangehp(_targets[i], -_damage);
@@ -82,6 +84,7 @@ global.actionlibrarby =
 		targetall: MODE.NEVER,
 		useranimation: "attack",
 		effectsprite: S_rpg_hitfx,
+		minigame: empty_minigame,
 		effectontarget: MODE.ALWAYS,
 		
 		func: function(_user, _targets)

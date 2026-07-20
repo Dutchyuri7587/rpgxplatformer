@@ -1,1 +1,1 @@
-global.deltarune_multiplier = 1.0;
+global.minigame_multiplier = 1.0;

@@ -4,6 +4,7 @@ instance_activate_object(O_camera);
 instance_activate_object(O_general_drawer);
 instance_activate_object(O_retry);
 instance_activate_object(O_pauser);
+instance_activate_object(O_debug_mode);
 
 completedminigame = false;
 spawnedminigame = false;
@@ -166,46 +167,27 @@ function beginaction(_user, _action, _targets)
 	currentuser = _user;
 	currentaction = _action;
 	
+	
 	currenttargets = _targets;
 	
-	battlestate = minigame;
-}
-
-
-function minigame()
-{
-	var _unit = turnorder[turn];
-	var _actionlist = _unit.actions;
-	for (var i = 0; i < array_length(_actionlist); i++)
-	{
-		var _action = _actionlist[i];
-	}
-	var _currentminigame = _action.minigame;
-	
-	if spawnedminigame = false
-	{
-		_currentminigame();
-	}
-		
-	if completedminigame = true
-	{
-		battlestate = finishaction;
-	}
+	battlestate = finishaction;
 }
 
 
 
-function finishaction(_user, _action, _targets)
+
+
+function finishaction()
 {	
-	currentuser = _user;
-	currentaction = _action;
-	currenttargets = _targets;
-	
-	battletext = string_ext(_action.description, [_user.name]);
+	battletext = string_ext(currentaction.description, [currentuser.name]);
 	if (!is_array(currenttargets)) currenttargets = [currenttargets];
 	
 	battlewaittimeremaining = battlewaitframes;
-	with (_user)
+	
+	var _action = currentaction;
+	var _user = currentuser;
+	
+	with (currentuser)
 	{
 		acting = true;
 		//play user anim if it is defined for that user & action
@@ -215,9 +197,27 @@ function finishaction(_user, _action, _targets)
 			image_index = 0;
 		}
 	}
-	battlestate = battlestateperformaction;
+	battlestate = minigame;
 	
 }
+
+
+function minigame()
+{
+	var _unit = turnorder[turn];
+	var _actionlist = _unit.actions;
+	var _currentminigame = currentaction.minigame;
+	if spawnedminigame = false
+	{
+		_currentminigame();
+	}
+	
+	if completedminigame = true
+	{
+		battlestate = battlestateperformaction;
+	}
+}
+
 
 function battlestateperformaction()
 {
@@ -267,6 +267,9 @@ function battlestateperformaction()
 
 function battlestatevictorycheck()
 {
+	spawnedminigame = false;
+	completedminigame = false;
+	
 	refreshpartyhealthorder = function()
 	{
 		partyunitsbyhp = []

@@ -18,7 +18,7 @@ global.actionlibrarby =
 		minigame: deltarune_minigame,
 		func: function(_user, _targets)
 		{
-			var _damage = ceil(_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50) * global.attackmultiplier * global.deltarune_multiplier)
+			var _damage = ceil((_user.strength + choose(_user.strength * 0.25, _user.strength * 0.50) * global.attackmultiplier) * global.deltarune_multiplier)
 				battlechangehp(_targets[0], -_damage);
 		}
 	},

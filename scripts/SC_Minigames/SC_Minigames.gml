@@ -10,7 +10,6 @@ function spam_minigame()
 {
 	O_battle_manager.spawnedminigame = true;
 	instance_create_depth(128, 160, -175, O_zone_spam);
-	
 	instance_create_depth(128, 72, -200, O_timer_spam);
 	instance_create_depth(128, 150, -205, O_spammer_spam);
 	O_timer_spam.timer = O_timer_spam.timerframes;

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"TC_Reno_TLLTD_OST",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":221.23973,
+  "exportDir":"",
+  "name":"TC_Reno_TLLTD_OST",
+  "parent":{
+    "name":"shop",
+    "path":"folders/Audio/Music/shop.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"TC_Reno_TLLTD_OST.ogg",
+  "volume":1.0,
+}

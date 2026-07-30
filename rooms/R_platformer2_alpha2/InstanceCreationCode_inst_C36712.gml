@@ -1,2 +1,2 @@
 moveonYaxis = false;
-rotspd = 0.5;
+rotspd = 0.75;

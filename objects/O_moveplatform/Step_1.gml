@@ -5,7 +5,7 @@ dir += rotspd;
 var _targetX = xstart + lengthdir_x(radius, dir);
 var _targetY = ystart + lengthdir_y(radius, dir);
 
-//get ou xspeed and yspeed
+//get our xspeed and yspeed
 xspeed = _targetX - x;
 if !moveonXaxis {xspeed = 0;};
 yspeed = _targetY - y;

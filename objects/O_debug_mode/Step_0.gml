@@ -34,5 +34,5 @@ if keyboard_check_pressed(ord("3"))
 
 if keyboard_check_pressed(ord("L"))
 {
-	spam_minigame();
+	defend_minigame();
 }

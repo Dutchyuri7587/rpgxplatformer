@@ -1,0 +1,1 @@
+target_room = Minigame_test;

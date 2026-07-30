@@ -314,8 +314,8 @@ function battlestatevictorycheck()
 		instance_destroy(creator);
 		instance_destroy();
 		
-		O_player_rpg.x = O_teleport.x
-		O_player_rpg.y = O_teleport.y
+		O_battle_triggerer.x = O_teleport.x
+		O_battle_triggerer.y = O_teleport.y
 		
 	}	
 	

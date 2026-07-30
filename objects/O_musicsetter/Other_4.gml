@@ -32,7 +32,7 @@ if room = R_platformer1
 
 if room = R_rpg1
 {
-	set_song_ingame(cliff, 10, 0);
+	set_song_ingame(cliffs, 10, 0);
 }
 
 if room = R_shop_alpha2
@@ -41,15 +41,25 @@ if room = R_shop_alpha2
 	{
 		if _random_shop_music = 1
 		{
-			set_song_ingame(Island_Design_Centre__Quik_Build____Tomodachi_Life_Living_the_Dream__OST_, 10, 0);
+			set_song_ingame(Quik_Build_TLLTD_OST, 10, 0);
 		}
 		if _random_shop_music = 2
 		{
-			set_song_ingame(Renovation_Centre__T_C_Reno____Tomodachi_Life_Living_the_Dream__OST_, 10, 0);
+			set_song_ingame(TC_Reno_TLLTD_OST, 10, 0);
 		}
 		if _random_shop_music = 3
 		{
-			set_song_ingame(Caf____Rhythm_Heaven_Groove__OST_, 10, 0);
+			set_song_ingame(Cafe_RHG_OST, 10, 0);
 		}
 	}
+}
+
+if room = R_platformer1_alpha2
+{
+	set_song_ingame(field_of_hopes_loop, 10, 0);
+}
+
+if room = R_platformer2_alpha2
+{
+	set_song_ingame(field_of_hopes_loop, 10, 0);
 }

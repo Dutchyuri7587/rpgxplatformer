@@ -1,4 +1,4 @@
-if room != R_Title_screen
+if room != R_Title_screen || room != R_loss_alpha2
 {
 	//draw money
 	draw_set_font(testfont);

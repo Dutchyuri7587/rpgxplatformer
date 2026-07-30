@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"S_barrelenemy",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":15,
   "bbox_left":0,
   "bbox_right":15,

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Cafe_RHG_OST",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":149.44363,
+  "exportDir":"",
+  "name":"Cafe_RHG_OST",
+  "parent":{
+    "name":"shop",
+    "path":"folders/Audio/Music/shop.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Cafe_RHG_OST.ogg",
+  "volume":1.0,
+}

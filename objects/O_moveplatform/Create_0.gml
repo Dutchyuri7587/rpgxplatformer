@@ -2,7 +2,7 @@
 event_inherited();
 
 dir = 0;
-rotspd = 360/(180);
+rotspd = 2
 radius = 32;
 
 moveonXaxis = true;

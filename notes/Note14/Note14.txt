@@ -1,0 +1,7 @@
+instead of having an mp bar
+make the mp bar way smaller, but have a succesful attack give you a chunk om mp back
+
+i could also do that there straight up isn't an mp bar at all.
+and doing a successful attack gives you a special attack point?
+
+i could also rework it to be based on a cooldown system like ebf5, and have successful attacks remove a few turns from that.

@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"O_deathplane",
+  "%Name":"O_minigame_enemy",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_deathplane",
+  "name":"O_minigame_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Platformer/Objects.yy",
+    "name":"enemy",
+    "path":"folders/Rpg/Objects/minigames/enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_deathplane",
-    "path":"sprites/S_deathplane/S_deathplane.yy",
+    "name":"S_testenemy_idle",
+    "path":"sprites/S_testenemy_idle/S_testenemy_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

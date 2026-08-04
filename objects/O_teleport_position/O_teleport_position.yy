@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"O_deathplane",
+  "%Name":"O_teleport_position",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_deathplane",
+  "name":"O_teleport_position",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
-    "path":"folders/Platformer/Objects.yy",
+    "path":"folders/Nondescript/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_deathplane",
-    "path":"sprites/S_deathplane/S_deathplane.yy",
+    "name":"S_teleport_1",
+    "path":"sprites/S_teleport_1/S_teleport_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

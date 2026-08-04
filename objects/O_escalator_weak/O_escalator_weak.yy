@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"O_deathplane",
+  "%Name":"O_escalator_weak",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_deathplane",
+  "name":"O_escalator_weak",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Platformer/Objects.yy",
+    "name":"Ground",
+    "path":"folders/Platformer/Objects/Ground.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_wall",
+    "path":"objects/O_wall/O_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_deathplane",
-    "path":"sprites/S_deathplane/S_deathplane.yy",
+    "name":"S_wall",
+    "path":"sprites/S_wall/S_wall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

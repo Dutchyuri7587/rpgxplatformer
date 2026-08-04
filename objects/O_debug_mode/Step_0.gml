@@ -36,3 +36,8 @@ if keyboard_check_pressed(ord("L"))
 {
 	defend_minigame();
 }
+
+if keyboard_check_pressed(ord("B"))
+{
+	room_goto(R_platformer2_alpha2);
+}

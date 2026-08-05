@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":2,
+  "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
   "duration":221.23973,

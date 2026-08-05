@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Mmenutemplate",
-    "path":"sprites/S_Mmenutemplate/S_Mmenutemplate.yy",
+    "name":"S_retry_button",
+    "path":"sprites/S_retry_button/S_retry_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

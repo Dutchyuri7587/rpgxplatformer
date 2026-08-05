@@ -149,6 +149,7 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 		}
 #endregion
 
+#region x movement
 //x movement
 	//get the direction
 	movedirection = rightkey - leftkey;
@@ -210,7 +211,8 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 
 	//moving
 	x += xspeed;
-	
+
+#endregion
 
 
 //y movement!
@@ -275,6 +277,7 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 	}
 	#endregion
 
+#region y collision & movement
 // y collision and movement
 	//cap falling speed
 	if yspeed > terminalvlcity {yspeed = terminalvlcity;};
@@ -430,7 +433,9 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 	{
 		forgetsemisolid = noone;
 	}
+#endregion
 	
+#region moving plat's collision and movement
 //final moving platform collisions and movement
 	//x - moveplatxspeed and collision
 	//get the moveplatxspeed
@@ -494,7 +499,7 @@ if instance_exists(myfloorplat) && myfloorplat.xspeed != 0 && !place_meeting(x,y
 		//return myself to start y cause ive been crushed
 		if _pusheddist > _maxpushdist {y = _startY};
 	}
-	
+#endregion
 #region magic
 
 
@@ -603,7 +608,8 @@ if gothitplayer = true
 		gothitplayer = false;
 	}
 }
-	
+
+#region sprite control
 //sprite controi
 	//walk
 	if abs(xspeed) > 0 {sprite_index = sprwalk;};
@@ -624,4 +630,4 @@ if gothitplayer = true
 	//collision mask
 	mask_index = spridle;
 	if crouching {mask_index = sprcrouch;};
-	
+#endregion

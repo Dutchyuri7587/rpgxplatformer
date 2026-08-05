@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite111",
-    "path":"sprites/Sprite111/Sprite111.yy",
+    "name":"S_escalator",
+    "path":"sprites/S_escalator/S_escalator.yy",
   },
   "spriteMaskId":null,
   "visible":true,

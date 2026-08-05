@@ -126,3 +126,9 @@ alpha_amount = 0.15;
 
 crushed = false;
 
+#region text dffraw vars
+font = testfont;
+col = c_white;
+col2 = c_black;
+textoffset = 5;
+#endregion

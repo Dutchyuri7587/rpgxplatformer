@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":2,
+  "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":97.98984,
+  "duration":98.0,
   "exportDir":"",
   "name":"Funkinlite_fresh",
   "parent":{
